@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>security on Krishna Kumar T</title>
+    <link>/series/security/</link>
+    <description>Recent content in security on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Mar 2019 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="/series/security/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fault injection attacks on secure boot</title>
+      <link>/post/fault-injection-attacks/</link>
+      <pubDate>Sat, 16 Mar 2019 09:43:12 +0530</pubDate>
+      
+      <guid>/post/fault-injection-attacks/</guid>
+      <description>Nullconf is one of the largest conferences in security started in 2010 (as I keep hearing that from everyone). This is the first time I have ever attended a security conference and was little over excited too. I had been there for two days and took a load of quite interesting aspects of security domain as a whole. Lot of less known and discussed topics like hardware hacking in real-time, security in the post quantum era, AI in threat detection and mitigation, vulnerability of existing telecom networking infrastructure etc are few highlights of the event.</description>
+    </item>
+    
+  </channel>
+</rss>

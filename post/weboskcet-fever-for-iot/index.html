@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Krishna Kumar T</title><meta name="description" content="Websocket fever for IOT"><meta name="author" content="Krishna Kumar Thokala">
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism-okaidia.min.css">
+    
+
+
+
+    
+        
+            <link rel="stylesheet" href="/dist/main.37ab3f61b95417873748.min.css">
+        
+    
+
+
+<link rel="canonical" href="/post/weboskcet-fever-for-iot/"><meta property="og:title" content="Websocket fever for IOT" />
+<meta property="og:description" content="Websocket fever for IOT" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/post/weboskcet-fever-for-iot/" />
+<meta property="article:published_time" content="2018-07-28T09:43:12+05:30" />
+<meta property="article:modified_time" content="2018-07-28T09:43:12+05:30" />
+
+<meta itemprop="name" content="Websocket fever for IOT">
+<meta itemprop="description" content="Websocket fever for IOT">
+<meta itemprop="datePublished" content="2018-07-28T09:43:12&#43;05:30" />
+<meta itemprop="dateModified" content="2018-07-28T09:43:12&#43;05:30" />
+<meta itemprop="wordCount" content="708">
+
+
+
+<meta itemprop="keywords" content="IOT,Websocket,Https,Http Request,Browsers," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Websocket fever for IOT"/>
+<meta name="twitter:description" content="Websocket fever for IOT"/>
+
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm" id="navbar-main-menu">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="">Krishna Kumar T</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav ml-auto">
+                
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/team/">Team</a></li>
+                
+            
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    
+<main class="content-page container pt-7 pb-5">
+    
+    <div class="row">
+        <div class="col">
+            <article>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="meta text-muted mb-3">
+                            <p class="created text-muted text-uppercase font-weight-bold mb-1">July 28, 2018</p>
+                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>708 words</span>
+                            <span><i class="fas fa-clock mr-2"></i>4 mins read</span>
+                        </div>
+
+                        <h1>Websocket fever for IOT</h1>
+
+                        <ul class="authors list-inline"><li class="list-inline-item mr-3">
+                    <div class="media author"><div class="media-body">
+                            <h5 class="name my-0"><a href="/authors/krishna-kumar-thokala/" class="small">Krishna Kumar Thokala</a>
+                            </h5></div>
+                    </div>
+                </li></ul>
+                    </div>
+                </div><div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="content">
+                            <p>Internet of things is a buzz now. In simpler terms, connecting all the things to the internet so that they are monitored and controlled from anywhere.</p>
+<p>What is the most common protocol of internet. It is http. You open a browser enter a url and then you see content on your browser. How is that working? When you enter a url, your browser makes http get request to the site and fetches the content.</p>
+<p>Likewise multiple methods are supported for http like post, put, delete etc.</p>
+<h5 id="how-does-http-work-internally">How does http work internally?</h5>
+<p>Http is equipped with lot of headers to actually reach it's destination over the internet. Http runs on tcp protocol and every request makes a connection and closes it after the response.</p>
+<h5 id="how-does-websocket-works">How does WebSocket works?</h5>
+<p>WebSocket is a simple tcp based protocol which does the initial handshake by http and keeps a persistent tcp connection to the server.</p>
+<p>Unlike http, it is a duplex connection that allows client and server push frames from either side. Hence allowing the client and server to communicate in more real-time.</p>
+<p>Except the typical initial handhsake which will be in http, rest of the communication is headerless and lightweight.</p>
+<p>WebSockets are supported on every browser thus allowing you to fetch data in real time without using traditional http polling mechanisms that works by pull approach where the client asks for any updates server has and makes and breaks connection for every single request, which is overhead for both client and servers.</p>
+<p>Tcp connection is not a standard for browsers and hence having a protocol as light as tcp other than the traditional http is very useful.</p>
+<p>Http has certain advantages like requests can be cached by intermediate proxy servers there by reducing the load on the actual server when serving the same response to multiple clients. However this kind of caching is not supported by websockets, but it is highly unusable for a scenario where websockets has to be used. When things change in real time, caching is of least importance.</p>
+<h5 id="websockets-for-iot">WebSockets for IOT:</h5>
+<p>Given the need for visualizing lot of details on web dashboards in real time. Advent of cloud platforms for IOT etc. WebSockets would be a ideal choice for having lightweight communication between server and client.</p>
+<h6 id="a-typical-home-iot-environment">A typical home IOT environment:</h6>
+<p>You might be having lot of devices at your home which needed to be visualized and controlled when you are away from your home or you might be lazy getting up from your couch to turn off something or you want your grandparents to have complete control of your home at their fingers and so on.
+In a typical gateway based IOT architecture, your gateway is always connected to your server to see the current status of devices over the internet. Your server can send commands back to the gateway only if there is a two way communication. Doing the same thing over http will involve your gateway constantly polling for commands from server. WebSockets makes your life easier.
+Let's say you wanted to offer your IOT system for all the residents of your apartment as a service. WebSocket would be a right choice in maintaining just one connection per gateway per flat. Otherwise, using http, your server will be flooded with lot of connections and disconnections for every poll per gateway per flat more than the data/commands to be sent across.</p>
+<h6 id="real-time-audio-streaming-environment">Real-time audio streaming environment:</h6>
+<p>I have built an application that allows people within a wifi network to talk from their mobile web browser. This requires a real low latency audio streaming from the browser itself. WebSockets are useful here as it needed binary data streaming in real time. Using a traditional http for each and every frame would impact latency as it makes and breaks connection for each and every frame, WebSockets on the other hand makes connection once and streams data on that connection continuously. Also, the same WebSocket can be used to push messages,notifications and even transpiled string asynchronously to all the clients from the server.</p>
+<p>A self driving car, pizza delivery service, realtime ambulance guiding system to accident spot etc. There are many usecase where websockets can be or will be or being used. See if your next usecase needs a WebSocket.</p>
+
+                        </div><div class="tags my-3"><a class="badge badge-pill badge-light border mr-2" href="/tags/iot">
+                                    <i class="fas fa-tag mr-2"></i>IOT
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/websocket">
+                                    <i class="fas fa-tag mr-2"></i>Websocket
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/https">
+                                    <i class="fas fa-tag mr-2"></i>Https
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/http-request">
+                                    <i class="fas fa-tag mr-2"></i>Http Request
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/browsers">
+                                    <i class="fas fa-tag mr-2"></i>Browsers
+                                </a></div><ul class="share nav my-3 justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://twitter.com/intent/tweet?url=%2fpost%2fweboskcet-fever-for-iot%2f&text=Websocket%20fever%20for%20IOT">
+              <i class="fa-fw fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/shareArticle?url=%2fpost%2fweboskcet-fever-for-iot%2f&title=Websocket%20fever%20for%20IOT">
+                <i class="fa-fw fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/sharer.php?u=%2fpost%2fweboskcet-fever-for-iot%2f&t=Websocket%20fever%20for%20IOT">
+                <i class="fa-fw fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://reddit.com/submit?url=%2fpost%2fweboskcet-fever-for-iot%2f&title=Websocket%20fever%20for%20IOT">
+                <i class="fa-fw fab fa-reddit-alien"></i>
+            </a>
+        </li>
+    </nav>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        
+                    </div>
+                </div><div class="row justify-content-center my-3">
+                    <div class="col-lg-8">
+                        <div id="commento"></div>
+                        <script src="https://commento.io"></script>
+                    </div>
+                </div></article>
+        </div>
+    </div>
+
+    
+</main>
+
+
+    <footer class="footer text-center bg-dark py-6">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="/index.xml" rel="alternate" type="application/rss+xml" class="icons d-block">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a></li><li class="list-inline-item">
+                        <a href="mailto://krishna.thokala2010@gmail.com" class="icons d-block">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li><li class="list-inline-item">
+                            <a href="https://github.com/krishnakumar4a4" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://keybase.io/krishnakumart" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-keybase fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/krishna-kumar-thokala-a5bb3132/" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://fsmi.social/krishnakumart" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://medium.com/@krishna.thokala2010" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://reddit.com/u/krishnakumart" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://twitter.com/KrishnaKumarT36" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                </ul>
+
+                <p class="text-muted">
+                    
+                        Copyright &copy; Krishna Kumar T 2020
+                    
+                </p>
+
+                <p class="text-muted">
+                Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with <a href="https://github.com/puresyntax71/hugo-theme-chunky-poster" target="_blank">Chunky Poster</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+    
+        
+            <script src="/dist/main.2ed44664366c9940537d.min.js"></script>
+        
+    
+
+
+
+<script>
+    window.Prism = window.Prism || {};
+    window.Prism.manual = true;
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+
+    
+</body>
+</html>

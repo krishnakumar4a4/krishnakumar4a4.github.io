@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Krishna Kumar T</title>
+    <link>/post/</link>
+    <description>Recent content in Posts on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Jan 2020 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The unexplored subtleties on “Going autonomous”</title>
+      <link>/post/unexplored-subtleties-autonomous-vehicles/</link>
+      <pubDate>Sat, 04 Jan 2020 09:43:12 +0530</pubDate>
+      
+      <guid>/post/unexplored-subtleties-autonomous-vehicles/</guid>
+      <description>On a winter morning before the first light I was going on my bike on a silent road in the early hours of the day. The road looks entirely abandoned as it was one of the most chilling days of winter and I was not expecting anyone coming on to the road. But I was very much ambivalent and kept an eye on both sides of the road as far I can see through the fog.</description>
+    </item>
+    
+    <item>
+      <title>Fault injection attacks on secure boot</title>
+      <link>/post/fault-injection-attacks/</link>
+      <pubDate>Sat, 16 Mar 2019 09:43:12 +0530</pubDate>
+      
+      <guid>/post/fault-injection-attacks/</guid>
+      <description>Nullconf is one of the largest conferences in security started in 2010 (as I keep hearing that from everyone). This is the first time I have ever attended a security conference and was little over excited too. I had been there for two days and took a load of quite interesting aspects of security domain as a whole. Lot of less known and discussed topics like hardware hacking in real-time, security in the post quantum era, AI in threat detection and mitigation, vulnerability of existing telecom networking infrastructure etc are few highlights of the event.</description>
+    </item>
+    
+    <item>
+      <title>Websocket fever for IOT</title>
+      <link>/post/weboskcet-fever-for-iot/</link>
+      <pubDate>Sat, 28 Jul 2018 09:43:12 +0530</pubDate>
+      
+      <guid>/post/weboskcet-fever-for-iot/</guid>
+      <description>Internet of things is a buzz now. In simpler terms, connecting all the things to the internet so that they are monitored and controlled from anywhere.
+What is the most common protocol of internet. It is http. You open a browser enter a url and then you see content on your browser. How is that working? When you enter a url, your browser makes http get request to the site and fetches the content.</description>
+    </item>
+    
+  </channel>
+</rss>

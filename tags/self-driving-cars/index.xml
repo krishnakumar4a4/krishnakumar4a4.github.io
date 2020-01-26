@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Self Driving Cars on Krishna Kumar T</title>
+    <link>/tags/self-driving-cars/</link>
+    <description>Recent content in Self Driving Cars on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 04 Jan 2020 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="/tags/self-driving-cars/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The unexplored subtleties on “Going autonomous”</title>
+      <link>/post/unexplored-subtleties-autonomous-vehicles/</link>
+      <pubDate>Sat, 04 Jan 2020 09:43:12 +0530</pubDate>
+      
+      <guid>/post/unexplored-subtleties-autonomous-vehicles/</guid>
+      <description>On a winter morning before the first light I was going on my bike on a silent road in the early hours of the day. The road looks entirely abandoned as it was one of the most chilling days of winter and I was not expecting anyone coming on to the road. But I was very much ambivalent and kept an eye on both sides of the road as far I can see through the fog.</description>
+    </item>
+    
+  </channel>
+</rss>

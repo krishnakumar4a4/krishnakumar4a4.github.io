@@ -1,3 +1,73 @@
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Krishna Kumar T"
 theme = "chunky"
+paginate = 2
+enableInlineShortcodes = true
+DefaultContentLanguage = "en"
+showReadingTime = true
+footnoteReturnLinkContents = "^"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 0
+  [[menu.main]]
+    identifier = "team"
+    name = "Team"
+    url = "/team/"
+    weight = 0
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 0
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+author = "authors"
+
+[params]
+  author = "Krishna Kumar Thokala"
+  description = "I Experiment. I Build."
+  homepageImage = "/images/Screenshot 2020-01-26 at 1.42.46 PM.png"
+  share = true
+  showLanguageSwitcher = false
+
+  [params.social]
+    rss = true
+    email = "krishna.thokala2010@gmail.com"
+    twitter = "https://twitter.com/KrishnaKumarT36"
+    linkedin = "https://www.linkedin.com/in/krishna-kumar-thokala-a5bb3132/"
+    github = "https://github.com/krishnakumar4a4"
+    medium = "https://medium.com/@krishna.thokala2010"
+    reddit = "https://reddit.com/u/krishnakumart"
+    mastodon = "https://fsmi.social/krishnakumart"
+    keybase = "https://keybase.io/krishnakumart"
+
+  [params.prismJS]
+    enable = true
+    theme = "okaidia"
+
+  [params.commento]
+    enable = true
+    url = "https://commento.io"
+
+[markup]
+  [markup.highlight]
+    codeFences = false
+
+[services]
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

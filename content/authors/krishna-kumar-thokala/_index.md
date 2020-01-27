@@ -1,5 +1,5 @@
 ---
 name: Krishna Kumar Thokala
-images: []
+images: ["krishnakumart.png"]
 twitter: "KrishnaKumarT36"
 ---

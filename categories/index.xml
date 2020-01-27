@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Krishna Kumar T</title>
-    <link>/categories/</link>
+    <link>https://krishnakumar4a4.github.io/categories/</link>
     <description>Recent content in Categories on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Jan 2020 09:43:12 +0530</lastBuildDate>
     
-	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://krishnakumar4a4.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>autonomous</title>
-      <link>/categories/autonomous/</link>
+      <link>https://krishnakumar4a4.github.io/categories/autonomous/</link>
       <pubDate>Sat, 04 Jan 2020 09:43:12 +0530</pubDate>
       
-      <guid>/categories/autonomous/</guid>
+      <guid>https://krishnakumar4a4.github.io/categories/autonomous/</guid>
       <description></description>
     </item>
     
     <item>
       <title>security</title>
-      <link>/categories/security/</link>
+      <link>https://krishnakumar4a4.github.io/categories/security/</link>
       <pubDate>Sat, 16 Mar 2019 09:43:12 +0530</pubDate>
       
-      <guid>/categories/security/</guid>
+      <guid>https://krishnakumar4a4.github.io/categories/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iot</title>
-      <link>/categories/iot/</link>
+      <link>https://krishnakumar4a4.github.io/categories/iot/</link>
       <pubDate>Sat, 28 Jul 2018 09:43:12 +0530</pubDate>
       
-      <guid>/categories/iot/</guid>
+      <guid>https://krishnakumar4a4.github.io/categories/iot/</guid>
       <description></description>
     </item>
     

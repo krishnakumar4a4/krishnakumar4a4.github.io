@@ -34,6 +34,16 @@ footnoteReturnLinkContents = "^"
     name = "Tags"
     url = "/tags/"
     weight = 0
+  [[menu.main]]
+    identifier = "pictures"
+    name = "Pictures"
+    url = "/pictures/"
+    weight = 0
+  [[menu.main]]
+    identifier = "bookmarks"
+    name = "Bookmarks"
+    url = "/bookmarks/"
+    weight = 0
 
 [taxonomies]
 category = "categories"
@@ -47,6 +57,7 @@ author = "authors"
   homepageImage = "/images/Screenshot 2020-01-26 at 1.42.46 PM.png"
   share = true
   showLanguageSwitcher = false
+  disqusShortname = "krishnakumart"
 
   [params.social]
     rss = true

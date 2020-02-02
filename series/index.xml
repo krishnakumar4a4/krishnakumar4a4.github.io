@@ -38,5 +38,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>erlang</title>
+      <link>https://krishnakumar4a4.github.io/series/erlang/</link>
+      <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/series/erlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rustlang</title>
+      <link>https://krishnakumar4a4.github.io/series/rustlang/</link>
+      <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/series/rustlang/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

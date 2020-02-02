@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rustlang on Krishna Kumar T</title>
+    <link>https://krishnakumar4a4.github.io/categories/rustlang/</link>
+    <description>Recent content in rustlang on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Mar 2018 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/categories/rustlang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>A Comparison between Rust and Erlang</title>
+      <link>https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/</link>
+      <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/</guid>
+      <description>Key Takeaways  Erlang provides lightweight processes, immutability, distribution with location transparency, message passing, supervision behaviors and many other high-level, dynamic features that make it great for fault-tolerant, highly available, and scalable systems. Unfortunately, Erlang is less than optimal at doing low-level stuff such as XML parsing, since dealing with anything that comes from outside of the Erlang VM into it is tedious For this kind of use cases, one could be tempted to consider a different language.</description>
+    </item>
+    
+  </channel>
+</rss>

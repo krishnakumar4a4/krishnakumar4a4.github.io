@@ -54,10 +54,11 @@ author = "authors"
 [params]
   author = "Krishna Kumar Thokala"
   description = "I Experiment. I Build."
-  homepageImage = "/images/krishna_doodh_sagar_still.png"
+  homepageImage = ""
   share = true
   showLanguageSwitcher = false
   disqusShortname = "krishnakumart"
+  
 
   [params.social]
     rss = true

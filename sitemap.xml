@@ -123,12 +123,12 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/series/security/</loc>
+    <loc>https://krishnakumar4a4.github.io/categories/security/</loc>
     <lastmod>2019-03-16T09:43:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/security/</loc>
+    <loc>https://krishnakumar4a4.github.io/series/security/</loc>
     <lastmod>2019-03-16T09:43:12+05:30</lastmod>
   </url>
   
@@ -163,12 +163,12 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/iot/</loc>
+    <loc>https://krishnakumar4a4.github.io/series/iot/</loc>
     <lastmod>2018-07-28T09:43:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/series/iot/</loc>
+    <loc>https://krishnakumar4a4.github.io/categories/iot/</loc>
     <lastmod>2018-07-28T09:43:12+05:30</lastmod>
   </url>
   
@@ -188,11 +188,6 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/tags/erlang/</loc>
-    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/series/erlang/</loc>
     <lastmod>2018-03-13T09:43:12+05:30</lastmod>
   </url>
@@ -203,7 +198,7 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/infoq/</loc>
+    <loc>https://krishnakumar4a4.github.io/tags/erlang/</loc>
     <lastmod>2018-03-13T09:43:12+05:30</lastmod>
   </url>
   
@@ -213,7 +208,7 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
+    <loc>https://krishnakumar4a4.github.io/categories/infoq/</loc>
     <lastmod>2018-03-13T09:43:12+05:30</lastmod>
   </url>
   
@@ -224,6 +219,11 @@
   
   <url>
     <loc>https://krishnakumar4a4.github.io/tags/rustlang/</loc>
+    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
     <lastmod>2018-03-13T09:43:12+05:30</lastmod>
   </url>
   

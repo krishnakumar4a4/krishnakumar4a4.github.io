@@ -13,37 +13,42 @@ footnoteReturnLinkContents = "^"
     identifier = "home"
     name = "Home"
     url = "/"
-    weight = 10
+    weight = 1
   [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 0
+    weight = 10
   [[menu.main]]
     identifier = "team"
     name = "Team"
     url = "/team/"
-    weight = 0
+    weight = 9
+  [[menu.main]]
+    identifier = "post"
+    name = "Posts"
+    url = "/post/"
+    weight = 2
   [[menu.main]]
     identifier = "projects"
     name = "Projects"
     url = "/projects/"
-    weight = 0
+    weight = 3
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 0
+    weight = 10
   [[menu.main]]
     identifier = "pictures"
     name = "Pictures"
     url = "/pictures/"
-    weight = 0
+    weight = 4
   [[menu.main]]
     identifier = "bookmarks"
     name = "Bookmarks"
     url = "/bookmarks/"
-    weight = 0
+    weight = 5
 
 [taxonomies]
 category = "categories"
@@ -58,6 +63,7 @@ author = "authors"
   share = true
   showLanguageSwitcher = false
   disqusShortname = "krishnakumart"
+  mainSections = ["post"]
   
 
   [params.social]

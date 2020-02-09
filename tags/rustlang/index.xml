@@ -39,6 +39,16 @@
     </item>
     
     <item>
+      <title>“backer-rs” the missing versioned backup utility for boostnote/any note-taking app</title>
+      <link>https://krishnakumar4a4.github.io/post/backer-rs-announcement/</link>
+      <pubDate>Sun, 21 Oct 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/backer-rs-announcement/</guid>
+      <description>“Autosave notes”, it is a pretty important feature for any note taking app. Having autosave enabled and running in the background saves you from loosing any important notes you have taken. We would have felt autosave itself is a kind of backup feature for your notes.
+Recently, I had been in a situation where the autosave feature of boostnote misbehaved and lost all my notes till date. It’s a big disappointment.</description>
+    </item>
+    
+    <item>
       <title>backer-rs</title>
       <link>https://krishnakumar4a4.github.io/projects/backer-rs/</link>
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>

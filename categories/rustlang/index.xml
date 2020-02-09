@@ -6,10 +6,20 @@
     <description>Recent content in rustlang on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Mar 2018 09:43:12 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 21 Oct 2018 09:43:12 +0530</lastBuildDate>
     
 	<atom:link href="https://krishnakumar4a4.github.io/categories/rustlang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>“backer-rs” the missing versioned backup utility for boostnote/any note-taking app</title>
+      <link>https://krishnakumar4a4.github.io/post/backer-rs-announcement/</link>
+      <pubDate>Sun, 21 Oct 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/backer-rs-announcement/</guid>
+      <description>“Autosave notes”, it is a pretty important feature for any note taking app. Having autosave enabled and running in the background saves you from loosing any important notes you have taken. We would have felt autosave itself is a kind of backup feature for your notes.
+Recently, I had been in a situation where the autosave feature of boostnote misbehaved and lost all my notes till date. It’s a big disappointment.</description>
+    </item>
     
     <item>
       <title>A Comparison between Rust and Erlang</title>

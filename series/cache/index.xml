@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cache on Krishna Kumar T</title>
+    <link>https://krishnakumar4a4.github.io/series/cache/</link>
+    <description>Recent content in cache on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 24 Dec 2016 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/series/cache/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>In-Memory Caching: Curb Tail Latency with Pelikan</title>
+      <link>https://krishnakumar4a4.github.io/post/in-memory-caching-curb-tail-latency-with-pelikan/</link>
+      <pubDate>Sat, 24 Dec 2016 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/in-memory-caching-curb-tail-latency-with-pelikan/</guid>
+      <description>Tail latency: When you have a bunch of servers trying to serve a request in parallel, One of the servers might take more time than others which affects the overall response time. In other words, Latency of a tail server(worst performing) is affecting the whole response time.
+ When thinking about scale,distribution and speed. Caching is one of the important thing that stumbles you. Understanding it, mean a lot while you wanted to improve or implement them in other programming languages.</description>
+    </item>
+    
+  </channel>
+</rss>

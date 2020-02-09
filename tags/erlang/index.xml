@@ -6,10 +6,34 @@
     <description>Recent content in erlang on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 Jun 2018 09:43:12 +0530</lastBuildDate>
     
 	<atom:link href="https://krishnakumar4a4.github.io/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Why Speak Up?</title>
+      <link>https://krishnakumar4a4.github.io/post/speakup-announcement/</link>
+      <pubDate>Wed, 20 Jun 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/speakup-announcement/</guid>
+      <description>I am a tech enthusiast and I love to attend lot of meetups, conferences, events etc. The reason I attend them is
+ to get introduced to new technologies hear perspectives of people on technologies known to me  Conference hall setup: Conference Hall Setup chuttersnap
+  Usually be a sparsely distributed clusters of people sitting relaxedly all over.
+Some of the talks I attended will be so immersive and I couldn’t afford having even a slighter distraction fearing I would loose context.</description>
+    </item>
+    
+    <item>
+      <title>Why Speak Up?</title>
+      <link>https://krishnakumar4a4.github.io/post/speakup-announcement/</link>
+      <pubDate>Wed, 20 Jun 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/speakup-announcement/</guid>
+      <description>I am a tech enthusiast and I love to attend lot of meetups, conferences, events etc. The reason I attend them is
+ to get introduced to new technologies hear perspectives of people on technologies known to me  Conference hall setup: Conference Hall Setup chuttersnap
+  Usually be a sparsely distributed clusters of people sitting relaxedly all over.
+Some of the talks I attended will be so immersive and I couldn’t afford having even a slighter distraction fearing I would loose context.</description>
+    </item>
     
     <item>
       <title>SpeakUp</title>
@@ -30,12 +54,75 @@
     </item>
     
     <item>
+      <title>Simplifying Erlang Beam</title>
+      <link>https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/</link>
+      <pubDate>Fri, 12 May 2017 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/</guid>
+      <description>Light weight processes: All the Erlang code compiles to beam code and runs on the Erlang beam virtual machine. Nevertheless to say, it is a super powerful engine that can instantly creates and runs millions of processes with each process having a very minimal footprint size of 233 words. Each erlang process is like a green thread and shares nothing with siblings.
+Erlang process scheduler: The whole Erlang beam machine runs as a single process at the underlying operating system level just like JVM.</description>
+    </item>
+    
+    <item>
+      <title>React-Redux and Erlang — A Simple analogy</title>
+      <link>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</link>
+      <pubDate>Mon, 01 May 2017 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</guid>
+      <description>If you know
+ Erlang and wanted to know how easy is react-redux to learn, Start reading from “I am an Erlang developer and wanted to know about react-redux” React-Redux and wanted to dive into erlang world for greater good, start from erlang synopsis section below.  I am an Erlang developer and wanted to know about react-redux: If you had some experience in using gen_servers and gen_event behaviors? Learning react-redux would be simple for you too, just like me.</description>
+    </item>
+    
+    <item>
+      <title>Be on your best Erlang behavior</title>
+      <link>https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/</link>
+      <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/</guid>
+      <description>I had a great session with my team on Erlang behaviors and thought it would be worth blogging it. I have got chance to explain them about available erlang behaviors and how to choose and use them.
+1.gen_supervisor 2.gen_server 3.gen_event 4.gen_fsm
+When you want to employ a behavior in your applications, you should have a basic understanding of the below two types of functions.
+ API → Exposed to the user for external control and to send events.</description>
+    </item>
+    
+    <item>
+      <title>Know why you may choose Erlang</title>
+      <link>https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/</link>
+      <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/</guid>
+      <description>When you have good understanding on Erlang, you will inherently start to see other applications differently.
+ You will have tendency to ask questions like what is the scalability? What is the uptime? How easy is the code upgrade? How much availability can be guaranteed? Would the choice of database can match the speed of your application? How easy is to make your application distributed? Most of all, Can it crash fast and recover fast?</description>
+    </item>
+    
+    <item>
+      <title>Million event Erlang “like” engine</title>
+      <link>https://krishnakumar4a4.github.io/post/million-event-erlang-engine/</link>
+      <pubDate>Wed, 07 Dec 2016 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/million-event-erlang-engine/</guid>
+      <description>Inspiration: Facebook has a very unique and custom architecture to handle millions of likes on its posts every second. Sometimes a post is so catchy that it will attract millions of likes per second and being a fan of that article you don’t want to miss its live statistics.
+Shorten the goal: My goal is to create a like engine with can handle millions of likes per second. Let it be 1 like for 1 article/URL or 1000 likes for 1000 articles/URLs or 1 article/URL with million likes.</description>
+    </item>
+    
+    <item>
       <title>Code Challenges and Solutions</title>
       <link>https://krishnakumar4a4.github.io/projects/engines/</link>
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/engines/</guid>
       <description>Challenges and Solutions</description>
+    </item>
+    
+    <item>
+      <title>Beauty and mystery of Erlang distribution</title>
+      <link>https://krishnakumar4a4.github.io/post/beauty-mystery-erlang-distribution/</link>
+      <pubDate>Sun, 14 Aug 2016 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/beauty-mystery-erlang-distribution/</guid>
+      <description>I work on a network element simulator written in Erlang. For us, each network element is a bunch of Erlang processes work together to simulate a network element and we are simulating tens and hundreds of them on each Erlang node. We also run a distributed network of erlang nodes which all together renders some thousands of network elements running on one Linux machine.
+Done with background!!
+The problem: We are not able to start more than 250 Erlang nodes on one Linux machine provided we have enough resources to start more of them, and thus limiting our network element count beyond some value.</description>
     </item>
     
   </channel>

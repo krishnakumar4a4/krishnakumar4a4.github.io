@@ -203,6 +203,26 @@
   </url>
   
   <url>
+    <loc>https://krishnakumar4a4.github.io/tags/announcements/</loc>
+    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/rustlang/</loc>
+    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
+    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/backer-rs-announcement/</loc>
+    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/backer-rs/</loc>
     <lastmod>2018-10-19T00:00:00+00:00</lastmod>
   </url>
@@ -253,12 +273,27 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/tags/elixir/</loc>
-    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
+    <loc>https://krishnakumar4a4.github.io/series/erlang/</loc>
+    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/erlang/</loc>
+    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://krishnakumar4a4.github.io/tags/erlang/</loc>
+    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/speakup-announcement/</loc>
+    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/elixir/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -283,16 +318,6 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/erlang/</loc>
-    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://krishnakumar4a4.github.io/series/erlang/</loc>
-    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/categories/infoq/</loc>
     <lastmod>2018-03-13T09:43:12+05:30</lastmod>
   </url>
@@ -303,18 +328,108 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/series/rustlang/</loc>
-    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
+    <loc>https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/</loc>
+    <lastmod>2017-05-12T09:43:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
-    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
+    <loc>https://krishnakumar4a4.github.io/series/react/</loc>
+    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/react/</loc>
+    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/react/</loc>
+    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</loc>
+    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/ai/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/ai/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/ai/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/machine-learning/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/machine-learning/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/ml/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/verge-of-recommendation-engines/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/cache/</loc>
+    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/cache/</loc>
+    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/cache/</loc>
+    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/in-memory-caching-curb-tail-latency-with-pelikan/</loc>
+    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/million-event-erlang-engine/</loc>
+    <lastmod>2016-12-07T09:43:12+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://krishnakumar4a4.github.io/projects/engines/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/beauty-mystery-erlang-distribution/</loc>
+    <lastmod>2016-08-14T09:43:12+05:30</lastmod>
   </url>
   
 </urlset>

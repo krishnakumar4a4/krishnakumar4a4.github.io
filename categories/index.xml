@@ -30,6 +30,15 @@
     </item>
     
     <item>
+      <title>rustlang</title>
+      <link>https://krishnakumar4a4.github.io/categories/rustlang/</link>
+      <pubDate>Sun, 21 Oct 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/categories/rustlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>iot</title>
       <link>https://krishnakumar4a4.github.io/categories/iot/</link>
       <pubDate>Sat, 28 Jul 2018 09:43:12 +0530</pubDate>
@@ -41,7 +50,7 @@
     <item>
       <title>erlang</title>
       <link>https://krishnakumar4a4.github.io/categories/erlang/</link>
-      <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
+      <pubDate>Wed, 20 Jun 2018 09:43:12 +0530</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/categories/erlang/</guid>
       <description></description>
@@ -57,11 +66,38 @@
     </item>
     
     <item>
-      <title>rustlang</title>
-      <link>https://krishnakumar4a4.github.io/categories/rustlang/</link>
-      <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
+      <title>react</title>
+      <link>https://krishnakumar4a4.github.io/categories/react/</link>
+      <pubDate>Mon, 01 May 2017 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/categories/rustlang/</guid>
+      <guid>https://krishnakumar4a4.github.io/categories/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI</title>
+      <link>https://krishnakumar4a4.github.io/categories/ai/</link>
+      <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/categories/ai/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://krishnakumar4a4.github.io/categories/machine-learning/</link>
+      <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/categories/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cache</title>
+      <link>https://krishnakumar4a4.github.io/categories/cache/</link>
+      <pubDate>Sat, 24 Dec 2016 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/categories/cache/</guid>
       <description></description>
     </item>
     

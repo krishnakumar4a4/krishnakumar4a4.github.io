@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning on Krishna Kumar T</title>
+    <link>https://krishnakumar4a4.github.io/tags/machine-learning/</link>
+    <description>Recent content in Machine Learning on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Apr 2017 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The verge of suggestions/recommendations engines</title>
+      <link>https://krishnakumar4a4.github.io/post/verge-of-recommendation-engines/</link>
+      <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/verge-of-recommendation-engines/</guid>
+      <description>I have come early from office today and would be watching my next new series from my recommendation list. I hope I would definitely like it as it is based on my behavioral patterns from my earlier watches.
+I thought of buying a new home for me. I would visit a real estate site that runs on machine learning and gives you recommendations based on your web history or your search preferences.</description>
+    </item>
+    
+  </channel>
+</rss>

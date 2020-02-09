@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>announcements on Krishna Kumar T</title>
+    <link>https://krishnakumar4a4.github.io/tags/announcements/</link>
+    <description>Recent content in announcements on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 Oct 2018 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/announcements/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>“backer-rs” the missing versioned backup utility for boostnote/any note-taking app</title>
+      <link>https://krishnakumar4a4.github.io/post/backer-rs-announcement/</link>
+      <pubDate>Sun, 21 Oct 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/backer-rs-announcement/</guid>
+      <description>“Autosave notes”, it is a pretty important feature for any note taking app. Having autosave enabled and running in the background saves you from loosing any important notes you have taken. We would have felt autosave itself is a kind of backup feature for your notes.
+Recently, I had been in a situation where the autosave feature of boostnote misbehaved and lost all my notes till date. It’s a big disappointment.</description>
+    </item>
+    
+    <item>
+      <title>Why Speak Up?</title>
+      <link>https://krishnakumar4a4.github.io/post/speakup-announcement/</link>
+      <pubDate>Wed, 20 Jun 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/speakup-announcement/</guid>
+      <description>I am a tech enthusiast and I love to attend lot of meetups, conferences, events etc. The reason I attend them is
+ to get introduced to new technologies hear perspectives of people on technologies known to me  Conference hall setup: Conference Hall Setup chuttersnap
+  Usually be a sparsely distributed clusters of people sitting relaxedly all over.
+Some of the talks I attended will be so immersive and I couldn’t afford having even a slighter distraction fearing I would loose context.</description>
+    </item>
+    
+  </channel>
+</rss>

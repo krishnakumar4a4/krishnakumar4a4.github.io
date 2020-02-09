@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>react on Krishna Kumar T</title>
+    <link>https://krishnakumar4a4.github.io/tags/react/</link>
+    <description>Recent content in react on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 May 2017 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/react/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React-Redux and Erlang — A Simple analogy</title>
+      <link>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</link>
+      <pubDate>Mon, 01 May 2017 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</guid>
+      <description>If you know
+ Erlang and wanted to know how easy is react-redux to learn, Start reading from “I am an Erlang developer and wanted to know about react-redux” React-Redux and wanted to dive into erlang world for greater good, start from erlang synopsis section below.  I am an Erlang developer and wanted to know about react-redux: If you had some experience in using gen_servers and gen_event behaviors? Learning react-redux would be simple for you too, just like me.</description>
+    </item>
+    
+  </channel>
+</rss>

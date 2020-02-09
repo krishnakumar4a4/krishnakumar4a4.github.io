@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Krishna Kumar T</title>
+    <link>https://krishnakumar4a4.github.io/projects/</link>
+    <description>Recent content in Projects on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Remote Debug Tool</title>
+      <link>https://krishnakumar4a4.github.io/projects/remote-debug/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/remote-debug/</guid>
+      <description>A generic remote debug solution</description>
+    </item>
+    
+    <item>
+      <title>TcpProxy</title>
+      <link>https://krishnakumar4a4.github.io/projects/tcp-proxy/</link>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/tcp-proxy/</guid>
+      <description>A simple TCP interceptor proxy for HTTP/S requests with network speed caclulator</description>
+    </item>
+    
+    <item>
+      <title>CLI Poker Game</title>
+      <link>https://krishnakumar4a4.github.io/projects/cli-poker-game/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/cli-poker-game/</guid>
+      <description>A CLI minimalistic poker game</description>
+    </item>
+    
+    <item>
+      <title>SSH Reverse Tunnel</title>
+      <link>https://krishnakumar4a4.github.io/projects/ssh-reverse-tunnel/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/ssh-reverse-tunnel/</guid>
+      <description>SSH reverse tunnel for internet</description>
+    </item>
+    
+    <item>
+      <title>desync-rs</title>
+      <link>https://krishnakumar4a4.github.io/projects/desync-rs/</link>
+      <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/desync-rs/</guid>
+      <description>Minimalistic drop in replacement for casync(C) and desync(golang) in rust</description>
+    </item>
+    
+    <item>
+      <title>rust-java-rust</title>
+      <link>https://krishnakumar4a4.github.io/projects/rust-java-rust/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/rust-java-rust/</guid>
+      <description>Provides sample code to call rust methods from embedded JVM without need for dynamic library load</description>
+    </item>
+    
+    <item>
+      <title>Dashboard For Casync</title>
+      <link>https://krishnakumar4a4.github.io/projects/casync-dashboard/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/casync-dashboard/</guid>
+      <description>A dashboard(in web assembly) for managing content for casync,desync and casync-rs type tools</description>
+    </item>
+    
+    <item>
+      <title>backer-rs</title>
+      <link>https://krishnakumar4a4.github.io/projects/backer-rs/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/backer-rs/</guid>
+      <description>Never Loose data/notes - An efficient git based backup tool to save your changes periodically</description>
+    </item>
+    
+    <item>
+      <title>casync-rs</title>
+      <link>https://krishnakumar4a4.github.io/projects/casync-rs/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/casync-rs/</guid>
+      <description>Experimental: Pure rust implementation of casync &lt;a href=&#34;https://github.com/systemd/casync&#34;&gt;https://github.com/systemd/casync&lt;/a&gt;</description>
+    </item>
+    
+    <item>
+      <title>SpeakUp</title>
+      <link>https://krishnakumar4a4.github.io/projects/speakup/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/speakup/</guid>
+      <description>Make discussions less cumbersome</description>
+    </item>
+    
+    <item>
+      <title>Code Challenges and Solutions</title>
+      <link>https://krishnakumar4a4.github.io/projects/engines/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/engines/</guid>
+      <description>Challenges and Solutions</description>
+    </item>
+    
+  </channel>
+</rss>

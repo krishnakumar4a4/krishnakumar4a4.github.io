@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://krishnakumar4a4.github.io/projects/</link>
-      <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/projects/</guid>
-      <description>OSS    Name Description TechStack     Remote Debug A generic remote debug solution Golang   TCP proxy A simple TCP interceptor proxy for HTTP/S requests with network speed caclulator Golang   CLI Poker Game A CLI minimalistic poker game Elixir with TDD   SpeakUp Make discussions less cumbersome Erlang, Elixir, Python, Node   SSH Reverse Tunnel SSH reverse tunnel for internet Golang   desync-rs Minimalistic drop in replacement for casync(C) and desync(golang) in rust Rustlang   rust-java-rust Provides sample code to call rust methods from embedded JVM without need for dynamic library load Rustlang, Java   backer-rs Never Loose data/notes - An efficient git based backup tool to save your changes periodically Rustlang   casync dashboard A dashboard(in web assembly) for managing content for casync,desync and casync-rs type tools Rustlang, Web Assembly   casync-rs Experimental: Pure rust implementation of casync https://github.</description>
-    </item>
-    
-    <item>
       <title>Team</title>
       <link>https://krishnakumar4a4.github.io/team/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
@@ -45,6 +36,60 @@
       
       <guid>https://krishnakumar4a4.github.io/post/unexplored-subtleties-autonomous-vehicles/</guid>
       <description>On a winter morning before the first light I was going on my bike on a silent road in the early hours of the day. The road looks entirely abandoned as it was one of the most chilling days of winter and I was not expecting anyone coming on to the road. But I was very much ambivalent and kept an eye on both sides of the road as far I can see through the fog.</description>
+    </item>
+    
+    <item>
+      <title>Remote Debug Tool</title>
+      <link>https://krishnakumar4a4.github.io/projects/remote-debug/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/remote-debug/</guid>
+      <description>A generic remote debug solution</description>
+    </item>
+    
+    <item>
+      <title>TcpProxy</title>
+      <link>https://krishnakumar4a4.github.io/projects/tcp-proxy/</link>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/tcp-proxy/</guid>
+      <description>A simple TCP interceptor proxy for HTTP/S requests with network speed caclulator</description>
+    </item>
+    
+    <item>
+      <title>CLI Poker Game</title>
+      <link>https://krishnakumar4a4.github.io/projects/cli-poker-game/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/cli-poker-game/</guid>
+      <description>A CLI minimalistic poker game</description>
+    </item>
+    
+    <item>
+      <title>SSH Reverse Tunnel</title>
+      <link>https://krishnakumar4a4.github.io/projects/ssh-reverse-tunnel/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/ssh-reverse-tunnel/</guid>
+      <description>SSH reverse tunnel for internet</description>
+    </item>
+    
+    <item>
+      <title>desync-rs</title>
+      <link>https://krishnakumar4a4.github.io/projects/desync-rs/</link>
+      <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/desync-rs/</guid>
+      <description>Minimalistic drop in replacement for casync(C) and desync(golang) in rust</description>
+    </item>
+    
+    <item>
+      <title>rust-java-rust</title>
+      <link>https://krishnakumar4a4.github.io/projects/rust-java-rust/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/rust-java-rust/</guid>
+      <description>Provides sample code to call rust methods from embedded JVM without need for dynamic library load</description>
     </item>
     
     <item>
@@ -77,6 +122,33 @@
     </item>
     
     <item>
+      <title>Dashboard For Casync</title>
+      <link>https://krishnakumar4a4.github.io/projects/casync-dashboard/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/casync-dashboard/</guid>
+      <description>A dashboard(in web assembly) for managing content for casync,desync and casync-rs type tools</description>
+    </item>
+    
+    <item>
+      <title>backer-rs</title>
+      <link>https://krishnakumar4a4.github.io/projects/backer-rs/</link>
+      <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/backer-rs/</guid>
+      <description>Never Loose data/notes - An efficient git based backup tool to save your changes periodically</description>
+    </item>
+    
+    <item>
+      <title>casync-rs</title>
+      <link>https://krishnakumar4a4.github.io/projects/casync-rs/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/casync-rs/</guid>
+      <description>Experimental: Pure rust implementation of casync &lt;a href=&#34;https://github.com/systemd/casync&#34;&gt;https://github.com/systemd/casync&lt;/a&gt;</description>
+    </item>
+    
+    <item>
       <title>Websocket fever for IOT</title>
       <link>https://krishnakumar4a4.github.io/post/weboskcet-fever-for-iot/</link>
       <pubDate>Sat, 28 Jul 2018 09:43:12 +0530</pubDate>
@@ -87,12 +159,30 @@ What is the most common protocol of internet. It is http. You open a browser ent
     </item>
     
     <item>
+      <title>SpeakUp</title>
+      <link>https://krishnakumar4a4.github.io/projects/speakup/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/speakup/</guid>
+      <description>Make discussions less cumbersome</description>
+    </item>
+    
+    <item>
       <title>A Comparison between Rust and Erlang</title>
       <link>https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/</link>
       <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/</guid>
       <description>Key Takeaways  Erlang provides lightweight processes, immutability, distribution with location transparency, message passing, supervision behaviors and many other high-level, dynamic features that make it great for fault-tolerant, highly available, and scalable systems. Unfortunately, Erlang is less than optimal at doing low-level stuff such as XML parsing, since dealing with anything that comes from outside of the Erlang VM into it is tedious For this kind of use cases, one could be tempted to consider a different language.</description>
+    </item>
+    
+    <item>
+      <title>Code Challenges and Solutions</title>
+      <link>https://krishnakumar4a4.github.io/projects/engines/</link>
+      <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/engines/</guid>
+      <description>Challenges and Solutions</description>
     </item>
     
   </channel>

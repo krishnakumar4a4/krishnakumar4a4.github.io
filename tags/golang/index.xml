@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>golang on Krishna Kumar T</title>
+    <link>https://krishnakumar4a4.github.io/tags/golang/</link>
+    <description>Recent content in golang on Krishna Kumar T</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Remote Debug Tool</title>
+      <link>https://krishnakumar4a4.github.io/projects/remote-debug/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/remote-debug/</guid>
+      <description>A generic remote debug solution</description>
+    </item>
+    
+    <item>
+      <title>TcpProxy</title>
+      <link>https://krishnakumar4a4.github.io/projects/tcp-proxy/</link>
+      <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/tcp-proxy/</guid>
+      <description>A simple TCP interceptor proxy for HTTP/S requests with network speed caclulator</description>
+    </item>
+    
+    <item>
+      <title>SSH Reverse Tunnel</title>
+      <link>https://krishnakumar4a4.github.io/projects/ssh-reverse-tunnel/</link>
+      <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/ssh-reverse-tunnel/</guid>
+      <description>SSH reverse tunnel for internet</description>
+    </item>
+    
+  </channel>
+</rss>

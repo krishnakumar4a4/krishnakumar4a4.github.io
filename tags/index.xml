@@ -57,6 +57,42 @@
     </item>
     
     <item>
+      <title>golang</title>
+      <link>https://krishnakumar4a4.github.io/tags/golang/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>elixir-with-tdd</title>
+      <link>https://krishnakumar4a4.github.io/tags/elixir-with-tdd/</link>
+      <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/tags/elixir-with-tdd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rustlang</title>
+      <link>https://krishnakumar4a4.github.io/tags/rustlang/</link>
+      <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/tags/rustlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>java</title>
+      <link>https://krishnakumar4a4.github.io/tags/java/</link>
+      <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Embedded Systems</title>
       <link>https://krishnakumar4a4.github.io/tags/embedded-systems/</link>
       <pubDate>Sat, 16 Mar 2019 09:43:12 +0530</pubDate>
@@ -98,6 +134,15 @@
       <pubDate>Sat, 16 Mar 2019 09:43:12 +0530</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>web-assembly</title>
+      <link>https://krishnakumar4a4.github.io/tags/web-assembly/</link>
+      <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/tags/web-assembly/</guid>
       <description></description>
     </item>
     
@@ -147,11 +192,38 @@
     </item>
     
     <item>
+      <title>elixir</title>
+      <link>https://krishnakumar4a4.github.io/tags/elixir/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/tags/elixir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>erlang</title>
       <link>https://krishnakumar4a4.github.io/tags/erlang/</link>
-      <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/tags/erlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node</title>
+      <link>https://krishnakumar4a4.github.io/tags/node/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/tags/node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://krishnakumar4a4.github.io/tags/python/</link>
+      <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/tags/python/</guid>
       <description></description>
     </item>
     
@@ -161,15 +233,6 @@
       <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/tags/infoq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rustlang</title>
-      <link>https://krishnakumar4a4.github.io/tags/rustlang/</link>
-      <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/tags/rustlang/</guid>
       <description></description>
     </item>
     

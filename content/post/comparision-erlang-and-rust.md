@@ -28,4 +28,6 @@ images = []
 - So, although Rust cannot be seen as a replacement for Erlang, it could make sense to mix both languages in the same project to leverage their strenghts.
   
 
-> [Read the full comparison published on infoq](https://www.infoq.com/articles/rust-erlang-comparison/)
+> [Read the full comparison published on infoq](https://www.infoq.com/articles/rust-erlang-comparison/)  
+
+> [Read the full comparison chinese translation on infoq](https://www.infoq.cn/article/rust-erlang-comparison)

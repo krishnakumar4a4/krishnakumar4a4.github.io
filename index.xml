@@ -12,12 +12,15 @@
     
     
     <item>
-      <title>About</title>
+      <title>About Me</title>
       <link>https://krishnakumar4a4.github.io/about/</link>
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/about/</guid>
-      <description>I am Krishna Kumar, Work as consultant in Thoughtworks, Hyderabad, India.</description>
+      <description>I am Krishna Kumar, Currently working as application developer/ Senior Consultant at Thoughtworks, Hyderabad, India.
+Programming languages I work on:
+ Erlang (2 years) Golang (2.5 years) Rustlang (hobby)  Projects:
+ Securing Enrolments for an Identity Project for Govt. of India (Golang and Java) Retail assortment application (Java, React, AWS and GCP) Network Test Simulator (Erlang and on-prem cloud)   My scrambled brain omlette (Li&amp;rsquo;l about how I think:) I study for invention and problem solving.</description>
     </item>
     
     <item>

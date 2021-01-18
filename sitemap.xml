@@ -273,17 +273,17 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/tags/erlang/</loc>
-    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/categories/erlang/</loc>
     <lastmod>2018-06-20T09:43:12+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://krishnakumar4a4.github.io/series/erlang/</loc>
+    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/erlang/</loc>
     <lastmod>2018-06-20T09:43:12+05:30</lastmod>
   </url>
   
@@ -318,12 +318,12 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/infoq/</loc>
+    <loc>https://krishnakumar4a4.github.io/tags/infoq/</loc>
     <lastmod>2018-03-13T09:43:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/tags/infoq/</loc>
+    <loc>https://krishnakumar4a4.github.io/categories/infoq/</loc>
     <lastmod>2018-03-13T09:43:12+05:30</lastmod>
   </url>
   
@@ -353,17 +353,17 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/tags/ai/</loc>
-    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/series/ai/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
   </url>
   
   <url>
     <loc>https://krishnakumar4a4.github.io/categories/ai/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/ai/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
   </url>
   
@@ -398,7 +398,7 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/tags/cache/</loc>
+    <loc>https://krishnakumar4a4.github.io/series/cache/</loc>
     <lastmod>2016-12-24T09:43:12+05:30</lastmod>
   </url>
   
@@ -408,7 +408,7 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/series/cache/</loc>
+    <loc>https://krishnakumar4a4.github.io/tags/cache/</loc>
     <lastmod>2016-12-24T09:43:12+05:30</lastmod>
   </url>
   

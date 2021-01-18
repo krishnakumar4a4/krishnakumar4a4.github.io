@@ -173,12 +173,12 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/security/</loc>
+    <loc>https://krishnakumar4a4.github.io/series/security/</loc>
     <lastmod>2019-03-16T09:43:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/series/security/</loc>
+    <loc>https://krishnakumar4a4.github.io/categories/security/</loc>
     <lastmod>2019-03-16T09:43:12+05:30</lastmod>
   </url>
   
@@ -208,12 +208,12 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/series/rustlang/</loc>
+    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
     <lastmod>2018-10-21T09:43:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
+    <loc>https://krishnakumar4a4.github.io/series/rustlang/</loc>
     <lastmod>2018-10-21T09:43:12+05:30</lastmod>
   </url>
   
@@ -333,6 +333,11 @@
   </url>
   
   <url>
+    <loc>https://krishnakumar4a4.github.io/categories/react/</loc>
+    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/tags/react/</loc>
     <lastmod>2017-05-01T09:43:12+05:30</lastmod>
   </url>
@@ -343,22 +348,17 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/react/</loc>
-    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</loc>
     <lastmod>2017-05-01T09:43:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/series/ai/</loc>
+    <loc>https://krishnakumar4a4.github.io/categories/ai/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/ai/</loc>
+    <loc>https://krishnakumar4a4.github.io/series/ai/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
   </url>
   

@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 06 Feb 2021 00:00:00 +0530</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/categories/storage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Encrypted Minio Storage with KMS Setup</title>
-      <link>https://krishnakumar4a4.github.io/post/in-meeting-indicator/</link>
+      <link>https://krishnakumar4a4.github.io/post/encrypted-minio-storage-with-kms/</link>
       <pubDate>Sat, 06 Feb 2021 00:00:00 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/post/in-meeting-indicator/</guid>
+      <guid>https://krishnakumar4a4.github.io/post/encrypted-minio-storage-with-kms/</guid>
       <description>Minio is an S3 compliant data storage service. It can be hosted on premises and even supports distribution across multiple nodes. To meet certain data protection regulations, data is required to be encrypted the moment it is written to disk. Minio supports two types of encryption schemes
  SSE-S3 (Server side encryption) — Encryption key is managed on server side typically using a KMS SSE-C (Client side encryption) — Encryption key is managed by clients and provided as request headers to Minio  Goal of this blog is to guide you through setting up Minio with server side encryption.</description>
     </item>

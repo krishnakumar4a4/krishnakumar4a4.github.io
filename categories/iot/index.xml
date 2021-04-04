@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 28 Jul 2018 09:43:12 +0530</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/categories/iot/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Websocket fever for IOT</title>
-      <link>https://krishnakumar4a4.github.io/post/weboskcet-fever-for-iot/</link>
+      <link>https://krishnakumar4a4.github.io/post/websocket-fever-for-iot/</link>
       <pubDate>Sat, 28 Jul 2018 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/post/weboskcet-fever-for-iot/</guid>
+      <guid>https://krishnakumar4a4.github.io/post/websocket-fever-for-iot/</guid>
       <description>Internet of things is a buzz now. In simpler terms, connecting all the things to the internet so that they are monitored and controlled from anywhere.
 What is the most common protocol of internet. It is http. You open a browser enter a url and then you see content on your browser. How is that working? When you enter a url, your browser makes http get request to the site and fetches the content.</description>
     </item>

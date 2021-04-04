@@ -6,11 +6,7 @@
     <description>Recent content in Projects on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://krishnakumar4a4.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Remote Debug Tool</title>
       <link>https://krishnakumar4a4.github.io/projects/remote-debug/</link>

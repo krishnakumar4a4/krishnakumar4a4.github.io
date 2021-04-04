@@ -22,20 +22,15 @@
 <link rel="canonical" href="https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/"><meta property="og:title" content="Be on your best Erlang behavior" />
 <meta property="og:description" content="Be on your best Erlang behavior" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/" />
-<meta property="og:image" content="https://krishnakumar4a4.github.io/images/gen_fsm_erlang.jpeg" />
-<meta property="article:published_time" content="2017-04-01T09:43:12+05:30" />
-<meta property="article:modified_time" content="2017-04-01T09:43:12+05:30" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/speakup-announcement/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/" />
+<meta property="og:url" content="https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/" /><meta property="og:image" content="https://krishnakumar4a4.github.io/images/gen_fsm_erlang.jpeg" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2017-04-01T09:43:12&#43;05:30" />
+<meta property="article:modified_time" content="2017-04-01T09:43:12&#43;05:30" />
+<meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/speakup-announcement/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/" />
 
 <meta itemprop="name" content="Be on your best Erlang behavior">
-<meta itemprop="description" content="Be on your best Erlang behavior">
-<meta itemprop="datePublished" content="2017-04-01T09:43:12&#43;05:30" />
+<meta itemprop="description" content="Be on your best Erlang behavior"><meta itemprop="datePublished" content="2017-04-01T09:43:12&#43;05:30" />
 <meta itemprop="dateModified" content="2017-04-01T09:43:12&#43;05:30" />
-<meta itemprop="wordCount" content="1290">
-<meta itemprop="image" content="https://krishnakumar4a4.github.io/images/gen_fsm_erlang.jpeg">
-
-
-
+<meta itemprop="wordCount" content="1290"><meta itemprop="image" content="https://krishnakumar4a4.github.io/images/gen_fsm_erlang.jpeg">
 <meta itemprop="keywords" content="erlang," /><meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://krishnakumar4a4.github.io/images/gen_fsm_erlang.jpeg"/>
 
@@ -128,7 +123,7 @@
 <p>For every behavior, there would be set of API’s, commonly <em><strong>start, start_link, call,send_event</strong></em> etc which will be calling the behavior modules and they in turn try to callback functions in the registered module.</p>
 <p>The initial start or start_link API’s are responsible for calling the callback function init which is used for initialization of the behaviors to set default values.</p>
 <h4 id="callback-functions">Callback functions:</h4>
-<p>API and callback functions exist in pairs i.e for every API called, there should be an equivalent callback function which does the reaction and these callback functions needs to be defined in the same module(with tag <em><strong>-behavior(gen_<!-- raw HTML omitted -->)</strong></em>) as the behavior.</p>
+<p>API and callback functions exist in pairs i.e for every API called, there should be an equivalent callback function which does the reaction and these callback functions needs to be defined in the same module(with tag ***-behavior(gen_<!-- raw HTML omitted -->)***) as the behavior.</p>
 <blockquote>
 <p>Eg: Let us take gen_server as an example:
 Start gen_server by calling start or start_link API.

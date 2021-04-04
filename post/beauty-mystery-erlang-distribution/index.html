@@ -22,18 +22,15 @@
 <link rel="canonical" href="https://krishnakumar4a4.github.io/post/beauty-mystery-erlang-distribution/"><meta property="og:title" content="Beauty and mystery of Erlang distribution" />
 <meta property="og:description" content="Beauty and mystery of Erlang distribution" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://krishnakumar4a4.github.io/post/beauty-mystery-erlang-distribution/" />
-<meta property="article:published_time" content="2016-08-14T09:43:12+05:30" />
-<meta property="article:modified_time" content="2016-08-14T09:43:12+05:30" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/speakup-announcement/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/" />
+<meta property="og:url" content="https://krishnakumar4a4.github.io/post/beauty-mystery-erlang-distribution/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2016-08-14T09:43:12&#43;05:30" />
+<meta property="article:modified_time" content="2016-08-14T09:43:12&#43;05:30" />
+<meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/speakup-announcement/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/" />
 
 <meta itemprop="name" content="Beauty and mystery of Erlang distribution">
-<meta itemprop="description" content="Beauty and mystery of Erlang distribution">
-<meta itemprop="datePublished" content="2016-08-14T09:43:12&#43;05:30" />
+<meta itemprop="description" content="Beauty and mystery of Erlang distribution"><meta itemprop="datePublished" content="2016-08-14T09:43:12&#43;05:30" />
 <meta itemprop="dateModified" content="2016-08-14T09:43:12&#43;05:30" />
 <meta itemprop="wordCount" content="756">
-
-
-
 <meta itemprop="keywords" content="erlang," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Beauty and mystery of Erlang distribution"/>
 <meta name="twitter:description" content="Beauty and mystery of Erlang distribution"/>
@@ -122,9 +119,9 @@
 <p>When we activate distribution by setting a common cookie for all and pinging on another. I could see &lsquo;n(n-1)’ established connections between all the Erlang nodes and all these utilized &lsquo;n(n-1)’ ports on the public ip of the machine.</p>
 <p>So again mathematics, for &lsquo;n&rsquo; Erlang nodes started with distribution would utilize:</p>
 <blockquote>
-<p>'n&rsquo; ports for listeners on 0.0.0.0
-'n&rsquo; ports for established connections towards epmd on localhost(127.0.0.1)
-'n(n-1)’ ports for established connections on Public Ip for distribution</p>
+<p>&lsquo;n&rsquo; ports for listeners on 0.0.0.0
+&lsquo;n&rsquo; ports for established connections towards epmd on localhost(127.0.0.1)
+&lsquo;n(n-1)’ ports for established connections on Public Ip for distribution</p>
 </blockquote>
 <p>As described in the Erlang system limitations document, the maximum number of erlang nodes that can be started with distribution is based on the availability of sockets and which in turn limited to 65536 for each ip.</p>
 <p>For &lsquo;n&rsquo; Erlang nodes, &lsquo;n&rsquo; sockets/ports are utilized for localhost and 0.0.0.0. But &lsquo;n(n-1)’ sockets/ports are utilized on the public IP. So, the limitation would be set by fastest growing attribute from the above, I.e the maximum number of sockets supported by public IP and it is equal to 65536.</p>

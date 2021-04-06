@@ -324,6 +324,9 @@ Arduino is a great IDE for programming NodeMCU boards. But it definitely lacks s
 
 I personally found PlatformIO IDE solves these problems as well as supporting other existing features like inbuilt board management, serial plotter etc too.
 
+**Link to code**:
+Github: https://github.com/krishnakumar4a4/in-meeting-indicator
+
 **More Ideas/Coming Soon:**
 
 - Trim Oversight code of additional functionality and do better integration
@@ -337,7 +340,7 @@ I personally found PlatformIO IDE solves these problems as well as supporting ot
 
 > Moreover, VSCode is intelligent enough to let me choose my PlatformIDE extension to be installed on the Raspberry pi over SSH thus allowing Platform IDE to detect and work with connected devices on Raspberry pi natively. How cool is that.
 
-Reference Links:
+**Reference Links:**
 
 - [https://platformio.org/](https://platformio.org/)
 - [https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide](https://marketplace.visualstudio.com/items?itemName=platformio.platformio-ide)

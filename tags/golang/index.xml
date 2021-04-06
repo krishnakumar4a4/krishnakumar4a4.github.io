@@ -6,7 +6,16 @@
     <description>Recent content in golang on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>In Meeting Indicator</title>
+      <link>https://krishnakumar4a4.github.io/projects/in-meeting-indicator/</link>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/projects/in-meeting-indicator/</guid>
+      <description>DIY: In meeting indicator - WFH Utility</description>
+    </item>
+    
     <item>
       <title>Remote Debug Tool</title>
       <link>https://krishnakumar4a4.github.io/projects/remote-debug/</link>

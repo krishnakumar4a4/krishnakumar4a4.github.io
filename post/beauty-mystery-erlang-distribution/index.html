@@ -3,7 +3,20 @@
 <head>
     <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Krishna Kumar T</title><meta name="description" content="Beauty and mystery of Erlang distribution"><meta name="author" content="Krishna Kumar Thokala">
+
+<title>
+  
+     Beauty and mystery of Erlang distribution | 
+    Krishna Kumar T
+  
+</title><meta name="description" content="Beauty and mystery of Erlang distribution"><meta name="author" content="Krishna Kumar Thokala">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/favicon-32x32.png " sizes="32x32" type="image/png">
+<link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0c344b">
+<link rel="icon" href="/favicon.ico">
 
 
     
@@ -19,17 +32,19 @@
     
 
 
+
+
 <link rel="canonical" href="https://krishnakumar4a4.github.io/post/beauty-mystery-erlang-distribution/"><meta property="og:title" content="Beauty and mystery of Erlang distribution" />
 <meta property="og:description" content="Beauty and mystery of Erlang distribution" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://krishnakumar4a4.github.io/post/beauty-mystery-erlang-distribution/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2016-08-14T09:43:12&#43;05:30" />
-<meta property="article:modified_time" content="2016-08-14T09:43:12&#43;05:30" />
+<meta property="article:published_time" content="2016-08-14T09:43:12+05:30" />
+<meta property="article:modified_time" content="2016-08-14T09:43:12+05:30" />
 <meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/speakup-announcement/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/" />
 
 <meta itemprop="name" content="Beauty and mystery of Erlang distribution">
-<meta itemprop="description" content="Beauty and mystery of Erlang distribution"><meta itemprop="datePublished" content="2016-08-14T09:43:12&#43;05:30" />
-<meta itemprop="dateModified" content="2016-08-14T09:43:12&#43;05:30" />
+<meta itemprop="description" content="Beauty and mystery of Erlang distribution"><meta itemprop="datePublished" content="2016-08-14T09:43:12+05:30" />
+<meta itemprop="dateModified" content="2016-08-14T09:43:12+05:30" />
 <meta itemprop="wordCount" content="756">
 <meta itemprop="keywords" content="erlang," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Beauty and mystery of Erlang distribution"/>
@@ -89,8 +104,8 @@
                         <ul class="authors list-inline"><li class="list-inline-item mr-3">
                     <div class="media author"><a href="/authors/krishna-kumar-thokala/" class="mr-3">
                                     <picture>
-                                        <source srcset="/authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_64x0_resize_box_2.png 1x, /authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_128x0_resize_q100_box_2.png 2x, /authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_192x0_resize_q100_box_2.png 3x">
-                                        <img src="/authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_64x0_resize_box_2.png" class="rounded-circle" alt="Krishna Kumar Thokala">
+                                        <source srcset="/authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_64x0_resize_box_3.png 1x, /authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_128x0_resize_q100_box_3.png 2x, /authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_192x0_resize_q100_box_3.png 3x">
+                                        <img src="/authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_64x0_resize_box_3.png" class="rounded-circle" alt="Krishna Kumar Thokala">
                                     </picture>
                                 </a><div class="media-body">
                             <h5 class="name my-0"><a href="/authors/krishna-kumar-thokala/" class="small">Krishna Kumar Thokala</a>
@@ -115,16 +130,16 @@
 <blockquote>
 <p>Each and every erlang node maintains an established connection with the host EPMD daemon which is required for active distribution. This is a default behavior of distributed protocol.</p>
 </blockquote>
-<p>Now the mathematics, for &lsquo;n&rsquo; number of erlang nodes without any distributed connectivity between them will create &lsquo;n&rsquo; established connections on localhost which would occupy &lsquo;n&rsquo; ports and &lsquo;n&rsquo; listeners on 0.0.0.0 interface.</p>
-<p>When we activate distribution by setting a common cookie for all and pinging on another. I could see &lsquo;n(n-1)’ established connections between all the Erlang nodes and all these utilized &lsquo;n(n-1)’ ports on the public ip of the machine.</p>
-<p>So again mathematics, for &lsquo;n&rsquo; Erlang nodes started with distribution would utilize:</p>
+<p>Now the mathematics, for &rsquo;n&rsquo; number of erlang nodes without any distributed connectivity between them will create &rsquo;n&rsquo; established connections on localhost which would occupy &rsquo;n&rsquo; ports and &rsquo;n&rsquo; listeners on 0.0.0.0 interface.</p>
+<p>When we activate distribution by setting a common cookie for all and pinging on another. I could see &rsquo;n(n-1)’ established connections between all the Erlang nodes and all these utilized &rsquo;n(n-1)’ ports on the public ip of the machine.</p>
+<p>So again mathematics, for &rsquo;n&rsquo; Erlang nodes started with distribution would utilize:</p>
 <blockquote>
-<p>&lsquo;n&rsquo; ports for listeners on 0.0.0.0
+<p>&rsquo;n&rsquo; ports for listeners on 0.0.0.0
 &lsquo;n&rsquo; ports for established connections towards epmd on localhost(127.0.0.1)
 &lsquo;n(n-1)’ ports for established connections on Public Ip for distribution</p>
 </blockquote>
 <p>As described in the Erlang system limitations document, the maximum number of erlang nodes that can be started with distribution is based on the availability of sockets and which in turn limited to 65536 for each ip.</p>
-<p>For &lsquo;n&rsquo; Erlang nodes, &lsquo;n&rsquo; sockets/ports are utilized for localhost and 0.0.0.0. But &lsquo;n(n-1)’ sockets/ports are utilized on the public IP. So, the limitation would be set by fastest growing attribute from the above, I.e the maximum number of sockets supported by public IP and it is equal to 65536.</p>
+<p>For &rsquo;n&rsquo; Erlang nodes, &rsquo;n&rsquo; sockets/ports are utilized for localhost and 0.0.0.0. But &rsquo;n(n-1)’ sockets/ports are utilized on the public IP. So, the limitation would be set by fastest growing attribute from the above, I.e the maximum number of sockets supported by public IP and it is equal to 65536.</p>
 <p>So,from the theory above we can start at most 256 Erlang nodes with distribution. But when we take out some of the low level ports below 1000 and some system utilized ports. The Erlang node count would vary between 230–256 practically.</p>
 <blockquote>
 <p>I am thinking to draw a network connection graph between these Erlang nodes to visualize Erlang node/port cluster. But couldn’t find an easier way to do it. I will tag that too here once done.</p>
@@ -132,7 +147,7 @@
 <hr>
 <h4 id="the-mini-solution">The mini solution:</h4>
 <p>One of the solution I could think of was to start each Erlang node with ‘-hidden’ option, so that the clustering will be linear rather than having every node connected to every other node. Node1 is only connected to node 2 and node 2 is only connected to node 3. Here node 1 to node 3 connection will be eliminated.</p>
-<p>Hence, practically I could see only ‘2n’ established connections between nodes which would be far less than the earlier &lsquo;n(n-1)’ philosophy.</p>
+<p>Hence, practically I could see only ‘2n’ established connections between nodes which would be far less than the earlier &rsquo;n(n-1)’ philosophy.</p>
 <blockquote>
 <p>Note: This solution should be tested practically as this may cause some problems with distributed mnesia sync and other distributed features.</p>
 </blockquote>
@@ -184,24 +199,6 @@
     </div>
 
     
-    
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-
-(function() {
-    
-    
-    if (window.location.hostname == "localhost")
-        return;
-
-    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-    var disqus_shortname = '';
-    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 </main>
 
 
@@ -216,7 +213,7 @@
                                         <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a></li><li class="list-inline-item">
-                        <a href="mailto://krishna.thokala2010@gmail.com" class="icons d-block">
+                        <a href="mailto:krishna.thokala2010@gmail.com" class="icons d-block">
                             <span class="fa-stack fa-lg">
                                 <i class="fa fa-circle fa-stack-2x"></i>
                                 <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -251,7 +248,7 @@
                                 </span>
                             </a>
                         </li><li class="list-inline-item">
-                            <a href="https://medium.com/@krishna.thokala2010" class="icons d-block">
+                            <a href="https://medium.com/@krishnakumart" class="icons d-block">
                                 <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
@@ -276,7 +273,7 @@
 
                 <p class="text-muted">
                     
-                        Copyright &copy; Krishna Kumar T 2021
+                        Copyright &copy; Krishna Kumar T 2022
                     
                 </p>
 
@@ -291,7 +288,7 @@
     
     
         
-            <script src="/dist/main.2ed44664366c9940537d.min.js"></script>
+            <script src="/dist/main.d608eadfe5ac0688902e.min.js"></script>
         
     
 
@@ -303,6 +300,9 @@
 </script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-core.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+
 
 
 

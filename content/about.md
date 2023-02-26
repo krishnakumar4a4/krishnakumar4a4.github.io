@@ -6,6 +6,8 @@ aliases = []
 author = "Krishna Kumar Thokala"
 +++
 
+{{< figure src="/images/IMG_0788.jpeg" title="Krishna Kumar" >}}
+
 I am Krishna Kumar, Currently working as application developer/ Senior Consultant at Thoughtworks, Hyderabad, India.
 
 Programming languages I work on:

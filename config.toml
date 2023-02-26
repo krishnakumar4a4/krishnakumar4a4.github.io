@@ -20,6 +20,16 @@ footnoteReturnLinkContents = "^"
     url = "/about/"
     weight = 10
   [[menu.main]]
+    identifier = "Tweets"
+    name = "Tweets"
+    url = "/tweets/"
+    weight = 6
+  [[menu.main]]
+    identifier = "LinkedIn"
+    name = "LinkedIn"
+    url = "/linkedin/"
+    weight = 7
+  [[menu.main]]
     identifier = "team"
     name = "Team"
     url = "/team/"

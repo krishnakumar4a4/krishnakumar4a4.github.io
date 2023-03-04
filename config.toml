@@ -77,7 +77,6 @@ emitMetadata = "0"
 inputPosition = "top"
 theme = "light_high_contrast"
 lang = "en"
-loading = "lazy"
 
 [params]
   author = "Krishna Kumar Thokala"

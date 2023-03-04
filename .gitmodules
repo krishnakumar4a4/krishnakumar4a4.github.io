@@ -1,3 +1,4 @@
 [submodule "themes/chunky"]
 	path = themes/chunky
-	url = https://github.com/puresyntax71/hugo-theme-chunky-poster.git
+	url = git@github.com-krishnakumar4a4/krishnakumar4a4/hugo-theme-chunky-poster.git
+	branch = customized

@@ -66,6 +66,19 @@ tag = "tags"
 series = "series"
 author = "authors"
 
+[params.giscus]
+repo = "krishnakumar4a4/krishnakumar4a4.github.io"
+repoID = "MDEwOlJlcG9zaXRvcnkxMDA3OTMxMTU="
+category = "Blog Comments"
+categoryID = "DIC_kwDOBgH7G84CUoxF"
+mapping = "title"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "top"
+theme = "light_high_contrast"
+lang = "en"
+loading = "lazy"
+
 [params]
   author = "Krishna Kumar Thokala"
   description = "I Experiment. I Build."

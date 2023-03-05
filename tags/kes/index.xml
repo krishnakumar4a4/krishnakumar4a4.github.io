@@ -14,7 +14,7 @@
       
       <guid>https://krishnakumar4a4.github.io/post/encrypted-minio-storage-with-kms/</guid>
       <description>Minio is an S3 compliant data storage service. It can be hosted on premises and even supports distribution across multiple nodes. To meet certain data protection regulations, data is required to be encrypted the moment it is written to disk. Minio supports two types of encryption schemes
- SSE-S3 (Server side encryption) — Encryption key is managed on server side typically using a KMS SSE-C (Client side encryption) — Encryption key is managed by clients and provided as request headers to Minio  Goal of this blog is to guide you through setting up Minio with server side encryption.</description>
+SSE-S3 (Server side encryption) — Encryption key is managed on server side typically using a KMS SSE-C (Client side encryption) — Encryption key is managed by clients and provided as request headers to Minio Goal of this blog is to guide you through setting up Minio with server side encryption.</description>
     </item>
     
   </channel>

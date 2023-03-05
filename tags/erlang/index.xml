@@ -14,8 +14,8 @@
       
       <guid>https://krishnakumar4a4.github.io/post/speakup-announcement/</guid>
       <description>I am a tech enthusiast and I love to attend lot of meetups, conferences, events etc. The reason I attend them is
-to get introduced to new technologies hear perspectives of people on technologies known to me Conference hall setup: Conference Hall Setup chuttersnap
-Usually be a sparsely distributed clusters of people sitting relaxedly all over.
+ to get introduced to new technologies hear perspectives of people on technologies known to me  Conference hall setup: Conference Hall Setup chuttersnap
+  Usually be a sparsely distributed clusters of people sitting relaxedly all over.
 Some of the talks I attended will be so immersive and I couldn’t afford having even a slighter distraction fearing I would loose context.</description>
     </item>
     
@@ -34,7 +34,7 @@ Some of the talks I attended will be so immersive and I couldn’t afford having
       <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/</guid>
-      <description>Key Takeaways Erlang provides lightweight processes, immutability, distribution with location transparency, message passing, supervision behaviors and many other high-level, dynamic features that make it great for fault-tolerant, highly available, and scalable systems. Unfortunately, Erlang is less than optimal at doing low-level stuff such as XML parsing, since dealing with anything that comes from outside of the Erlang VM into it is tedious For this kind of use cases, one could be tempted to consider a different language.</description>
+      <description>Key Takeaways  Erlang provides lightweight processes, immutability, distribution with location transparency, message passing, supervision behaviors and many other high-level, dynamic features that make it great for fault-tolerant, highly available, and scalable systems. Unfortunately, Erlang is less than optimal at doing low-level stuff such as XML parsing, since dealing with anything that comes from outside of the Erlang VM into it is tedious For this kind of use cases, one could be tempted to consider a different language.</description>
     </item>
     
     <item>
@@ -54,7 +54,7 @@ Erlang process scheduler: The whole Erlang beam machine runs as a single process
       
       <guid>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</guid>
       <description>If you know
-Erlang and wanted to know how easy is react-redux to learn, Start reading from “I am an Erlang developer and wanted to know about react-redux” React-Redux and wanted to dive into erlang world for greater good, start from erlang synopsis section below. I am an Erlang developer and wanted to know about react-redux: If you had some experience in using gen_servers and gen_event behaviors? Learning react-redux would be simple for you too, just like me.</description>
+ Erlang and wanted to know how easy is react-redux to learn, Start reading from “I am an Erlang developer and wanted to know about react-redux” React-Redux and wanted to dive into erlang world for greater good, start from erlang synopsis section below.  I am an Erlang developer and wanted to know about react-redux: If you had some experience in using gen_servers and gen_event behaviors? Learning react-redux would be simple for you too, just like me.</description>
     </item>
     
     <item>
@@ -66,7 +66,7 @@ Erlang and wanted to know how easy is react-redux to learn, Start reading from �
       <description>I had a great session with my team on Erlang behaviors and thought it would be worth blogging it. I have got chance to explain them about available erlang behaviors and how to choose and use them.
 1.gen_supervisor 2.gen_server 3.gen_event 4.gen_fsm
 When you want to employ a behavior in your applications, you should have a basic understanding of the below two types of functions.
-API → Exposed to the user for external control and to send events.</description>
+ API → Exposed to the user for external control and to send events.</description>
     </item>
     
     <item>
@@ -76,7 +76,7 @@ API → Exposed to the user for external control and to send events.</descriptio
       
       <guid>https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/</guid>
       <description>When you have good understanding on Erlang, you will inherently start to see other applications differently.
-You will have tendency to ask questions like what is the scalability? What is the uptime? How easy is the code upgrade? How much availability can be guaranteed? Would the choice of database can match the speed of your application? How easy is to make your application distributed? Most of all, Can it crash fast and recover fast?</description>
+ You will have tendency to ask questions like what is the scalability? What is the uptime? How easy is the code upgrade? How much availability can be guaranteed? Would the choice of database can match the speed of your application? How easy is to make your application distributed? Most of all, Can it crash fast and recover fast?</description>
     </item>
     
     <item>

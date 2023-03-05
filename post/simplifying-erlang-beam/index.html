@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>
+  
+     Simplifying Erlang Beam | 
+    Krishna Kumar T
+  
+</title><meta name="description" content="Simplifying Erlang Beam"><meta name="author" content="Krishna Kumar Thokala">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/favicon-32x32.png " sizes="32x32" type="image/png">
+<link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0c344b">
+<link rel="icon" href="/favicon.ico">
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism-okaidia.min.css">
+    
+
+
+
+    
+        
+            <link rel="stylesheet" href="/dist/main.37ab3f61b95417873748.min.css">
+        
+    
+
+
+
+
+<link rel="canonical" href="https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/"><meta property="og:title" content="Simplifying Erlang Beam" />
+<meta property="og:description" content="Simplifying Erlang Beam" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2017-05-12T09:43:12+05:30" />
+<meta property="article:modified_time" content="2017-05-12T09:43:12+05:30" />
+<meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/speakup-announcement/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/" /><meta property="og:see_also" content="https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/" />
+
+<meta itemprop="name" content="Simplifying Erlang Beam">
+<meta itemprop="description" content="Simplifying Erlang Beam"><meta itemprop="datePublished" content="2017-05-12T09:43:12+05:30" />
+<meta itemprop="dateModified" content="2017-05-12T09:43:12+05:30" />
+<meta itemprop="wordCount" content="1630">
+<meta itemprop="keywords" content="erlang," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Simplifying Erlang Beam"/>
+<meta name="twitter:description" content="Simplifying Erlang Beam"/>
+
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm" id="navbar-main-menu">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="https://krishnakumar4a4.github.io">Krishna Kumar T</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav ml-auto">
+                
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/post/">Posts</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/pictures/">Pictures</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/bookmarks/">Bookmarks</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/tweets/">Tweets</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/linkedin/">LinkedIn</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/team/">Team</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/tags/">Tags</a></li>
+                
+            
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    
+<main class="content-page container pt-7 pb-5">
+    
+    <div class="row">
+        <div class="col">
+            <article>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="meta text-muted mb-3">
+                            <p class="created text-muted text-uppercase font-weight-bold mb-1">May 12, 2017</p>
+                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>1630 words</span>
+                            <span><i class="fas fa-clock mr-2"></i>8 mins read</span>
+                        </div>
+
+                        <h1>Simplifying Erlang Beam</h1>
+
+                        <ul class="authors list-inline"><li class="list-inline-item mr-3">
+                    <div class="media author"><a href="/authors/krishna-kumar-thokala/" class="mr-3">
+                                    <picture>
+                                        <source srcset="/authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_64x0_resize_box_3.png 1x, /authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_128x0_resize_q100_box_3.png 2x, /authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_192x0_resize_q100_box_3.png 3x">
+                                        <img src="/authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_64x0_resize_box_3.png" class="rounded-circle" alt="Krishna Kumar Thokala">
+                                    </picture>
+                                </a><div class="media-body">
+                            <h5 class="name my-0"><a href="/authors/krishna-kumar-thokala/" class="small">Krishna Kumar Thokala</a>
+                            </h5><p class="social small text-muted">
+                                    <a href="https://twitter.com/@krishnakumart36">@KrishnaKumarT36</a>
+                                </p></div>
+                    </div>
+                </li></ul>
+                    </div>
+                </div><div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="content">
+                            <h2 id="light-weight-processes">Light weight processes:</h2>
+<p>All the Erlang code compiles to beam code and runs on the Erlang beam virtual machine. Nevertheless to say, it is a super powerful engine that can instantly creates and runs millions of processes with each process having a very minimal footprint size of 233 words. Each erlang process is like a green thread and shares nothing with siblings.</p>
+<h2 id="erlang-process-scheduler">Erlang process scheduler:</h2>
+<p>The whole Erlang beam machine runs as a single process at the underlying operating system level just like JVM. The beam machine is an efficient virtual machine which can take control over few or all the cores of the underlying physical machine and employs its own scheduler to efficiently manage the Erlang processes running upon them. Each Erlang process is allocated a reduction budget(around 2000) and the process is only allowed to run until the whole budget is burned. The burning happens when the process is being run for every line of instruction executed. How much budget that has to burn for every instruction executing is carefully calculated and enforced in the beam machine to allow fair scheduling for all processes in the beam machine. Although you can alter this budget by changing the priority of of process I.e more priority process gets more budget.</p>
+<h5 id="intrinsics">Intrinsics:</h5>
+<p>You can also run more than one scheduler per each core, a scheduler is essentially a thread at the operating system level. Bringing up more schedulers per each core mean that the same core is shared between those newly come up threads.</p>
+<p>To give a better clarity at the OS level, these scheduler threads run along with other OS level threads but doesn&rsquo;t exclusively take access of the cores. If there are more OS level threads sharing the same core, the beam schedulers gets less scheduling time by the operating system and hence slows down the beam machine. However, Beam machine can get more scheduling time from the operating system, if there are more schedulers started per core. But the downside is, you might accidentally add up an extra context switching burden along with 1000 other things the beam machine does. A trade-off should be carefully calculated depending on your usecase for a better performance.</p>
+<p>Just like the Linux kernel scheduler, each beam scheduler has a run queue that holds the set of processes about to run on the scheduler. And also, a global process is run to maintain balance across the scheduler run queues. Sometimes the beam schedulers, which are threads at the OS level would jump across the cores which consume significant CPU can be stopped by configuring the beam machine itself. Turning on/off the schedulers during idle time also consumed significant CPU in older versions of beam machine.But in the latest beam machines, the schedulers are always active and this behavior is again configurable which added a huge performance gain.</p>
+<h2 id="message-passing-is-justcopy">Message Passing is just copy:</h2>
+<p>When we dive deep into the internals of the beam machine, all the Erlang processes share the same heap space the operating system has allocated for the beam process. The data of each erlang process although physically exists in the same heap space but logically isolated. Hence message passing between Erlang processes is literally a copy from one logical address to another logical address and it is nothing like a network or socket or any kind of IPC mechanism. Hence it is inherently faster than any other IPC mechanism.</p>
+<h2 id="message-handling">Message handling:</h2>
+<p>Erlang strictly opposes the idea of shared memory and processes are communicated only with message passing. Within the beam machine, message passing is copying of message from one heap space of the process to other heap space. Whereas the message passing between two Erlang processes residing on two different physical machines happens through TCP communication. Each Erlang process has a message queue that stores all the incoming messages and does selective receive on top of it. Selective receive is only triggered whenever a new message comes into the queue. All the received messages are consumed sequentially in their order of arrival.</p>
+<h2 id="memory-allocation">Memory allocation:</h2>
+<p>The memory to the beam process is dynamically queried and allocated using a sophisticated memory allocation strategy. It itself deserves a special attention to look <a href="%22http://erlang.org/doc/man/erts_alloc.html%22">at</a>.</p>
+<h2 id="concurrent-gc">Concurrent GC:</h2>
+<p><a href="https://hamidreza-s.github.io/erlang%20garbage%20collection%20memory%20layout%20soft%20realtime/2015/08/24/erlang-garbage-collection-details-and-why-it-matters.html">Garbage collection happens for every process using a generational mark sweep garbage collecting algorithm</a>. As the Erlang process can start and run concurrently, so is the garbage collector. The data in the heap space is divided into young heap and old heap. Young heap is frequently garbage collected where as full sweep happens when the memory to be garbage collected exceeds a certain threshold.</p>
+<h5 id="intrinsics-1">Intrinsics:</h5>
+<p>Although the GC strategy seems to be similar to other VMs. Garbage is easier and faster to collect if there are no references/shared structures. Erlang is immutable and shares nothing.</p>
+<p>However we can also trigger garbage collection using erlang:garbage_collect function. But frequent fullsweep garbage collection may adversely impact the performance.</p>
+<h2 id="special-binary-handling">Special binary handling:</h2>
+<p>Apart from the on-heap memory which is the heap memory of individual processes, there is also an off-heap memory that can store larger binaries bigger than 64KB. Hence these binaries are reference counted and hence need not be garbage collected but just neglected when all the referenced processes exits. This is an extremely efficient way to share binaries between processes and also to garbage collect large binaries.</p>
+<h2 id="faster-in-memory-database">Faster In-memory database:</h2>
+<p>Erlang Term Storage(ETS) is faster in-memory database supported by erlang. It is basically a key-value store. ETS can hold multiple tables and they can be linked to processes and hence GC&rsquo;ed when the linked process dies. There are some special provisions like providing access control to designated processes and make the table live even if the owner/parent process is dead. All the ETS tables are maintained off-heap(outside of process heap). ETS tables are light weight and as fast as the processes can access them. They also provide configurable write and read concurrency for performance intensive applications. ETS tables itself can be directly used as caching layer without looking for any third party solutions. Also, supports disc persistence if needed, but will make it bit slower.</p>
+<h2 id="distributed-database">Distributed Database:</h2>
+<p>Mnesia is a distributed strongly consistent database. It has multiple options to allow data to be stored only on RAM(for faster access), on disc and also both. Each mnesia table is created using an erlang record structure as schema. Hence multiple similar records can be pushed into one table. All sorts of transactions, dirty operations, checkpoints can be done on this.</p>
+<h2 id="distribution">Distribution:</h2>
+<p>Erlang distribution is very efficient. Each host runs a epmd(erlang port mapper daemon) process which acts as a gateway for initial handshake between erlang nodes running on physically separated hosts on a network. Every erlang node registers themselves with epmd daemon when started with distributed parameters like &ldquo;-sname <!-- raw HTML omitted --> or -name <!-- raw HTML omitted -->&rdquo;. If one of the erlang nodes wants to communicate with another erlang node on a different host. The request first reaches the epmd of first host and which in turn it looks for other listening epmd daemons on the network. The other epmd daemon takes the message and invoke its local erlang node. Only the initial handshake happens through the epmd and then each of the erlang nodes themselves form a direct TCP socket connection between them by choosing random ports. epmd only kicks in if the connection is lost between the erlang nodes. epmd also responsible for monitoring the health of all the nodes and broadcasts their status to their connected nodes if they are down and also tries to re-establish the connection. All these things happen under the hood and user need not be worried about the communication strategies.</p>
+<h5 id="intrinsics-2">Intrinsics:</h5>
+<p>Although there are some practical limitations of erlang distribution in scale which I have explained it in a different article of mine with a practical example - <a href="https://medium.com/@krishna.thokala2010/be-on-your-best-erlang-behavior-f8b478ef14cd">Beauty and mystery of Erlang distribution</a></p>
+<h2 id="green-threads">Green threads:</h2>
+<p>Erlang leverages many-to-many mapping between OS level threads and erlang level processes. Each and every thread is mapped to a erlang scheduler. Erlang processes are again mapped across the available erlang schedulers. Problems like blocking IO is mitigated by using asynchronous IO mechanisms where a OS level thread is never blocked for IO but instead process it only when the response arrives. Since the whole erlang process scheduling is being done in the user space, which is extremely faster than the scheduling at the kernel space. Inside the beam machine, scheduling is also more fairer as predicting load of a erlang process is less cumbersome because of reduction budget principle for erlang processes.</p>
+<h2 id="dirty-schedulers">Dirty Schedulers:</h2>
+<p>Erlang supports NIF(Natively Implemented Function)s which allows us to call the C code directly from the erlang code. But erlang doesn&rsquo;t have scheduling control over these C functions as reduction budget can not be estimated for a piece of C code that is loaded by user into the system. Hence lot of effort is being undergone to find a solution for this. Dirty scheduling is one among them where NIFs are suspended at regular intervals to prevent any CPU hogging.</p>
+<h2 id="error-propagation">Error Propagation:</h2>
+<p>There are two ways spin off a new process in erlang. One is with linking and other is without linking.
+When multiple process are linked in a chain, if one process terminates abnormally, all connected processes will be terminated and garbage collected instantly.
+If the processes are not linked, it doesn&rsquo;t care about other process even if it dies.
+There is also third way called monitoring, where a new process is monitored of exit signals and the parent process can take decision of what to do for itself. In this case, parent process acts as supervisor of other processes. Hence leveraging the fault tolerance and fail fast.
+Error propagation is done through signals unlike message passing and is significantly faster and clean(in terms of GC).</p>
+<h4 id="thank-you">Thank You!!</h4>
+
+                        </div><div class="tags my-3"><a class="badge badge-pill badge-light border mr-2" href="/tags/erlang">
+                                    <i class="fas fa-tag mr-2"></i>erlang
+                                </a></div><ul class="share nav my-3 justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fkrishnakumar4a4.github.io%2fpost%2fsimplifying-erlang-beam%2f&text=Simplifying%20Erlang%20Beam">
+              <i class="fa-fw fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fkrishnakumar4a4.github.io%2fpost%2fsimplifying-erlang-beam%2f&title=Simplifying%20Erlang%20Beam">
+                <i class="fa-fw fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkrishnakumar4a4.github.io%2fpost%2fsimplifying-erlang-beam%2f&t=Simplifying%20Erlang%20Beam">
+                <i class="fa-fw fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://reddit.com/submit?url=https%3a%2f%2fkrishnakumar4a4.github.io%2fpost%2fsimplifying-erlang-beam%2f&title=Simplifying%20Erlang%20Beam">
+                <i class="fa-fw fab fa-reddit-alien"></i>
+            </a>
+        </li>
+    </nav>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        
+                    </div>
+                </div><div class="row justify-content-center my-3">
+                    <div class="col-lg-8">
+                        <div id="commento"></div>
+                        <script src="https://commento.io"></script>
+                    </div>
+                </div></article>
+        </div>
+    </div>
+
+    <div class="related-content row mt-5 row-cols-1 row-cols-lg-3"><div class="col mb-3">
+                <div class="card h-100">
+    
+    <a href="/post/react-redux-erlang-analogy/" class="d-block"><img data-src="/images/react-redux-erlang-analogy_huf96a71f846ad6640b5b9d6632944c4a2_143871_700x350_fill_box_smart1_3.png" class="card-img-top mx-auto d-block" alt="React-Redux and Erlang — A Simple analogy"><div class="card-body">
+            <h4 class="card-title">React-Redux and Erlang — A Simple analogy</h4>
+            <p class="card-text text-muted text-uppercase">May 1, 2017</p>
+            <div class="card-text">
+                If you know
+ Erlang and wanted to know how easy is react-redux to learn, Start reading from “I am an Erlang developer and wanted to know about react-redux” React-Redux and wanted to dive into erlang world for greater good, start from erlang synopsis section below.  I am an Erlang developer and wanted to know about react-redux: If you had some experience in using gen_servers and gen_event behaviors? Learning react-redux would be simple for you too, just like me.
+            </div>
+        </div>
+    </a>
+</div>
+
+            </div><div class="col mb-3">
+                <div class="card h-100">
+    
+    <a href="/post/be-on-your-best-erlang-behavior/" class="d-block"><img data-src="/images/gen_fsm_erlang_hu3c6d821423668d296ab688d77730e1b4_33138_700x350_fill_q75_box_smart1.jpeg" class="card-img-top mx-auto d-block" alt="Be on your best Erlang behavior"><div class="card-body">
+            <h4 class="card-title">Be on your best Erlang behavior</h4>
+            <p class="card-text text-muted text-uppercase">April 1, 2017</p>
+            <div class="card-text">
+                I had a great session with my team on Erlang behaviors and thought it would be worth blogging it. I have got chance to explain them about available erlang behaviors and how to choose and use them.
+1.gen_supervisor 2.gen_server 3.gen_event 4.gen_fsm
+When you want to employ a behavior in your applications, you should have a basic understanding of the below two types of functions.
+ API → Exposed to the user for external control and to send events.
+            </div>
+        </div>
+    </a>
+</div>
+
+            </div><div class="col mb-3">
+                <div class="card h-100">
+    
+    <a href="/post/know-why-you-may-choose-erlang/" class="d-block"><div class="card-body">
+            <h4 class="card-title">Know why you may choose Erlang</h4>
+            <p class="card-text text-muted text-uppercase">April 1, 2017</p>
+            <div class="card-text">
+                When you have good understanding on Erlang, you will inherently start to see other applications differently.
+ You will have tendency to ask questions like what is the scalability? What is the uptime? How easy is the code upgrade? How much availability can be guaranteed? Would the choice of database can match the speed of your application? How easy is to make your application distributed? Most of all, Can it crash fast and recover fast?
+            </div>
+        </div>
+    </a>
+</div>
+
+            </div></div>
+    <footer>
+        <script src="https://giscus.app/client.js"
+    data-repo="krishnakumar4a4/krishnakumar4a4.github.io"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxMDA3OTMxMTU="
+    data-category="Blog Comments"
+    data-category-id="DIC_kwDOBgH7G84CUoxF"
+    data-mapping="title"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light_high_contrast"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+  <br/>
+  <div style="border: 2px solid black; 
+  border-radius: 5px; padding: 2px 5px 0px 5px;
+  width: fit-content; 
+  margin-left: auto; margin-right: 0;">
+    <p style="text-align: right">
+    <span style="font-family: sans-serif;font-size: 14px;"> Alternatively, you can  </span>
+    <button style="background:#055d20;
+    font-size: 14px;display: inline-block;
+    border-bottom-color: #013d14;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+    border-radius: 5px" onclick="window.location.href = 'https://github.com/krishnakumar4a4/krishnakumar4a4.github.io/discussions/categories/blog-comments';">
+    Comment directly on Github Discussion
+    </button>
+    <br/>
+    <span style="font-family: sans-serif;font-size: 14px;"><span>#️⃣</span>
+    <span style="color: #055d20">Simplifying Erlang Beam</span>
+    </span>
+    </p>
+  </div>
+    </footer>
+</main>
+
+
+    <footer class="footer text-center bg-dark py-6">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://krishnakumar4a4.github.io/index.xml" rel="alternate" type="application/rss+xml" class="icons d-block">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a></li><li class="list-inline-item">
+                        <a href="mailto:krishna.thokala2010@gmail.com" class="icons d-block">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li><li class="list-inline-item">
+                            <a href="https://github.com/krishnakumar4a4" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://keybase.io/krishnakumart" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-keybase fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/krishnakumarthokala/" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://fsmi.social/krishnakumart" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://krishnakumart.medium.com/" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://reddit.com/u/krishnakumart" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://twitter.com/KrishnaKumarT36" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                </ul>
+
+                <p class="text-muted">
+                    
+                        Copyright &copy; Krishna Kumar T 2023
+                    
+                </p>
+
+                <p class="text-muted">
+                Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with <a href="https://github.com/puresyntax71/hugo-theme-chunky-poster" target="_blank">Chunky Poster</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+    
+        
+            <script src="/dist/main.d608eadfe5ac0688902e.min.js"></script>
+        
+    
+
+
+
+<script>
+    window.Prism = window.Prism || {};
+    window.Prism.manual = true;
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+
+
+
+
+    
+</body>
+</html>

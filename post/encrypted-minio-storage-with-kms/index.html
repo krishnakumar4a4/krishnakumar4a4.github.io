@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>
+  
+     Encrypted Minio Storage with KMS Setup | 
+    Krishna Kumar T
+  
+</title><meta name="description" content="Encrypted Minio Storage with KMS Setup"><meta name="author" content="Krishna Kumar Thokala">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/favicon-32x32.png " sizes="32x32" type="image/png">
+<link rel="icon" href="/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0c344b">
+<link rel="icon" href="/favicon.ico">
+
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/themes/prism-okaidia.min.css">
+    
+
+
+
+    
+        
+            <link rel="stylesheet" href="/dist/main.37ab3f61b95417873748.min.css">
+        
+    
+
+
+
+
+<link rel="canonical" href="https://krishnakumar4a4.github.io/post/encrypted-minio-storage-with-kms/"><meta property="og:title" content="Encrypted Minio Storage with KMS Setup" />
+<meta property="og:description" content="Encrypted Minio Storage with KMS Setup" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://krishnakumar4a4.github.io/post/encrypted-minio-storage-with-kms/" /><meta property="og:image" content="https://krishnakumar4a4.github.io/images/minio-kes-vault.jpg" /><meta property="og:image" content="https://krishnakumar4a4.github.io/images/app-kes-kms.png" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-02-06T00:00:00+05:30" />
+<meta property="article:modified_time" content="2021-02-06T00:00:00+05:30" />
+
+
+<meta itemprop="name" content="Encrypted Minio Storage with KMS Setup">
+<meta itemprop="description" content="Encrypted Minio Storage with KMS Setup"><meta itemprop="datePublished" content="2021-02-06T00:00:00+05:30" />
+<meta itemprop="dateModified" content="2021-02-06T00:00:00+05:30" />
+<meta itemprop="wordCount" content="3411"><meta itemprop="image" content="https://krishnakumar4a4.github.io/images/minio-kes-vault.jpg"><meta itemprop="image" content="https://krishnakumar4a4.github.io/images/app-kes-kms.png">
+<meta itemprop="keywords" content="kubernetes,minio,KMS,encryption,storage,hashicorp vault,KES,block storage,s3," /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://krishnakumar4a4.github.io/images/minio-kes-vault.jpg"/>
+
+<meta name="twitter:title" content="Encrypted Minio Storage with KMS Setup"/>
+<meta name="twitter:description" content="Encrypted Minio Storage with KMS Setup"/>
+
+</head>
+<body>
+    
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top shadow-sm" id="navbar-main-menu">
+    <div class="container">
+        <a class="navbar-brand font-weight-bold" href="https://krishnakumar4a4.github.io">Krishna Kumar T</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav ml-auto">
+                
+                    <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/post/">Posts</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/projects/">Projects</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/pictures/">Pictures</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/bookmarks/">Bookmarks</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/tweets/">Tweets</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/linkedin/">LinkedIn</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/team/">Team</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+                
+                    <li class="nav-item"><a class="nav-link" href="/tags/">Tags</a></li>
+                
+            
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+    
+<main class="content-page container pt-7 pb-5">
+    
+    <div class="row">
+        <div class="col">
+            <article>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="meta text-muted mb-3">
+                            <p class="created text-muted text-uppercase font-weight-bold mb-1">February 6, 2021</p>
+                            <span class="mr-2"><i class="fas fa-book-open mr-2"></i>3411 words</span>
+                            <span><i class="fas fa-clock mr-2"></i>17 mins read</span>
+                        </div>
+
+                        <h1>Encrypted Minio Storage with KMS Setup</h1>
+
+                        <ul class="authors list-inline"><li class="list-inline-item mr-3">
+                    <div class="media author"><a href="/authors/krishna-kumar-thokala/" class="mr-3">
+                                    <picture>
+                                        <source srcset="/authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_64x0_resize_box_3.png 1x, /authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_128x0_resize_q100_box_3.png 2x, /authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_192x0_resize_q100_box_3.png 3x">
+                                        <img src="/authors/krishna-kumar-thokala/krishnakumart_hu508b74bb11feca0be536ac3c830fb287_817534_64x0_resize_box_3.png" class="rounded-circle" alt="Krishna Kumar Thokala">
+                                    </picture>
+                                </a><div class="media-body">
+                            <h5 class="name my-0"><a href="/authors/krishna-kumar-thokala/" class="small">Krishna Kumar Thokala</a>
+                            </h5><p class="social small text-muted">
+                                    <a href="https://twitter.com/@krishnakumart36">@KrishnaKumarT36</a>
+                                </p></div>
+                    </div>
+                </li></ul>
+                    </div>
+                </div><div class="row justify-content-center mb-3">
+                                <div class="col-lg-10">
+                                    <img data-src="/images/minio-kes-vault_hu7b53bb018ae2d9ecdba6531d411064ed_20412_900x500_fit_q75_box.jpg" class="img-fluid rounded mx-auto d-block" alt="Encrypted Minio Storage with KMS Setup">
+                                </div>
+                            </div><div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="content">
+                            <p>Minio is an S3 compliant data storage service. It can be hosted on premises and even supports distribution across multiple nodes. To meet certain data protection regulations, data is required to be encrypted the moment it is written to disk. Minio supports two types of encryption schemes</p>
+<ul>
+<li>SSE-S3 (Server side encryption) — Encryption key is managed on server side typically using a KMS</li>
+<li>SSE-C (Client side encryption) — Encryption key is managed by clients and provided as request headers to Minio</li>
+</ul>
+<p>Goal of this blog is to guide you through setting up Minio with server side encryption. For server side encryption a KMS(key management system) is required. We have chosen Hashicorp vault as KMS here. Minio also supports a Key Encryption Service(KES) which is a stateless cryptographic operations service for Minio with the keys provided from KMS.</p>
+<p>KES supports only one form authentication currently which is mTLS. Minio authenticates itself to KES with client TLS certificate for every connection. At a time, KES also supports different policies to be applied for different clients(Eg: Minio). KES acts like a lightweight gateway to use KMS thus abstracting out KMS footprint to clients.</p>
+<p>This blogs covers following in step wise manner:</p>
+<ol>
+<li>Concepts Overview — Some of my exploration notes</li>
+<li>Generate a root CA certificate pair</li>
+<li>Hashicorp vault setup</li>
+<li>Minio KES setup</li>
+<li>Minio Standalone Setup</li>
+<li>Minio Distributed Mode Setup</li>
+<li>Minio Benchmarking using S3 benchmark</li>
+<li>Additional information</li>
+</ol>
+<p>Points 2 through 5 provides information on Minio Standalone setup. Where as Point 6 is required if we want to turn the Minio setup into distributed mode.</p>
+<p>Point 7 discusses about benchmarking and how to read the results.</p>
+<p>Point 8 is some additional information required especially for Devops or Sys Admins.</p>
+<blockquote>
+<p>If you want to read the same blog on notion — <a href="https://www.notion.so/Published-Encrypted-Minio-Storage-Setup-6ff3e91640b84ba59a6466ac95656503">https://www.notion.so/Published-Encrypted-Minio-Storage-Setup-6ff3e91640b84ba59a6466ac95656503</a></p>
+</blockquote>
+<h1 id="1-concepts-overview">1. Concepts Overview:</h1>
+<h3 id="minio---kubernetes-nativehigh-performance-object-storage">Minio - Kubernetes Native,High Performance Object Storage</h3>
+<ul>
+<li>Claims 183GB/s (Read) and 171GB/s (Write) speed on standard hardware</li>
+<li>Can be federated with other minio clusters spanning multiple datacenters</li>
+<li>Native to kubernetes</li>
+<li>MINIO S3 Gateway (Microsoft Azure uses it) and more compatible S3 API</li>
+</ul>
+<h4 id="security-overview">Security Overview:</h4>
+<p>Master Key → generates External Key(EK)(Data Key) → derives Key Encryption Key(KEK) → encrypts Object Encryption Key(OEK) → stored as part of object metadata</p>
+<p>OEK is used in Secure channel to encrypt 65536 bytes at a time with unique secret key derived from OEK and with unique nonce ⇒ PRF(OEK, part_no)</p>
+<ul>
+<li>OEK is generated and encrypted with KEK. Encrypted OEK is part of object metadata</li>
+<li>KEK is always derived from PRF(EK, IV, context_values). IV, context_values, Master Key ID and encrypted EK are part of object metadata</li>
+<li>EK is generated from master key from KMS</li>
+</ul>
+<blockquote>
+<p>Ref: <a href="https://docs.min.io/docs/minio-security-overview.html">https://docs.min.io/docs/minio-security-overview.html</a></p>
+</blockquote>
+<h3 id="hashicorp-vault">Hashicorp Vault</h3>
+<h4 id="sealunseal">Seal/Unseal:</h4>
+<ul>
+<li>Shamir seal</li>
+<li>This is the unseal process: the shards are added one at a time (in any order) until enough shards are present to reconstruct the key and decrypt the master key.</li>
+</ul>
+<h4 id="leaserenewrevoke">Lease/Renew/Revoke:</h4>
+<ul>
+<li>Vault promises that the data will be valid for the given duration, or Time To Live (TTL).
+consumers of secrets need to check in with Vault routinely to either renew the lease (if allowed) or request a replacement secret</li>
+<li>To manually revoke → vault lease revoke</li>
+<li>To renew lease from current time → vault lease renew -increment=3600 my-lease-id</li>
+<li>Revoke with prefix → vault lease revoke -prefix aws/</li>
+</ul>
+<h4 id="authentication">Authentication:</h4>
+<ul>
+<li>Client should be authenticated and gets a token with attached policies</li>
+<li>Enabling auth method → vault write sys/auth/my-auth type=userpass</li>
+<li>Follow docs</li>
+</ul>
+<h4 id="tokens">Tokens:</h4>
+<ul>
+<li>Tokens maps to policies</li>
+<li>Root tokens are generated in 3 ways — init, using another root token and using generate-root</li>
+<li>Root tokens should be revoked as soon as initial setup/debug/exploration is done</li>
+<li>Generate new root token with key shards → vault operator generate-root</li>
+<li>Child tokens are revoked when parent is revoked, whereas orphan tokens can be created to make sure only that token is revoked but not the children.</li>
+<li>Token accessors are used to renew, revoke, lookup props and caps.</li>
+<li>Tokens can have TTLs except root(TTL=0 is infinite). Tokens TTLs can be renewed with vault token renew</li>
+<li>All Tokens have hard MAX TTL of 32 days. For long living connections use periodic tokens(renew them frequently type). Tokens can be renewed with token store roles, using appRole, have root token with auth/token/create endpoint</li>
+</ul>
+<h4 id="policies">Policies:</h4>
+<ul>
+<li>Refer — <a href="https://www.vaultproject.io/docs/concepts/policies">https://www.vaultproject.io/docs/concepts/policies</a></li>
+<li>Policy-Authorization Workflow</li>
+<li>Built in policies — default(attached with every token, cannot be deleted by can be excluded while token creation ) and root(available and cannot be deleted)</li>
+<li>Root tokens are created on initialization and should be revoked before putting in prod</li>
+<li>List policies → vault read sys/policy</li>
+<li>create policy → vault policy write policy-name policy-file.hcl</li>
+<li>update policy → vault write sys/policy/my-existing-policy <a href="mailto:policy=@updated-policy.json">policy=@updated-policy.json</a></li>
+<li>delete policy → vault delete sys/policy/policy-name</li>
+<li>Associating tokens with policy on create → vault token create -policy=dev-readonly -policy=logs</li>
+</ul>
+<h4 id="high-availability-mode">High availability mode:</h4>
+<ul>
+<li>support storage backend to get high HA mode</li>
+<li>By default HA mode is turned. In general, the bottleneck of Vault is the data store itself, not Vault core. For example: to increase the scalability of Vault with Consul, you would generally scale Consul instead of Vault</li>
+</ul>
+<h4 id="gpg-and-keybase-support">GPG and keybase support:</h4>
+<ul>
+<li>On initialisation, the unseal keys generated can be encrypted with GPG public keys of corresponding users and only private key of that user can be used to decrypt it. This is useful when the terminal output is eavesdropped.</li>
+<li>Below command ensures encryption with GPG keys
+<code>vault operator init -key-shares=3 -key-threshold=2 \\ -pgp-keys=&quot;jeff.asc,vishal.asc,seth.asc&quot;</code></li>
+<li>Unsealing with GPG key → <code>echo “wcBMA37…” | base64 — decode | gpg -dq</code></li>
+</ul>
+<h3 id="kes-server">KES Server</h3>
+<ul>
+<li>Ref: <a href="https://blog.min.io/introducing-kes/">https://blog.min.io/introducing-kes/</a></li>
+<li>Responsible for cryptographic operations, thus only delegating master key storage to KMS</li>
+<li>Stateless and can scale very well</li>
+<li>Pros — Simple, secure(with TLS avoids username and password)</li>
+</ul>
+<h4 id="pre-requisites-for-setup">Pre-Requisites for Setup:</h4>
+<ul>
+<li>Certificates for KMS and KES</li>
+</ul>
+<h1 id="2-generate-a-root-ca-certificate-pair">2. Generate a Root CA certificate pair</h1>
+<ol>
+<li>Create a ca-config.json CA configuration file</li>
+</ol>
+<pre><code class="language-json">{
+  &quot;CN&quot;: &quot;MyCompany&quot;,
+  &quot;signing&quot;: {
+    &quot;default&quot;: {
+      &quot;expiry&quot;: &quot;8760h&quot;
+    },
+    &quot;profiles&quot;: {
+      &quot;server&quot;: {
+        &quot;usages&quot;: [
+          &quot;signing&quot;,
+          &quot;key encipherment&quot;,
+          &quot;server auth&quot;,
+          &quot;client auth&quot;
+        ],
+        &quot;expiry&quot;: &quot;8760h&quot;
+      }
+    }
+  }
+</code></pre>
+<ol start="2">
+<li>Create a ca-csr.json self signed certificate signing request file</li>
+</ol>
+<pre><code class="language-json">## Content of ca-csr.json
+{
+	  &quot;CN&quot;: &quot;MyCompany&quot;,
+    &quot;key&quot;: {
+        &quot;algo&quot;: &quot;rsa&quot;,
+        &quot;size&quot;: 2048
+    },
+    &quot;names&quot;:[{
+	    &quot;C&quot;: &quot;INDIA&quot;,
+	    &quot;ST&quot;: &quot;MyState&quot;,
+	    &quot;L&quot;: &quot;MyCity&quot;,
+	    &quot;O&quot;: &quot;MyCompany&quot;,
+	    &quot;OU&quot;: &quot;MyUnit&quot;
+	  }]
+}
+</code></pre>
+<ol start="3">
+<li>Generate certificates</li>
+</ol>
+<pre><code class="language-bash">$ ./cfssl gencert -initca ca-csr.json | ../cfssljson -bare ca
+## Generates 3 files
+- ca.pem # public certificate
+- ca-key.pem # private key
+- ca.csr # certificate signing reque
+</code></pre>
+<ol start="4">
+<li>You can also configure ca certificate at node level</li>
+</ol>
+<ul>
+<li>copy ca.pem to system trust store</li>
+<li>run update-ca-trust command</li>
+</ul>
+<h1 id="3-hashicorp-vault-setup">3. Hashicorp vault setup</h1>
+<p>Generate TLS certificates to access vault from KES: vault.sample-ns.svc.cluster.local</p>
+<ol>
+<li>Create server.json file with supported domain names</li>
+</ol>
+<pre><code class="language-json">{
+    &quot;CN&quot;: &quot;MyCompany&quot;,
+    &quot;hosts&quot;: [
+        &quot;vault.sample-ns.svc.cluster.local&quot;,
+        &quot;vault.sample-ns.pod.cluster.local&quot;,
+        &quot;vault.sample-ns&quot;,
+    ],
+    &quot;key&quot;: {
+        &quot;algo&quot;: &quot;rsa&quot;,
+        &quot;size&quot;: 2048
+    },
+    &quot;names&quot;:[{
+	    &quot;C&quot;: &quot;INDIA&quot;,
+	    &quot;ST&quot;: &quot;MyState&quot;,
+	    &quot;L&quot;: &quot;MyCity&quot;,
+	    &quot;O&quot;: &quot;MyCompany&quot;,
+	    &quot;OU&quot;: &quot;MyUnit&quot;
+	  }]
+}
+</code></pre>
+<ol start="2">
+<li>Run the command to generate certs</li>
+</ol>
+<pre><code class="language-bash">cfssl gencert -ca=ca.pem -ca-key=ca-key.pem -config=ca-config.json -profile=server server.json | cfssljson -bare server
+## Generates 3 files
+- server.pem # public certificate
+- server-key.pem # private certificate
+- server.csr # certificate signing request
+</code></pre>
+<h4 id="create-vault-configjson">Create vault-config.json:</h4>
+<pre><code class="language-json">{
+   &quot;api_addr&quot;: &quot;&lt;https://0.0.0.0:8200&gt;&quot;,
+   &quot;backend&quot;: {
+     &quot;file&quot;: {
+       &quot;path&quot;: &quot;file&quot;
+     }
+   },
+  &quot;default_lease_ttl&quot;: &quot;168h&quot;,
+  &quot;max_lease_ttl&quot;: &quot;720h&quot;,
+  &quot;listener&quot;: {
+    &quot;tcp&quot;: {
+      &quot;address&quot;: &quot;0.0.0.0:8200&quot;,
+      &quot;tls_cert_file&quot;: &quot;server.pem&quot;,
+      &quot;tls_key_file&quot;: &quot;server-key.pem&quot;,
+      &quot;tls_min_version&quot;: &quot;tls12&quot;
+    }
+  }
+}
+</code></pre>
+<h4 id="start-vault">Start vault:</h4>
+<pre><code class="language-bash"># Starts up vault server on https://0.0.0.0:8200
+./vault server -config vault-config.json
+</code></pre>
+<h4 id="configure-vault-for-kes">Configure Vault for KES:</h4>
+<ol>
+<li>Create a kes-policy.hcl policy file for KES</li>
+</ol>
+<pre><code class="language-yaml">path &quot;kv/*&quot; {
+     capabilities = [ &quot;create&quot;, &quot;read&quot;, &quot;delete&quot; ]
+}
+</code></pre>
+<ol start="2">
+<li>Initialise Vault</li>
+</ol>
+<pre><code class="language-bash">$ export VAULT_SKIP_VERIFY=true
+##########################
+$ ./vault operator init
+Unseal Key 1: JGDVZdF1f9UKYxYvIiW/tgfB24StDcTevJzzWX0K+TAj
+Unseal Key 2: USjqCkON4/gn/oX2PzU1iz6STLuBohf14aP0GpzP+rge
+Unseal Key 3: JEX0IJMOEMMwX2Fbld3IwkNLd1OqIU3OUQfSj7YQkfcL
+Unseal Key 4: TzxJ5GJuHn4sA4NQDr/BWNKsXhBtO5FjqfJoV48cbYes
+Unseal Key 5: bz+kUh5iw/Fakz9aUVP1UWJ+VvQDC3tLrjiSZ8LFkdgg
+Initial Root Token: s.CG8JQskBbOVz43Vn9pvE7bgq
+Vault initialized with 5 key shares and a key threshold of 3. Please securely
+distribute the key shares printed above. When the Vault is re-sealed,
+restarted, or stopped, you must supply at least 3 of these keys to unseal it
+before it can start servicing requests.
+Vault does not store the generated master key. Without at least 3 key to
+reconstruct the master key, Vault will remain permanently sealed!
+It is possible to generate new unseal keys, provided you have a quorum of
+existing unseal keys shares. See &quot;vault operator rekey&quot; for more information.
+##########################
+$ ./vault operator unseal JGDVZdF1f9UKYxYvIiW/tgfB24StDcTevJzzWX0K+TAj &amp;&amp; ./vault operator unseal JEX0IJMOEMMwX2Fbld3IwkNLd1OqIU3OUQfSj7YQkfcL &amp;&amp; ./vault operator unseal TzxJ5GJuHn4sA4NQDr/BWNKsXhBtO5FjqfJoV48cbYes
+Key                Value
+---                -----
+Seal Type          shamir
+Initialized        true
+Sealed             true
+Total Shares       5
+Threshold          3
+Unseal Progress    1/3
+Unseal Nonce       675f42c6-978d-85bb-10db-c6fb1f591743
+Version            1.5.4
+HA Enabled         false
+Key                Value
+---                -----
+Seal Type          shamir
+Initialized        true
+Sealed             true
+Total Shares       5
+Threshold          3
+Unseal Progress    2/3
+Unseal Nonce       675f42c6-978d-85bb-10db-c6fb1f591743
+Version            1.5.4
+HA Enabled         false
+Key             Value
+---             -----
+Seal Type       shamir
+Initialized     true
+Sealed          false
+Total Shares    5
+Threshold       3
+Version         1.5.4
+Cluster Name    vault-cluster-d954d2ef
+Cluster ID      81d91296-59dd-4048-0969-309439d16b2e
+HA Enabled      false
+##########################
+$ export VAULT_TOKEN=s.CG8JQskBbOVz43Vn9pvE7bgq
+$ export VAULT_SKIP_VERIFY=true
+$ ./vault secrets enable kv
+# approle allows authentication and binds to a policy
+$ ./vault auth enable approle
+$ ./vault policy write kes-policy ./kes-policy.hcl
+$ ./vault write auth/approle/role/kes-role token_num_uses=0  secret_id_num_uses=0  period=5m
+$ ./vault write auth/approle/role/kes-role policies=kes-policy
+$ ./vault read auth/approle/role/kes-role/role-id
+$ ./vault write -f auth/approle/role/kes-role/secret-id
+</code></pre>
+<h1 id="4-minio-kes-setup">4. Minio KES setup</h1>
+<figure class="figure">
+    <a href="/images/app-kes-kms.png" class="d-block" data-toggle="lightbox" data-gallery="post-gallery">
+        <img src="/images/app-kes-kms.png"class="figure-img img-fluid"
+        /> 
+    </a>
+</figure>
+
+<h4 id="generate-tls-certificate-to-access-kes-from-minio">Generate TLS certificate to access KES from Minio:</h4>
+<ol>
+<li>Create server.json file with supported domain names</li>
+</ol>
+<pre><code class="language-json">{
+    &quot;CN&quot;: &quot;MyCompany&quot;,
+    &quot;hosts&quot;: [
+        &quot;minio-kes.sample-ns.svc.cluster.local&quot;,
+        &quot;minio-kes.sample-ns.pod.cluster.local&quot;,
+        &quot;minio-kes.sample-ns&quot;,
+    ],
+    &quot;key&quot;: {
+        &quot;algo&quot;: &quot;rsa&quot;,
+        &quot;size&quot;: 2048
+    },
+    &quot;names&quot;:[{
+	    &quot;C&quot;: &quot;INDIA&quot;,
+	    &quot;ST&quot;: &quot;MyState&quot;,
+	    &quot;L&quot;: &quot;MyCity&quot;,
+	    &quot;O&quot;: &quot;MyCompany&quot;,
+	    &quot;OU&quot;: &quot;MyUnit&quot;
+	  }]
+}
+</code></pre>
+<ol start="2">
+<li>Run the command to generate certs:</li>
+</ol>
+<pre><code class="language-bash">$ cfssl gencert -ca=ca.pem -ca-key=ca-key.pem -config=ca-config.json -profile=server server.json | cfssljson -bare server
+## Generates 3 files
+- server.pem # public certificate
+- server-key.pem # private certificate
+- server.csr # certificate signing request
+</code></pre>
+<h4 id="generate-app-identity-for-minio-using-kes-client">Generate app identity for Minio using KES client:</h4>
+<pre><code class="language-bash">$ ./kes tool identity new --key=app.key --cert=app.cert app
+$ ./kes tool identity of app.cert
+$ export APP_IDENTITY=$(./kes tool identity of app.cert)
+</code></pre>
+<h4 id="create-server-configyml">Create server-config.yml:</h4>
+<pre><code class="language-yaml">address: 0.0.0.0:7373
+root:    disabled  # We disable the root identity since we don't need it in this guide
+tls:
+  key:  server-key.pem
+  cert: server.pem
+policy:
+  my-app:
+    paths:
+    - /v1/key/create/my-app*
+    - /v1/key/generate/my-app*
+    - /v1/key/decrypt/my-app*
+    identities:
+    - ${APP_IDENTITY}
+keys:
+  vault:
+    endpoint: &lt;https://vault.sample-ns:8200&gt;
+    approle:
+      id:     &quot;70bd11f5-2104-e4c0-8dbc-48f9066218ce&quot; # Your AppRole ID
+      secret: &quot;3a06337c-0163-4c82-e81f-9ec9dce9cf5b&quot; # Your AppRole Secret ID
+      retry:  15s
+    status:
+      ping: 10s
+    tls:
+      ca: ca.pem # Since we use self-signed certificates
+</code></pre>
+<h4 id="start-kes">Start KES:</h4>
+<pre><code class="language-bash">$ ./kes server --config=server-config.yml --auth=off
+</code></pre>
+<h4 id="verify-kes-to-vault-interaction">Verify KES to Vault interaction:</h4>
+<pre><code class="language-bash">$ export KES_SERVER=https://minio-kes.sample-ns.svc.cluster.local:7373
+$ export KES_CLIENT_CERT=app.cert
+$ export KES_CLIENT_KEY=app.key
+$ ./kes key create my-app-key -k
+$ ./vault kv list kv
+$ ./kes key derive my-app-key -k
+$ ./vault kv get kv/my-app-key
+</code></pre>
+<h1 id="5-minio-standalone-setup">5. Minio Standalone Setup</h1>
+<h4 id="minio-startup-configuration">Minio Startup configuration:</h4>
+<pre><code class="language-bash">$ export MINIO_KMS_KES_ENDPOINT=https://minio-kes.sample-ns
+svc.cluster.local:7373
+$ export MINIO_KMS_KES_KEY_FILE=app.key
+$ export MINIO_KMS_KES_CERT_FILE=app.cert
+$ export MINIO_KMS_KES_KEY_NAME=my-app-key
+$ MINIO_ACCESS_KEY=minioadmin MINIO_SECRET_KEY=minioadmin ./minio server minio-data
+# Place CA certs for minio communication to external services
+$ cp ca.pem ~/.minio/certs/CAs/
+</code></pre>
+<h4 id="minio-clientmc">Minio Client(mc):</h4>
+<pre><code class="language-bash">$ ./mc alias set myminio [&lt;http://127.0.0.1:9000&gt;](&lt;http://127.0.0.1:9000/&gt;) minioadmin minioadmin
+# Set policy to a bucket
+$ ./mc policy set upload myminio/test
+# Setup auto encryption on bucket
+$ ./mc encrypt set sse-s3 myminio/test
+# verify if encryption is enabled on a bucket
+$ ./mc encrypt info myminio/bucket/
+</code></pre>
+<h1 id="6-minio-distributed-mode-setu">6. Minio Distributed Mode Setu</h1>
+<blockquote>
+<p>Generated template from <a href="https://min.io/download#/kubernetes">https://min.io/download#/kubernetes</a></p>
+</blockquote>
+<p>Below configuration is for 4 nodes with four drive paths(1 path on each no)</p>
+<pre><code class="language-yaml">apiVersion: v1
+kind: Service
+metadata:
+  name: minio
+  labels:
+    app: minio
+spec:
+  clusterIP: None
+  ports:
+    - port: 9000
+      name: minio
+  selector:
+    app: minio
+---
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+	namespace: sample-ns
+  name: minio
+spec:
+  serviceName: minio
+  replicas: 4
+  template:
+    metadata:
+      labels:
+        app: minio
+    spec:
+      containers:
+      - name: minio
+        env:
+        - name: MINIO_ACCESS_KEY
+          value: &quot;minioadmin&quot;
+        - name: MINIO_SECRET_KEY
+          value: &quot;minioadmin&quot;
+        image: minio/minio
+        args:
+        - server
+        - http://minio-{0...3}.minio.sample-ns.svc.cluster.local/data
+        ports:
+        - containerPort: 9000
+        # These volume mounts are persistent. Each pod in the PetSet
+        # gets a volume mounted based on this field.
+        volumeMounts:
+        - name: data
+          mountPath: /data
+  # These are converted to volume claims by the controller
+  # and mounted at the paths mentioned above.
+  volumeClaimTemplates:
+  - metadata:
+      name: data
+    spec:
+      accessModes:
+        - ReadWriteOnce
+      resources:
+        requests:
+          storage: 5Gi
+      # Uncomment and add storageClass specific to your requirements below. Read more &lt;https://kubernetes.io/docs/concepts/storage/persistent-volumes/#class-1&gt;
+      #storageClassName:
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: minio-service
+spec:
+  type: LoadBalancer
+  ports:
+    - port: 9000
+      targetPort: 9000
+      protocol: TCP
+  selector:
+    app: minio
+</code></pre>
+<ul>
+<li>Observations of distributed erasure encoding tolerance to failures:</li>
+<li>If a file is deleted in more than N/2 nodes from a bucket, file is not recovered, otherwise tolerable until N/2 nodes.</li>
+<li>If a bucket is deleted in one node, request going to that replica node shows bucket is missing. Requests going through all other replica nodes, the bucket is visible.</li>
+<li>Looks like buckets are recoverable by directly copying missing buckets from other nodes</li>
+<li>Automatic healing happens once in 30 days. Manual healing is getting deprecated soon, hopefully we get knobs for automatic healing before that.</li>
+<li>If mount point is removed, Error: unformatted disk found is seen</li>
+<li>If mount point is restored, it is not recognised by the application, needed a restart of the pod. “Delete pod and wait for to scale back”</li>
+</ul>
+<h4 id="storage-class-setup">Storage class setup:</h4>
+<p>Storage classes “STANDARD” and “REDUCED_REDUNDANCY” can be set to minio or can also be sent from application using “x-amz-storage-class” or using “mc admin config”</p>
+<p>Ref: <a href="https://github.com/minio/minio/tree/master/docs/erasure/storage-class">https://github.com/minio/minio/tree/master/docs/erasure/storage-class</a></p>
+<h4 id="issue-with-distributed-mode">Issue with distributed mode:</h4>
+<p><a href="https://github.com/minio/minio/issues/9052">https://github.com/minio/minio/issues/9052</a></p>
+<h1 id="7-minio-benchmarking-using-s3-benchmark">7. Minio Benchmarking using S3 benchmark</h1>
+<h3 id="setup">Setup</h3>
+<ul>
+<li>4 node cluster — one drive each(5GB PV)</li>
+<li>Node spec — 12 core 16GB RAM</li>
+</ul>
+<h3 id="observations">Observations</h3>
+<h4 id="scenario-1">Scenario 1</h4>
+<ul>
+<li>Encryption enabled</li>
+<li>100KB average object size</li>
+</ul>
+<h5 id="run1">Run1:</h5>
+<p><code>$ ./s3-benchmark -a minioadmin -b new-test-bucket -s minioadmin -t 10 -u http://0.0.0.0:30100 -z 100K</code></p>
+<pre><code class="language-bash">Wasabi benchmark program v2.0
+Parameters: url=http://0.0.0.0:30100, bucket=new-test-bucket, region=us-east-1, duration=60, threads=10, loops=1, size=100K
+2020/10/29 11:45:42 WARNING: createBucket new-test-bucket error, ignoring BucketAlreadyOwnedByYou: Your previous request to create the named bucket succeeded and you already own it.
+status code: 409, request id: 164261F9CED6AF49, host id:
+**Loop 1: PUT time 60.0 secs, objects = 17057, speed = 27.7MB/sec, 284.1 operations/sec. Slowdowns = 0**
+**Loop 1: GET time 60.0 secs, objects = 43592, speed = 70.9MB/sec, 726.4 operations/sec. Slowdowns = 0**
+**Loop 1: DELETE time 18.3 secs, 933.5 deletes/sec. Slowdowns = 0**
+</code></pre>
+<h5 id="run2">Run2:</h5>
+<p><code>./s3-benchmark -a minioadmin -b new-test-bucket -s minioadmin -t 10 -u http://0.0.0.0:30100 -z 100K</code></p>
+<pre><code class="language-bash">Wasabi benchmark program v2.0
+Parameters: url=http://0.0.0.0:30100, bucket=new-test-bucket, region=us-east-1, duration=60, threads=10, loops=1, size=100K
+2020/10/29 11:54:41 WARNING: createBucket new-test-bucket error, ignoring BucketAlreadyOwnedByYou: Your previous request to create the named bucket succeeded and you already own it.
+status code: 409, request id: 16426277335B8DBB, host id:
+**Loop 1: PUT time 60.0 secs, objects = 17507, speed = 28.5MB/sec, 291.7 operations/sec. Slowdowns = 0**
+**Loop 1: GET time 60.0 secs, objects = 43073, speed = 70.1MB/sec, 717.8 operations/sec. Slowdowns = 0**
+**Loop 1: DELETE time 18.3 secs, 958.3 deletes/sec. Slowdowns = 0**
+</code></pre>
+<h4 id="scenario-2">Scenario 2:</h4>
+<ul>
+<li>Encryption disabled</li>
+<li>100KB average object size</li>
+</ul>
+<h5 id="run1-1">Run1:</h5>
+<p><code>./s3-benchmark -a minioadmin -b new-unencrypted-test-bucket -s minioadmin -t 10 -u http://0.0.0.0:30100 -z 100K</code></p>
+<pre><code class="language-bash">Wasabi benchmark program v2.0
+Parameters: url=http://0.0.0.0:30100, bucket=new-unencrypted-test-bucket, region=us-east-1, duration=60, threads=10, loops=1, size=100K
+2020/10/29 15:12:54 WARNING: createBucket new-unencrypted-test-bucket error, ignoring BucketAlreadyOwnedByYou: Your previous request to create the named bucket succeeded and you already own it.
+status code: 409, request id: 16426D483783E4E3, host id:
+**Loop 1: PUT time 60.0 secs, objects = 18746, speed = 30.5MB/sec, 312.4 operations/sec. Slowdowns = 0**
+**Loop 1: GET time 60.0 secs, objects = 59048, speed = 96.1MB/sec, 984.0 operations/sec. Slowdowns = 0**
+**Loop 1: DELETE time 20.0 secs, 937.8 deletes/sec. Slowdowns = 0**
+</code></pre>
+<h5 id="run2-1">Run2:</h5>
+<p><code>./s3-benchmark -a minioadmin -b new-unencrypted-test-bucket -s minioadmin -t 10 -u http://0.0.0.0:30100 -z 100K</code></p>
+<pre><code class="language-bash">Wasabi benchmark program v2.0
+Parameters: url=http://0.0.0.0:30100, bucket=new-unencrypted-test-bucket, region=us-east-1, duration=60, threads=10, loops=1, size=100K
+2020/10/29 15:16:02 WARNING: createBucket new-unencrypted-test-bucket error, ignoring BucketAlreadyOwnedByYou: Your previous request to create the named bucket succeeded and you already own it.
+status code: 409, request id: 16426D73F07F40A9, host id:
+**Loop 1: PUT time 60.0 secs, objects = 19272, speed = 31.4MB/sec, 321.0 operations/sec. Slowdowns = 0**
+**Loop 1: GET time 60.0 secs, objects = 52027, speed = 84.7MB/sec, 867.0 operations/sec. Slowdowns = 0**
+**Loop 1: DELETE time 20.4 secs, 943.5 deletes/sec. Slowdowns = 0**
+</code></pre>
+<h3 id="how-do-i-read-benchmarks">How do I read benchmarks?</h3>
+<blockquote>
+<p>Loop 1: PUT time 60.0 secs, objects = 17057, speed = 27.7MB/sec, 284.1 operations/sec. Slowdowns = 0
+In 60 seconds, 17057 objects whose average size is 100KB is uploaded to minio. Speed of upload is coming around 27.7MB/sec which is average bandwidth utilised during this operation. Also an average of 284.1 files uploaded per second.</p>
+</blockquote>
+<blockquote>
+<p>Loop 1: GET time 60.0 secs, objects = 43592, speed = 70.9MB/sec, 726.4 operations/sec. Slowdowns = 0
+In 60 seconds, 43592 objects whose average size is 100KB is downloaded from minio. Speed of download is coming around 70.9MB/sec which is average bandwidth utilised during this operation. Also an average of 726.4 files downloaded per second.</p>
+</blockquote>
+<blockquote>
+<p>Loop 1: DELETE time 18.3 secs, 933.5 deletes/sec. Slowdowns = 0
+In 18.3 seconds, deletes were performed at a rate of 933.5 files per second.</p>
+</blockquote>
+<h1 id="8-additional-information">8. Additional information:</h1>
+<ol>
+<li>For additional debugging, to log failed requests for minio</li>
+</ol>
+<pre><code class="language-bash">$ ./mc admin trace -v -e myminio
+</code></pre>
+<ol start="2">
+<li>Root tokens generated as part of vault initialisation will not have expiry. It is always better to revoke the root token when the setup is finished. For creating a new root token when required, follow below steps</li>
+</ol>
+<pre><code class="language-bash"># vault operator generate-root -generate-otp
+RgZjYVW2fIsl2avU5VNCpru6sZ
+# vault operator generate-root -init -otp=&quot;RgZjYVW2fIsl2avU5VNCpru6sZ&quot;
+Nonce         c5cc8fb9-3226-71f2-865b-47d61bae4987
+Started       true
+Progress      0/3
+Complete      false
+OTP Length    26
+# vault operator generate-root -otp=&quot;RgZjYVW2fIsl2avU5VNCpru6sZ&quot;
+Operation nonce: c5cc8fb9-3226-71f2-865b-47d61bae4987
+Unseal Key (will be hidden):
+Nonce       c5cc8fb9-3226-71f2-865b-47d61bae4987
+Started     true
+Progress    1/3
+Complete    false
+# vault operator generate-root -otp=&quot;RgZjYVW2fIsl2avU5VNCpru6sZ&quot;
+Operation nonce: c5cc8fb9-3226-71f2-865b-47d61bae4987
+Unseal Key (will be hidden):
+Nonce       c5cc8fb9-3226-71f2-865b-47d61bae4987
+Started     true
+Progress    2/3
+Complete    false
+# vault operator generate-root -otp=&quot;RgZjYVW2fIsl2avU5VNCpru6sZ&quot;
+Operation nonce: c5cc8fb9-3226-71f2-865b-47d61bae4987
+Unseal Key (will be hidden):
+Nonce            c5cc8fb9-3226-71f2-865b-47d61bae4987
+Started          true
+Progress         3/3
+Complete         true
+Encoded Token    IUk1JREjE1k8e0YLXDY0ZnljI3o+EDR5HGI
+# vault operator generate-root -decode IUk1JREjE1k8e0YLXDY0ZnljI3o+EDR5HGI -otp RgZjYVW2fIsl2avU5VNCpru6sZ
+s.oOHuDkZ25gnWB3L5m9NbAOo8
+# export VAULT_TOKEN=s.oOHuDkZ25gnWB3L5m9NbAOo8
+# vault token lookup
+Key                 Value
+---                 -----
+accessor            laQoKv6pyhO3kpkA1ozmG8Ev
+creation_time       1604397451
+creation_ttl        0s
+display_name        root
+entity_id           n/a
+expire_time         &lt;nil&gt;
+explicit_max_ttl    0s
+id                  s.oOHuDkZ25gnWB3L5m9NbAOo8
+meta                &lt;nil&gt;
+num_uses            0
+orphan              true
+path                auth/token/root
+policies            [root]
+ttl                 0s
+type                service
+3. When you need to do vault administration. Create an additional administrator app certificate as opposed to using the app certificate created for minio itself for better auditability.
+# Create admin cert pair
+kes tool identity new --key=minio-kes-admin.key --cert=minio-kes-admin.cert minio-kes-admin
+# Generate app identity from cert
+kes tool identity of minio-kes-admin.cert
+# Configure required administration policies in KES server-config.yml file and reload KES service
+</code></pre>
+<ol start="3">
+<li>When you need to do vault administration. Create an additional administrator app certificate as opposed to using the app certificate created for minio itself for better auditability.</li>
+</ol>
+<pre><code class="language-bash"># Create admin cert pair
+kes tool identity new --key=minio-kes-admin.key --cert=minio-kes-admin.cert minio-kes-admin
+# Generate app identity from cert
+kes tool identity of minio-kes-admin.cert
+# Configure required administration policies in KES server-config.yml file and reload KES service
+</code></pre>
+<ol start="4">
+<li>
+<p>Once a bucket is created with some content, if we enable encryption later on the bucket, existing files are not re-encrypted automatically.</p>
+</li>
+<li>
+<p><code>mc admin heal</code> is about to be deprecated and no sufficient alternative is in place when I checked last time.</p>
+</li>
+</ol>
+<blockquote>
+<p>A note on Automatic healing:
+Healing is automatic on server side which runs on a continuous basis on a low priority thread, mc admin heal is deprecated and will be removed in future.</p>
+<ul>
+<li>Minio healing moved from once every day to once every month</li>
+<li>Option to disable self healing is under works</li>
+<li><a href="https://github.com/minio/minio/issues/7892">https://github.com/minio/minio/issues/7892</a></li>
+<li><a href="https://github.com/minio/minio/pull/7934">https://github.com/minio/minio/pull/7934</a></li>
+<li><a href="https://github.com/minio/minio/pull/7868">https://github.com/minio/minio/pull/7868</a></li>
+</ul>
+</blockquote>
+<ol start="6">
+<li>While upgrading minio in distributed mode. Minio should be brought down one after another for maintenance and the instance should be immediately healed after being up before going for other instances. This is necessary, otherwise affects the redundancy factor</li>
+</ol>
+<ul>
+<li>Bring down minio</li>
+<li>Upgrade</li>
+<li>Bring up minio</li>
+<li>Run mc admin heal to recover the missing data</li>
+<li>Go for next node and upgrade only if the current one’s recovery is complete</li>
+</ul>
+<ol start="7">
+<li>
+<p>Minio will not tell you the health status of disks. You should have separate alerting and monitoring in place to keep track of hardware health.</p>
+</li>
+<li>
+<p>Note that there are other reasons but servers restarts that can cause nodes to become out of sync. For example, if there is a network failure that causes some of the nodes to not be reachable, writes will be less durable too. It is thus important to have good monitoring in place and respond accordingly. Minio itself will auto-heal the cluster every month if the administrator doesn’t trigger a heal themselves.</p>
+</li>
+<li>
+<p><code>MINIO_KMS_AUTO_ENCRYPTION=on</code> environment variable is about to get deprecated in favour of mc encrypt command which provides encryption at rest on specific buckets. However this deprecation doesn&rsquo;t sound reasonable to me as we don&rsquo;t see any suitable alternative that provides auto encryption for all buckets on creation.</p>
+</li>
+<li>
+<p>Unsealing vault for every restart is a pain. Fortunately, Vault exposes different integrations to make this automatic — <a href="https://learn.hashicorp.com/collections/vault/auto-unseal">https://learn.hashicorp.com/collections/vault/auto-unseal</a></p>
+</li>
+</ol>
+<h2 id="references">References:</h2>
+<p>Administration</p>
+<ul>
+<li><a href="https://docs.wire.com/how-to/administrate/minio.html">https://docs.wire.com/how-to/administrate/minio.html</a></li>
+</ul>
+<p>Different certificate generation approaches</p>
+<ul>
+<li><a href="https://kubernetes.io/docs/concepts/cluster-administration/certificates/">https://kubernetes.io/docs/concepts/cluster-administration/certificates/</a></li>
+<li><a href="https://gardener.cloud/documentation/guides/applications/https/">https://gardener.cloud/documentation/guides/applications/https/</a></li>
+<li><a href="https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/">https://kubernetes.io/docs/tasks/tls/managing-tls-in-a-cluster/</a></li>
+</ul>
+<p><em>This article was published in medium: <a href="https://link.medium.com/iIKF9apqbfb">https://link.medium.com/iIKF9apqbfb</a></em></p>
+
+                        </div><div class="tags my-3"><a class="badge badge-pill badge-light border mr-2" href="/tags/kubernetes">
+                                    <i class="fas fa-tag mr-2"></i>kubernetes
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/minio">
+                                    <i class="fas fa-tag mr-2"></i>minio
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/kms">
+                                    <i class="fas fa-tag mr-2"></i>KMS
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/encryption">
+                                    <i class="fas fa-tag mr-2"></i>encryption
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/storage">
+                                    <i class="fas fa-tag mr-2"></i>storage
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/hashicorp-vault">
+                                    <i class="fas fa-tag mr-2"></i>hashicorp vault
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/kes">
+                                    <i class="fas fa-tag mr-2"></i>KES
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/block-storage">
+                                    <i class="fas fa-tag mr-2"></i>block storage
+                                </a><a class="badge badge-pill badge-light border mr-2" href="/tags/s3">
+                                    <i class="fas fa-tag mr-2"></i>s3
+                                </a></div><ul class="share nav my-3 justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://twitter.com/intent/tweet?url=https%3a%2f%2fkrishnakumar4a4.github.io%2fpost%2fencrypted-minio-storage-with-kms%2f&text=Encrypted%20Minio%20Storage%20with%20KMS%20Setup">
+              <i class="fa-fw fab fa-twitter"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fkrishnakumar4a4.github.io%2fpost%2fencrypted-minio-storage-with-kms%2f&title=Encrypted%20Minio%20Storage%20with%20KMS%20Setup">
+                <i class="fa-fw fab fa-linkedin-in"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fkrishnakumar4a4.github.io%2fpost%2fencrypted-minio-storage-with-kms%2f&t=Encrypted%20Minio%20Storage%20with%20KMS%20Setup">
+                <i class="fa-fw fab fa-facebook-f"></i>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://reddit.com/submit?url=https%3a%2f%2fkrishnakumar4a4.github.io%2fpost%2fencrypted-minio-storage-with-kms%2f&title=Encrypted%20Minio%20Storage%20with%20KMS%20Setup">
+                <i class="fa-fw fab fa-reddit-alien"></i>
+            </a>
+        </li>
+    </nav>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        
+                    </div>
+                </div><div class="row justify-content-center my-3">
+                    <div class="col-lg-8">
+                        <div id="commento"></div>
+                        <script src="https://commento.io"></script>
+                    </div>
+                </div></article>
+        </div>
+    </div>
+
+    
+    <footer>
+        <script src="https://giscus.app/client.js"
+    data-repo="krishnakumar4a4/krishnakumar4a4.github.io"
+    data-repo-id="MDEwOlJlcG9zaXRvcnkxMDA3OTMxMTU="
+    data-category="Blog Comments"
+    data-category-id="DIC_kwDOBgH7G84CUoxF"
+    data-mapping="title"
+    data-strict="0"
+    data-reactions-enabled="1"
+    data-emit-metadata="0"
+    data-input-position="top"
+    data-theme="light_high_contrast"
+    data-lang="en"
+    data-loading="lazy"
+    crossorigin="anonymous"
+    async>
+  </script>
+  <br/>
+  <div style="border: 2px solid black; 
+  border-radius: 5px; padding: 2px 5px 0px 5px;
+  width: fit-content; 
+  margin-left: auto; margin-right: 0;">
+    <p style="text-align: right">
+    <span style="font-family: sans-serif;font-size: 14px;"> Alternatively, you can  </span>
+    <button style="background:#055d20;
+    font-size: 14px;display: inline-block;
+    border-bottom-color: #013d14;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+    border-radius: 5px" onclick="window.location.href = 'https://github.com/krishnakumar4a4/krishnakumar4a4.github.io/discussions/categories/blog-comments';">
+    Comment directly on Github Discussion
+    </button>
+    <br/>
+    <span style="font-family: sans-serif;font-size: 14px;"><span>#️⃣</span>
+    <span style="color: #055d20">Encrypted Minio Storage with KMS Setup</span>
+    </span>
+    </p>
+  </div>
+    </footer>
+</main>
+
+
+    <footer class="footer text-center bg-dark py-6">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="https://krishnakumar4a4.github.io/index.xml" rel="alternate" type="application/rss+xml" class="icons d-block">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                        <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a></li><li class="list-inline-item">
+                        <a href="mailto:krishna.thokala2010@gmail.com" class="icons d-block">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li><li class="list-inline-item">
+                            <a href="https://github.com/krishnakumar4a4" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://keybase.io/krishnakumart" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-keybase fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/krishnakumarthokala/" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://fsmi.social/krishnakumart" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-mastodon fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://krishnakumart.medium.com/" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-medium fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://reddit.com/u/krishnakumart" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-reddit fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li><li class="list-inline-item">
+                            <a href="https://twitter.com/KrishnaKumarT36" class="icons d-block">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                </ul>
+
+                <p class="text-muted">
+                    
+                        Copyright &copy; Krishna Kumar T 2023
+                    
+                </p>
+
+                <p class="text-muted">
+                Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with <a href="https://github.com/puresyntax71/hugo-theme-chunky-poster" target="_blank">Chunky Poster</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+    
+    
+        
+            <script src="/dist/main.d608eadfe5ac0688902e.min.js"></script>
+        
+    
+
+
+
+<script>
+    window.Prism = window.Prism || {};
+    window.Prism.manual = true;
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/components/prism-core.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
+
+
+
+
+
+
+    
+</body>
+</html>

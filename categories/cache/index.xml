@@ -14,7 +14,7 @@
       
       <guid>https://krishnakumar4a4.github.io/post/in-memory-caching-curb-tail-latency-with-pelikan/</guid>
       <description>Tail latency: When you have a bunch of servers trying to serve a request in parallel, One of the servers might take more time than others which affects the overall response time. In other words, Latency of a tail server(worst performing) is affecting the whole response time.
-When thinking about scale,distribution and speed. Caching is one of the important thing that stumbles you. Understanding it, mean a lot while you wanted to improve or implement them in other programming languages.</description>
+ When thinking about scale,distribution and speed. Caching is one of the important thing that stumbles you. Understanding it, mean a lot while you wanted to improve or implement them in other programming languages.</description>
     </item>
     
   </channel>

@@ -93,10 +93,6 @@ lang = "en"
     enable = true
     theme = "okaidia"
 
-  [params.commento]
-    enable = true
-    url = "https://commento.io"
-
 [markup]
   [markup.highlight]
     codeFences = false

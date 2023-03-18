@@ -1,6 +1,5 @@
 ---
-title: "Notion Live"
-description: "My notion updates"
+description: "My Live Project Updates"
 ---
 
 {{< rawhtml >}}

@@ -13,10 +13,10 @@
     
     <item>
       <title>CLI Poker Game</title>
-      <link>https://krishnakumar4a4.github.io/projects/cli-poker-game/</link>
+      <link>https://krishnakumar4a4.github.io/github-projects/cli-poker-game/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/projects/cli-poker-game/</guid>
+      <guid>https://krishnakumar4a4.github.io/github-projects/cli-poker-game/</guid>
       <description> A simple CLI poker game
 mix test - to run the tests
 mix excript.build - to compile

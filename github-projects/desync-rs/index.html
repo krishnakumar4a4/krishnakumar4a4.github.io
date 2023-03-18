@@ -6,7 +6,7 @@
 
 <title>
   
-     casync-rs | 
+     desync-rs | 
     Krishna Kumar T
   
 </title><meta name="description" content="I Experiment. I Build."><meta name="author" content="Krishna Kumar Thokala">
@@ -34,45 +34,30 @@
 
 
 
-<link rel="canonical" href="https://krishnakumar4a4.github.io/projects/casync-rs/"><meta property="og:title" content="casync-rs" />
-<meta property="og:description" content="Experimental: Pure rust implementation of casync https://github.com/systemd/casync
-Very minimal implementation of casync tool. Command Usage  inputfile will be chunked,index.caidxanddefault.castr` is created with chunks.
- casync-rs make --file input
- Expects index.caidx and default.castr directory to be present to construct out file from the chunks and index.
- casync-rs extract --file out
- Expects default.castr present with chunks corresponding to index.caidx file to construct the out file.
- casync-rs extract -i index." />
+<link rel="canonical" href="https://krishnakumar4a4.github.io/github-projects/desync-rs/"><meta property="og:title" content="desync-rs" />
+<meta property="og:description" content=" TODO: Update usage here
+ " />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://krishnakumar4a4.github.io/projects/casync-rs/" />
-<meta property="article:published_time" content="2018-09-26T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-09-26T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://krishnakumar4a4.github.io/github-projects/desync-rs/" />
+<meta property="article:published_time" content="2019-04-13T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2019-04-13T00:00:00&#43;00:00"/>
 
-<meta itemprop="name" content="casync-rs">
-<meta itemprop="description" content="Experimental: Pure rust implementation of casync https://github.com/systemd/casync
-Very minimal implementation of casync tool. Command Usage  inputfile will be chunked,index.caidxanddefault.castr` is created with chunks.
- casync-rs make --file input
- Expects index.caidx and default.castr directory to be present to construct out file from the chunks and index.
- casync-rs extract --file out
- Expects default.castr present with chunks corresponding to index.caidx file to construct the out file.
- casync-rs extract -i index.">
+<meta itemprop="name" content="desync-rs">
+<meta itemprop="description" content=" TODO: Update usage here
+ ">
 
 
-<meta itemprop="datePublished" content="2018-09-26T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2018-09-26T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="161">
+<meta itemprop="datePublished" content="2019-04-13T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2019-04-13T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="4">
 
 
 
 <meta itemprop="keywords" content="rustlang," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="casync-rs"/>
-<meta name="twitter:description" content="Experimental: Pure rust implementation of casync https://github.com/systemd/casync
-Very minimal implementation of casync tool. Command Usage  inputfile will be chunked,index.caidxanddefault.castr` is created with chunks.
- casync-rs make --file input
- Expects index.caidx and default.castr directory to be present to construct out file from the chunks and index.
- casync-rs extract --file out
- Expects default.castr present with chunks corresponding to index.caidx file to construct the out file.
- casync-rs extract -i index."/>
+<meta name="twitter:title" content="desync-rs"/>
+<meta name="twitter:description" content=" TODO: Update usage here
+ "/>
 
 </head>
 <body>
@@ -116,57 +101,12 @@ Very minimal implementation of casync tool. Command Usage  inputfile will be chu
             <article>
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="mb-3">casync-rs</h2>
+                        <h2 class="mb-3">desync-rs</h2>
 
                         <div class="content">
-                            
-
-<p>Experimental: Pure rust implementation of casync <a href="https://github.com/systemd/casync">https://github.com/systemd/casync</a></p>
-
-<h4 id="very-minimal-implementation-of-casync-tool">Very minimal implementation of casync tool.</h4>
-
-<h2 id="command-usage">Command Usage</h2>
-
-<blockquote>
-<p>input<code>file will be chunked,</code><code>index.caidx</code><code>and</code><code>default.castr</code>` is created with chunks.</p>
+                            <blockquote>
+<p>TODO: Update usage here</p>
 </blockquote>
-
-<p><code>casync-rs make --file input</code></p>
-
-<blockquote>
-<p>Expects <code>index.caidx</code> and <code>default.castr</code> directory to be present to construct <code>out</code> file from the chunks and index.</p>
-</blockquote>
-
-<p><code>casync-rs extract --file out</code></p>
-
-<blockquote>
-<p>Expects <code>default.castr</code> present with chunks corresponding to index.caidx file to construct the <code>out</code> file.</p>
-</blockquote>
-
-<p><code>casync-rs extract -i index.caidx  --file out</code></p>
-
-<blockquote>
-<p>Created <code>default.castr</code> directory and download chunks to it, followed by construction of <code>out</code> file from the given <code>index.caidx</code> file.</p>
-</blockquote>
-
-<p><code>casync-rs extract -i index.caidx -s http://0.0.0.0:8000/ --file out</code></p>
-
-<blockquote>
-<p>Creates <code>out</code> file from <code>/index.caidx</code> and <code>/default.castr</code> endpoint from remote store to construct <code>out</code> file.</p>
-</blockquote>
-
-<p><code>casync-rs extract -i http://0.0.0.0:8000/index.caidx -s http://0.0.0.0:8000/ --file out</code></p>
-
-<blockquote>
-<p>Default minimum chunk size: 512KB and maximum chunk size: 1024KB</p>
-</blockquote>
-
-<h2 id="test-scenario">Test scenario</h2>
-
-<ul>
-<li>Run <code>python -m http_server</code> which runs http server on 8000 port</li>
-<li>In a different folder run <code>--extract</code> to create artifact. store and index file are also created in the same folder</li>
-</ul>
 
                         </div>
                     </div>

@@ -6,7 +6,7 @@
 
 <title>
   
-     desync-rs | 
+     backer-rs | 
     Krishna Kumar T
   
 </title><meta name="description" content="I Experiment. I Build."><meta name="author" content="Krishna Kumar Thokala">
@@ -34,30 +34,33 @@
 
 
 
-<link rel="canonical" href="https://krishnakumar4a4.github.io/projects/desync-rs/"><meta property="og:title" content="desync-rs" />
-<meta property="og:description" content=" TODO: Update usage here
- " />
+<link rel="canonical" href="https://krishnakumar4a4.github.io/github-projects/backer-rs/"><meta property="og:title" content="backer-rs" />
+<meta property="og:description" content="Never Loose data/notes - An efficient git based backup tool to save your changes periodically.
+A git based backup tool. Intelligent enough to trigger a commit, only, if there are any file changes in the folder it is pointed to. Based on cross-platform file notification library.
+Example use cases:  Can be pointed to storage locations of note applications like boostnote  Build  cargo build --release backer-rs is the executable generated in target/release/ folder." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://krishnakumar4a4.github.io/projects/desync-rs/" />
-<meta property="article:published_time" content="2019-04-13T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2019-04-13T00:00:00&#43;00:00"/>
+<meta property="og:url" content="https://krishnakumar4a4.github.io/github-projects/backer-rs/" />
+<meta property="article:published_time" content="2018-10-19T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-10-19T00:00:00&#43;00:00"/>
 
-<meta itemprop="name" content="desync-rs">
-<meta itemprop="description" content=" TODO: Update usage here
- ">
+<meta itemprop="name" content="backer-rs">
+<meta itemprop="description" content="Never Loose data/notes - An efficient git based backup tool to save your changes periodically.
+A git based backup tool. Intelligent enough to trigger a commit, only, if there are any file changes in the folder it is pointed to. Based on cross-platform file notification library.
+Example use cases:  Can be pointed to storage locations of note applications like boostnote  Build  cargo build --release backer-rs is the executable generated in target/release/ folder.">
 
 
-<meta itemprop="datePublished" content="2019-04-13T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-04-13T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="4">
+<meta itemprop="datePublished" content="2018-10-19T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2018-10-19T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="221">
 
 
 
 <meta itemprop="keywords" content="rustlang," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="desync-rs"/>
-<meta name="twitter:description" content=" TODO: Update usage here
- "/>
+<meta name="twitter:title" content="backer-rs"/>
+<meta name="twitter:description" content="Never Loose data/notes - An efficient git based backup tool to save your changes periodically.
+A git based backup tool. Intelligent enough to trigger a commit, only, if there are any file changes in the folder it is pointed to. Based on cross-platform file notification library.
+Example use cases:  Can be pointed to storage locations of note applications like boostnote  Build  cargo build --release backer-rs is the executable generated in target/release/ folder."/>
 
 </head>
 <body>
@@ -101,12 +104,44 @@
             <article>
                 <div class="row justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="mb-3">desync-rs</h2>
+                        <h2 class="mb-3">backer-rs</h2>
 
                         <div class="content">
-                            <blockquote>
-<p>TODO: Update usage here</p>
-</blockquote>
+                            
+
+<p>Never Loose data/notes - An efficient git based backup tool to save your changes periodically.</p>
+
+<p>A git based backup tool.
+Intelligent enough to trigger a commit, only, if there are any file changes in the folder it is pointed to.
+Based on cross-platform file notification library.</p>
+
+<h2 id="example-use-cases">Example use cases:</h2>
+
+<ul>
+<li>Can be pointed to storage locations of note applications like boostnote</li>
+</ul>
+
+<h2 id="build">Build</h2>
+
+<ul>
+<li><code>cargo build --release</code></li>
+<li><code>backer-rs</code> is the executable generated in <code>target/release/</code> folder.</li>
+</ul>
+
+<h3 id="usage">Usage</h3>
+
+<p><code>backer-rs -p &lt;path to the folder to backup&gt; -f 2 -c 300 -n krishnakumar -e &lt;email id of author&gt; -d &quot;Commiting all changes&quot;</code>
+- <code>-p</code> or <code>--path</code> path to monitor for changes, <code>Note:</code> This path will be converted to git repo <code>(Mandatory)</code>
+- <code>-f</code> or <code>--ffreq</code> time delay(seconds) between monitoring file changes
+- <code>-c</code> or <code>--cfreq</code> Wait time before making an automated commit after first file change
+- <code>-n</code> or <code>--sname</code> Name of the author to be added as signature for commit <code>(Mandatory)</code>
+- <code>-e</code> or <code>--semail</code> Email id of the author to be added as signature for commit <code>(Mandatory)</code>
+- <code>-d</code> or <code>--defcommitmsg</code> default automated commit message</p>
+
+<p><code>backer-rs -p &lt;path to the folder to backup&gt; -n krishnakumar -e &lt;email id of author&gt;</code>
+- Default file monitoring time is <code>2</code> seconds
+- Default wait time to commit is <code>5</code> seconds
+- Default commit message is <code>Committed all changes</code></p>
 
                         </div>
                     </div>

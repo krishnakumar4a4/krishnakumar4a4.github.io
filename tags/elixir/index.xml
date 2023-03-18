@@ -13,19 +13,19 @@
     
     <item>
       <title>SpeakUp</title>
-      <link>https://krishnakumar4a4.github.io/projects/speakup/</link>
+      <link>https://krishnakumar4a4.github.io/github-projects/speakup/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/projects/speakup/</guid>
+      <guid>https://krishnakumar4a4.github.io/github-projects/speakup/</guid>
       <description>Meetings and discussions get less cumbersome and more lively Ever occurred to your mind, why is it so problematic getting your ears on the most important session you had just now. You have some questions, perhaps someone might have asked the same and you wouldn&amp;rsquo;t want to repeat. Oh hell, can someone give him a microphone to talk!! OMG, Microphone is 5 rows behind the audience and it&amp;rsquo;s pretty hard circulating that in time.</description>
     </item>
     
     <item>
       <title>Code Challenges and Solutions</title>
-      <link>https://krishnakumar4a4.github.io/projects/engines/</link>
+      <link>https://krishnakumar4a4.github.io/github-projects/engines/</link>
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/projects/engines/</guid>
+      <guid>https://krishnakumar4a4.github.io/github-projects/engines/</guid>
       <description>1) anaMon: Million events Erlang like engine 2) crawler: A web crawler of infinte link traversal 3) histogram-table: Dynamic histogram generation from a csv file and bucketsize, on click gives values as table 4) poker-ex: A CLI two player poker game written in elixir</description>
     </item>
     

@@ -10,60 +10,45 @@ footnoteReturnLinkContents = "^"
 
 [menu]
   [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
-  [[menu.main]]
-    identifier = "notion"
-    name = "Notion"
-    url = "/notion/"
-    weight = 2
-  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
+    weight = 1
   [[menu.main]]
-    identifier = "Tweets"
-    name = "Tweets"
-    url = "/tweets/"
-    weight = 6
+    identifier = "project-updates"
+    name = "Project Updates"
+    url = "/project-updates/"
+    weight = 2
   [[menu.main]]
-    identifier = "LinkedIn"
-    name = "LinkedIn"
-    url = "/linkedin/"
-    weight = 7
-  [[menu.main]]
-    identifier = "team"
-    name = "Team"
-    url = "/team/"
-    weight = 9
+    identifier = "github-projects"
+    name = "Github Projects"
+    url = "/github-projects/"
+    weight = 3
   [[menu.main]]
     identifier = "post"
     name = "Posts"
     url = "/post/"
-    weight = 2
+    weight = 4
   [[menu.main]]
-    identifier = "projects"
-    name = "Projects"
-    url = "/projects/"
-    weight = 3
+    identifier = "tweets"
+    name = "Tweets"
+    url = "/tweets/"
+    weight = 5
+  [[menu.main]]
+    identifier = "linkedin-posts"
+    name = "LinkedIn Posts"
+    url = "/linkedin-posts/"
+    weight = 6
+  [[menu.main]]
+    identifier = "team"
+    name = "Team"
+    url = "/team/"
+    weight = 7
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 10
-  [[menu.main]]
-    identifier = "pictures"
-    name = "Pictures"
-    url = "/pictures/"
-    weight = 4
-  [[menu.main]]
-    identifier = "bookmarks"
-    name = "Bookmarks"
-    url = "/bookmarks/"
-    weight = 5
+    weight = 8
 
 [taxonomies]
 category = "categories"

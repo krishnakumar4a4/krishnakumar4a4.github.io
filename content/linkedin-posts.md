@@ -1,5 +1,5 @@
 +++
-title = "LinkedIn"
+title = "LinkedIn Posts"
 description = "My LinkedIn Activity"
 date = "2023-02-26"
 aliases = ["linkedin"]

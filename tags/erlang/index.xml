@@ -1,12 +1,28 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>erlang on Krishna Kumar T</title>
+    <title>Erlang on Krishna Kumar T</title>
     <link>https://krishnakumar4a4.github.io/tags/erlang/</link>
-    <description>Recent content in erlang on Krishna Kumar T</description>
+    <description>Recent content in Erlang on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Jun 2018 09:43:12 +0530</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Jun 2018 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/erlang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Why Speak Up?</title>
+      <link>https://krishnakumar4a4.github.io/post/speakup-announcement/</link>
+      <pubDate>Wed, 20 Jun 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/post/speakup-announcement/</guid>
+      <description>I am a tech enthusiast and I love to attend lot of meetups, conferences, events etc. The reason I attend them is
+ to get introduced to new technologies hear perspectives of people on technologies known to me  Conference hall setup: Conference Hall Setup chuttersnap
+  Usually be a sparsely distributed clusters of people sitting relaxedly all over.
+Some of the talks I attended will be so immersive and I couldn’t afford having even a slighter distraction fearing I would loose context.</description>
+    </item>
+    
     <item>
       <title>Why Speak Up?</title>
       <link>https://krishnakumar4a4.github.io/post/speakup-announcement/</link>
@@ -25,7 +41,7 @@ Some of the talks I attended will be so immersive and I couldn’t afford having
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/speakup/</guid>
-      <description>Make discussions less cumbersome</description>
+      <description>Meetings and discussions get less cumbersome and more lively Ever occurred to your mind, why is it so problematic getting your ears on the most important session you had just now. You have some questions, perhaps someone might have asked the same and you wouldn&amp;rsquo;t want to repeat. Oh hell, can someone give him a microphone to talk!! OMG, Microphone is 5 rows behind the audience and it&amp;rsquo;s pretty hard circulating that in time.</description>
     </item>
     
     <item>
@@ -53,8 +69,8 @@ Erlang process scheduler: The whole Erlang beam machine runs as a single process
       <pubDate>Mon, 01 May 2017 09:43:12 +0530</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</guid>
-      <description>If you know
- Erlang and wanted to know how easy is react-redux to learn, Start reading from “I am an Erlang developer and wanted to know about react-redux” React-Redux and wanted to dive into erlang world for greater good, start from erlang synopsis section below.  I am an Erlang developer and wanted to know about react-redux: If you had some experience in using gen_servers and gen_event behaviors? Learning react-redux would be simple for you too, just like me.</description>
+      <description>If you know - Erlang and wanted to know how easy is react-redux to learn, Start reading from “I am an Erlang developer and wanted to know about react-redux” - React-Redux and wanted to dive into erlang world for greater good, start from erlang synopsis section below.
+I am an Erlang developer and wanted to know about react-redux: If you had some experience in using gen_servers and gen_event behaviors? Learning react-redux would be simple for you too, just like me.</description>
     </item>
     
     <item>
@@ -65,8 +81,7 @@ Erlang process scheduler: The whole Erlang beam machine runs as a single process
       <guid>https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/</guid>
       <description>I had a great session with my team on Erlang behaviors and thought it would be worth blogging it. I have got chance to explain them about available erlang behaviors and how to choose and use them.
 1.gen_supervisor 2.gen_server 3.gen_event 4.gen_fsm
-When you want to employ a behavior in your applications, you should have a basic understanding of the below two types of functions.
- API → Exposed to the user for external control and to send events.</description>
+When you want to employ a behavior in your applications, you should have a basic understanding of the below two types of functions. 1. API → Exposed to the user for external control and to send events.</description>
     </item>
     
     <item>
@@ -95,7 +110,7 @@ Shorten the goal: My goal is to create a like engine with can handle millions of
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/engines/</guid>
-      <description>Challenges and Solutions</description>
+      <description>1) anaMon: Million events Erlang like engine 2) crawler: A web crawler of infinte link traversal 3) histogram-table: Dynamic histogram generation from a csv file and bucketsize, on click gives values as table 4) poker-ex: A CLI two player poker game written in elixir</description>
     </item>
     
     <item>

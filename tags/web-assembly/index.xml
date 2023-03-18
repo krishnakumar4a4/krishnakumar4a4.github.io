@@ -1,19 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>web-assembly on Krishna Kumar T</title>
+    <title>Web Assembly on Krishna Kumar T</title>
     <link>https://krishnakumar4a4.github.io/tags/web-assembly/</link>
-    <description>Recent content in web-assembly on Krishna Kumar T</description>
+    <description>Recent content in Web Assembly on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 08 Dec 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/tags/web-assembly/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/web-assembly/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Dashboard For Casync</title>
       <link>https://krishnakumar4a4.github.io/projects/casync-dashboard/</link>
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/casync-dashboard/</guid>
-      <description>A dashboard(in web assembly) for managing content for casync,desync and casync-rs type tools</description>
+      <description>A frontend dashboard(in web assembly) for managing content for casync,desync and casync-rs type tools
+Build and run cargo web start --target wasm32-unknown-unknown
+Screenshots of dashboard View for uploading chunks, indexes and blobs   View for showing all chunks   View for showing all indexes   View for showing all tags   View for showing download trends graph of chunks   View for showing download trends graph of indexes   How does this work?</description>
     </item>
     
   </channel>

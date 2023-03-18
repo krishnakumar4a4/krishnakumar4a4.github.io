@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Krishna Kumar T</title>
@@ -6,13 +6,17 @@
     <description>Recent content on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Feb 2023 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>LinkedIn</title>
-      <link>https://krishnakumar4a4.github.io/linkedin/</link>
+      <title>LinkedIn Posts</title>
+      <link>https://krishnakumar4a4.github.io/linkedin-posts/</link>
       <pubDate>Sun, 26 Feb 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/linkedin/</guid>
+      <guid>https://krishnakumar4a4.github.io/linkedin-posts/</guid>
       <description>    </description>
     </item>
     
@@ -31,7 +35,7 @@
       <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/in-meeting-indicator/</guid>
-      <description>DIY: In meeting indicator - WFH Utility</description>
+      <description>So many of you have gotten accustomed to work from home by now. This pandemic has thrown a lot of challenges at our face when most of us are not ready for. While Work From Home is kind of boon, living with it for a long time comes with its own unique challenges. One of the simplest challenge I have faced in the initial days was to make my family understand that I am in a meeting where Mic/Camera/both are activated.</description>
     </item>
     
     <item>
@@ -40,7 +44,7 @@
       <pubDate>Sun, 04 Apr 2021 00:00:00 +0530</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/post/in-meeting-indicator/</guid>
-      <description>DIY: In meeting indicator - WFH Utility The need for in meeting indicator at home   So many of you have gotten accustomed to work from home by now. This pandemic has thrown a lot of challenges at our face when most of us are not ready for. While Work From Home is kind of boon, living with it for a long time comes with its own unique challenges. One of the simplest challenge I have faced in the initial days was to make my family understand that I am in a meeting where Mic/Camera/both are activated.</description>
+      <description>DIY: In meeting indicator - WFH Utility The need for in meeting indicator at home   So many of you have gotten accustomed to work from home by now. This pandemic has thrown a lot of challenges at our face when most of us are not ready for. While Work From Home is kind of boon, living with it for a long time comes with its own unique challenges.</description>
     </item>
     
     <item>
@@ -60,9 +64,9 @@
       
       <guid>https://krishnakumar4a4.github.io/about/</guid>
       <description>Krishna Kumar   I am Krishna Kumar, Currently working as application developer/ Senior Consultant at Thoughtworks, Hyderabad, India.
-Programming languages I work on:
- Erlang (2 years) Golang (2.5 years) Rustlang (hobby)  Projects:
- Securing Enrolments for an Identity Project for Govt. of India (Golang and Java) Retail assortment application (Java, React, AWS and GCP) Network Test Simulator (Erlang and on-prem cloud)   My scrambled brain omlette (Li&amp;rsquo;l about how I think:) I study for invention and problem solving.</description>
+Programming languages I work on: - Erlang (2 years) - Golang (2.5 years) - Rustlang (hobby)
+Projects: - Securing Enrolments for an Identity Project for Govt. of India (Golang and Java) - Retail assortment application (Java, React, AWS and GCP) - Network Test Simulator (Erlang and on-prem cloud)
+My scrambled brain omlette (Li&amp;rsquo;l about how I think:) I study for invention and problem solving.</description>
     </item>
     
     <item>
@@ -71,7 +75,7 @@ Programming languages I work on:
       <pubDate>Sun, 26 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/team/</guid>
-      <description>Crysis Brahmaji, Venkatesh, Me, Pavan Kumar, Hari Krishna (left to right)   Ramesh, Brahmaji, Venkatesh, Mehar Kishore, Me, Pavan Kumar (left to right)   </description>
+      <description> Crysis Brahmaji, Venkatesh, Me, Pavan Kumar, Hari Krishna (left to right)   Ramesh, Brahmaji, Venkatesh, Mehar Kishore, Me, Pavan Kumar (left to right)   </description>
     </item>
     
     <item>
@@ -89,7 +93,7 @@ Programming languages I work on:
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/remote-debug/</guid>
-      <description>A generic remote debug solution</description>
+      <description></description>
     </item>
     
     <item>
@@ -98,7 +102,10 @@ Programming languages I work on:
       <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/tcp-proxy/</guid>
-      <description>A simple TCP interceptor proxy for HTTP/S requests with network speed caclulator</description>
+      <description>A simple proxy server for HTTP/S requests which can calculate the network upload and download speed in bytes/sec.
+./tcpproxy --help for usage
+./tcpproxy --port 2345 to listen on particular port with chained proxy assumed to be running localhost:3128
+./tcpproxy --proxy --no-proxy to listen on particular port with no chained proxy</description>
     </item>
     
     <item>
@@ -107,7 +114,11 @@ Programming languages I work on:
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/cli-poker-game/</guid>
-      <description>A CLI minimalistic poker game</description>
+      <description> A simple CLI poker game
+mix test - to run the tests
+mix excript.build - to compile
+./poker - runs the application
+Example run ./poker Black: 2H 3C 4H 5D TC White: 2H 3C 4H 5D TC tie Black: 2H 3C 4H 5D TC White: 2H 3C 4H 5D KC White is winner - highcard: K Black: 2H 3C 4H KD KC White: 2H 3C 4H KD KC tie Black: 2H 3C 4H KD KC White: 2H 3C 5H KD KC White is winner - pair: 5 Black: 1H 3C 5H KD KC White: 2H 3C 5H KD KC Invalid input from Black  </description>
     </item>
     
     <item>
@@ -116,7 +127,10 @@ Programming languages I work on:
       <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/ssh-reverse-tunnel/</guid>
-      <description>SSH reverse tunnel for internet</description>
+      <description>On corporate networks, we always have a problem of having restrictions on internet access to applications.
+Of course, these restrictions are absolutely necessary in terms of security. But what if we need to give temporary internet access to these applications?
+We can combine SSH reverse tunnel with a proxy server to do this.
+How to run ./go-ssh-reverse-tunnel -u &amp;lt;username for SSH&amp;gt; -i &amp;lt;private key file path&amp;gt; -t &amp;lt;target ssh host name&amp;gt; -p &amp;lt;reverse tunnel listening port on target&amp;gt;</description>
     </item>
     
     <item>
@@ -125,7 +139,8 @@ Programming languages I work on:
       <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/desync-rs/</guid>
-      <description>Minimalistic drop in replacement for casync(C) and desync(golang) in rust</description>
+      <description> TODO: Update usage here
+ </description>
     </item>
     
     <item>
@@ -134,7 +149,9 @@ Programming languages I work on:
       <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/rust-java-rust/</guid>
-      <description>Provides sample code to call rust methods from embedded JVM without need for dynamic library load</description>
+      <description> For Interoperability between rust and java
+Special about this repo: Do not require rust library to be dynamically loaded for calling methods on rust.
+Features:  JVM is started as embedded from the rust program. Java methods can be called from rust. Rust methods are registered as native functions to JVM and which can then be called from Java.  Uses rucaja, jni-rs and jni crates. </description>
     </item>
     
     <item>
@@ -172,7 +189,9 @@ Programming languages I work on:
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/casync-dashboard/</guid>
-      <description>A dashboard(in web assembly) for managing content for casync,desync and casync-rs type tools</description>
+      <description>A frontend dashboard(in web assembly) for managing content for casync,desync and casync-rs type tools
+Build and run cargo web start --target wasm32-unknown-unknown
+Screenshots of dashboard View for uploading chunks, indexes and blobs   View for showing all chunks   View for showing all indexes   View for showing all tags   View for showing download trends graph of chunks   View for showing download trends graph of indexes   How does this work?</description>
     </item>
     
     <item>
@@ -191,7 +210,9 @@ Recently, I had been in a situation where the autosave feature of boostnote misb
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/backer-rs/</guid>
-      <description>Never Loose data/notes - An efficient git based backup tool to save your changes periodically</description>
+      <description>Never Loose data/notes - An efficient git based backup tool to save your changes periodically.
+A git based backup tool. Intelligent enough to trigger a commit, only, if there are any file changes in the folder it is pointed to. Based on cross-platform file notification library.
+Example use cases:  Can be pointed to storage locations of note applications like boostnote  Build  cargo build --release backer-rs is the executable generated in target/release/ folder.</description>
     </item>
     
     <item>
@@ -200,7 +221,13 @@ Recently, I had been in a situation where the autosave feature of boostnote misb
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/casync-rs/</guid>
-      <description>Experimental: Pure rust implementation of casync &lt;a href=&#34;https://github.com/systemd/casync&#34;&gt;https://github.com/systemd/casync&lt;/a&gt;</description>
+      <description>Experimental: Pure rust implementation of casync https://github.com/systemd/casync
+Very minimal implementation of casync tool. Command Usage  inputfile will be chunked,index.caidxanddefault.castr` is created with chunks.
+ casync-rs make --file input
+ Expects index.caidx and default.castr directory to be present to construct out file from the chunks and index.
+ casync-rs extract --file out
+ Expects default.castr present with chunks corresponding to index.caidx file to construct the out file.
+ casync-rs extract -i index.</description>
     </item>
     
     <item>
@@ -231,7 +258,7 @@ Some of the talks I attended will be so immersive and I couldn’t afford having
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/speakup/</guid>
-      <description>Make discussions less cumbersome</description>
+      <description>Meetings and discussions get less cumbersome and more lively Ever occurred to your mind, why is it so problematic getting your ears on the most important session you had just now. You have some questions, perhaps someone might have asked the same and you wouldn&amp;rsquo;t want to repeat. Oh hell, can someone give him a microphone to talk!! OMG, Microphone is 5 rows behind the audience and it&amp;rsquo;s pretty hard circulating that in time.</description>
     </item>
     
     <item>
@@ -259,8 +286,8 @@ Erlang process scheduler: The whole Erlang beam machine runs as a single process
       <pubDate>Mon, 01 May 2017 09:43:12 +0530</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</guid>
-      <description>If you know
- Erlang and wanted to know how easy is react-redux to learn, Start reading from “I am an Erlang developer and wanted to know about react-redux” React-Redux and wanted to dive into erlang world for greater good, start from erlang synopsis section below.  I am an Erlang developer and wanted to know about react-redux: If you had some experience in using gen_servers and gen_event behaviors? Learning react-redux would be simple for you too, just like me.</description>
+      <description>If you know - Erlang and wanted to know how easy is react-redux to learn, Start reading from “I am an Erlang developer and wanted to know about react-redux” - React-Redux and wanted to dive into erlang world for greater good, start from erlang synopsis section below.
+I am an Erlang developer and wanted to know about react-redux: If you had some experience in using gen_servers and gen_event behaviors? Learning react-redux would be simple for you too, just like me.</description>
     </item>
     
     <item>
@@ -271,8 +298,7 @@ Erlang process scheduler: The whole Erlang beam machine runs as a single process
       <guid>https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/</guid>
       <description>I had a great session with my team on Erlang behaviors and thought it would be worth blogging it. I have got chance to explain them about available erlang behaviors and how to choose and use them.
 1.gen_supervisor 2.gen_server 3.gen_event 4.gen_fsm
-When you want to employ a behavior in your applications, you should have a basic understanding of the below two types of functions.
- API → Exposed to the user for external control and to send events.</description>
+When you want to employ a behavior in your applications, you should have a basic understanding of the below two types of functions. 1. API → Exposed to the user for external control and to send events.</description>
     </item>
     
     <item>
@@ -321,7 +347,7 @@ Shorten the goal: My goal is to create a like engine with can handle millions of
       <pubDate>Sat, 26 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/engines/</guid>
-      <description>Challenges and Solutions</description>
+      <description>1) anaMon: Million events Erlang like engine 2) crawler: A web crawler of infinte link traversal 3) histogram-table: Dynamic histogram generation from a csv file and bucketsize, on click gives values as table 4) poker-ex: A CLI two player poker game written in elixir</description>
     </item>
     
     <item>
@@ -337,12 +363,11 @@ The problem: We are not able to start more than 250 Erlang nodes on one Linux ma
     
     <item>
       <title>Notion Live</title>
-      <link>https://krishnakumar4a4.github.io/notion/</link>
+      <link>https://krishnakumar4a4.github.io/project-updates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/notion/</guid>
-      <description> This page is a Work In Progress
-  </description>
+      <guid>https://krishnakumar4a4.github.io/project-updates/</guid>
+      <description>  </description>
     </item>
     
   </channel>

@@ -1,12 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>infoq on Krishna Kumar T</title>
+    <title>Infoq on Krishna Kumar T</title>
     <link>https://krishnakumar4a4.github.io/categories/infoq/</link>
-    <description>Recent content in infoq on Krishna Kumar T</description>
+    <description>Recent content in Infoq on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Mar 2018 09:43:12 +0530</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/categories/infoq/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Mar 2018 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/categories/infoq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>A Comparison between Rust and Erlang</title>
       <link>https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/</link>

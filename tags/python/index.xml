@@ -1,19 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on Krishna Kumar T</title>
+    <title>Python on Krishna Kumar T</title>
     <link>https://krishnakumar4a4.github.io/tags/python/</link>
-    <description>Recent content in python on Krishna Kumar T</description>
+    <description>Recent content in Python on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 May 2018 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>SpeakUp</title>
       <link>https://krishnakumar4a4.github.io/projects/speakup/</link>
       <pubDate>Tue, 29 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/speakup/</guid>
-      <description>Make discussions less cumbersome</description>
+      <description>Meetings and discussions get less cumbersome and more lively Ever occurred to your mind, why is it so problematic getting your ears on the most important session you had just now. You have some questions, perhaps someone might have asked the same and you wouldn&amp;rsquo;t want to repeat. Oh hell, can someone give him a microphone to talk!! OMG, Microphone is 5 rows behind the audience and it&amp;rsquo;s pretty hard circulating that in time.</description>
     </item>
     
   </channel>

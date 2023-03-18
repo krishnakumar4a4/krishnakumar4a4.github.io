@@ -1,19 +1,27 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>elixir-with-tdd on Krishna Kumar T</title>
+    <title>Elixir With Tdd on Krishna Kumar T</title>
     <link>https://krishnakumar4a4.github.io/tags/elixir-with-tdd/</link>
-    <description>Recent content in elixir-with-tdd on Krishna Kumar T</description>
+    <description>Recent content in Elixir With Tdd on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/tags/elixir-with-tdd/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 26 Aug 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/elixir-with-tdd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>CLI Poker Game</title>
       <link>https://krishnakumar4a4.github.io/projects/cli-poker-game/</link>
       <pubDate>Mon, 26 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/cli-poker-game/</guid>
-      <description>A CLI minimalistic poker game</description>
+      <description> A simple CLI poker game
+mix test - to run the tests
+mix excript.build - to compile
+./poker - runs the application
+Example run ./poker Black: 2H 3C 4H 5D TC White: 2H 3C 4H 5D TC tie Black: 2H 3C 4H 5D TC White: 2H 3C 4H 5D KC White is winner - highcard: K Black: 2H 3C 4H KD KC White: 2H 3C 4H KD KC tie Black: 2H 3C 4H KD KC White: 2H 3C 5H KD KC White is winner - pair: 5 Black: 1H 3C 5H KD KC White: 2H 3C 5H KD KC Invalid input from Black  </description>
     </item>
     
   </channel>

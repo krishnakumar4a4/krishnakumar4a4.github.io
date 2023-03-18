@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Series on Krishna Kumar T</title>
@@ -6,22 +6,17 @@
     <description>Recent content in Series on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0530</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/series/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>utilities</title>
-      <link>https://krishnakumar4a4.github.io/series/utilities/</link>
-      <pubDate>Sun, 04 Apr 2021 00:00:00 +0530</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/series/utilities/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Sat, 01 Apr 2017 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
-      <title>storage</title>
-      <link>https://krishnakumar4a4.github.io/series/storage/</link>
-      <pubDate>Sat, 06 Feb 2021 00:00:00 +0530</pubDate>
+      <title>Ai</title>
+      <link>https://krishnakumar4a4.github.io/series/ai/</link>
+      <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/series/storage/</guid>
+      <guid>https://krishnakumar4a4.github.io/series/ai/</guid>
       <description></description>
     </item>
     
@@ -35,34 +30,16 @@
     </item>
     
     <item>
-      <title>security</title>
-      <link>https://krishnakumar4a4.github.io/series/security/</link>
-      <pubDate>Sat, 16 Mar 2019 09:43:12 +0530</pubDate>
+      <title>Cache</title>
+      <link>https://krishnakumar4a4.github.io/series/cache/</link>
+      <pubDate>Sat, 24 Dec 2016 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/series/security/</guid>
+      <guid>https://krishnakumar4a4.github.io/series/cache/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>rustlang</title>
-      <link>https://krishnakumar4a4.github.io/series/rustlang/</link>
-      <pubDate>Sun, 21 Oct 2018 09:43:12 +0530</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/series/rustlang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iot</title>
-      <link>https://krishnakumar4a4.github.io/series/iot/</link>
-      <pubDate>Sat, 28 Jul 2018 09:43:12 +0530</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/series/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>erlang</title>
+      <title>Erlang</title>
       <link>https://krishnakumar4a4.github.io/series/erlang/</link>
       <pubDate>Wed, 20 Jun 2018 09:43:12 +0530</pubDate>
       
@@ -71,25 +48,16 @@
     </item>
     
     <item>
-      <title>react</title>
-      <link>https://krishnakumar4a4.github.io/series/react/</link>
-      <pubDate>Mon, 01 May 2017 09:43:12 +0530</pubDate>
+      <title>Iot</title>
+      <link>https://krishnakumar4a4.github.io/series/iot/</link>
+      <pubDate>Sat, 28 Jul 2018 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/series/react/</guid>
+      <guid>https://krishnakumar4a4.github.io/series/iot/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>AI</title>
-      <link>https://krishnakumar4a4.github.io/series/ai/</link>
-      <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/series/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ML</title>
+      <title>Ml</title>
       <link>https://krishnakumar4a4.github.io/series/ml/</link>
       <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
       
@@ -98,11 +66,47 @@
     </item>
     
     <item>
-      <title>cache</title>
-      <link>https://krishnakumar4a4.github.io/series/cache/</link>
-      <pubDate>Sat, 24 Dec 2016 09:43:12 +0530</pubDate>
+      <title>React</title>
+      <link>https://krishnakumar4a4.github.io/series/react/</link>
+      <pubDate>Mon, 01 May 2017 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/series/cache/</guid>
+      <guid>https://krishnakumar4a4.github.io/series/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rustlang</title>
+      <link>https://krishnakumar4a4.github.io/series/rustlang/</link>
+      <pubDate>Sun, 21 Oct 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/series/rustlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://krishnakumar4a4.github.io/series/security/</link>
+      <pubDate>Sat, 16 Mar 2019 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/series/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>https://krishnakumar4a4.github.io/series/storage/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/series/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilities</title>
+      <link>https://krishnakumar4a4.github.io/series/utilities/</link>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/series/utilities/</guid>
       <description></description>
     </item>
     

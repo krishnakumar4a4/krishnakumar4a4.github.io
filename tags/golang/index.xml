@@ -1,19 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>golang on Krishna Kumar T</title>
+    <title>Golang on Krishna Kumar T</title>
     <link>https://krishnakumar4a4.github.io/tags/golang/</link>
-    <description>Recent content in golang on Krishna Kumar T</description>
+    <description>Recent content in Golang on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>In Meeting Indicator</title>
       <link>https://krishnakumar4a4.github.io/projects/in-meeting-indicator/</link>
       <pubDate>Sun, 04 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/in-meeting-indicator/</guid>
-      <description>DIY: In meeting indicator - WFH Utility</description>
+      <description>So many of you have gotten accustomed to work from home by now. This pandemic has thrown a lot of challenges at our face when most of us are not ready for. While Work From Home is kind of boon, living with it for a long time comes with its own unique challenges. One of the simplest challenge I have faced in the initial days was to make my family understand that I am in a meeting where Mic/Camera/both are activated.</description>
     </item>
     
     <item>
@@ -22,7 +26,7 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/remote-debug/</guid>
-      <description>A generic remote debug solution</description>
+      <description></description>
     </item>
     
     <item>
@@ -31,7 +35,10 @@
       <pubDate>Sun, 06 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/tcp-proxy/</guid>
-      <description>A simple TCP interceptor proxy for HTTP/S requests with network speed caclulator</description>
+      <description>A simple proxy server for HTTP/S requests which can calculate the network upload and download speed in bytes/sec.
+./tcpproxy --help for usage
+./tcpproxy --port 2345 to listen on particular port with chained proxy assumed to be running localhost:3128
+./tcpproxy --proxy --no-proxy to listen on particular port with no chained proxy</description>
     </item>
     
     <item>
@@ -40,7 +47,10 @@
       <pubDate>Tue, 23 Jul 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/ssh-reverse-tunnel/</guid>
-      <description>SSH reverse tunnel for internet</description>
+      <description>On corporate networks, we always have a problem of having restrictions on internet access to applications.
+Of course, these restrictions are absolutely necessary in terms of security. But what if we need to give temporary internet access to these applications?
+We can combine SSH reverse tunnel with a proxy server to do this.
+How to run ./go-ssh-reverse-tunnel -u &amp;lt;username for SSH&amp;gt; -i &amp;lt;private key file path&amp;gt; -t &amp;lt;target ssh host name&amp;gt; -p &amp;lt;reverse tunnel listening port on target&amp;gt;</description>
     </item>
     
   </channel>

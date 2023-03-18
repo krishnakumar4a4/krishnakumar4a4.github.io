@@ -1,19 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>rustlang on Krishna Kumar T</title>
+    <title>Rustlang on Krishna Kumar T</title>
     <link>https://krishnakumar4a4.github.io/tags/rustlang/</link>
-    <description>Recent content in rustlang on Krishna Kumar T</description>
+    <description>Recent content in Rustlang on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 13 Apr 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/tags/rustlang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Apr 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/tags/rustlang/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>desync-rs</title>
       <link>https://krishnakumar4a4.github.io/projects/desync-rs/</link>
       <pubDate>Sat, 13 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/desync-rs/</guid>
-      <description>Minimalistic drop in replacement for casync(C) and desync(golang) in rust</description>
+      <description> TODO: Update usage here
+ </description>
     </item>
     
     <item>
@@ -22,7 +27,9 @@
       <pubDate>Sun, 24 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/rust-java-rust/</guid>
-      <description>Provides sample code to call rust methods from embedded JVM without need for dynamic library load</description>
+      <description> For Interoperability between rust and java
+Special about this repo: Do not require rust library to be dynamically loaded for calling methods on rust.
+Features:  JVM is started as embedded from the rust program. Java methods can be called from rust. Rust methods are registered as native functions to JVM and which can then be called from Java.  Uses rucaja, jni-rs and jni crates. </description>
     </item>
     
     <item>
@@ -31,7 +38,9 @@
       <pubDate>Sat, 08 Dec 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/casync-dashboard/</guid>
-      <description>A dashboard(in web assembly) for managing content for casync,desync and casync-rs type tools</description>
+      <description>A frontend dashboard(in web assembly) for managing content for casync,desync and casync-rs type tools
+Build and run cargo web start --target wasm32-unknown-unknown
+Screenshots of dashboard View for uploading chunks, indexes and blobs   View for showing all chunks   View for showing all indexes   View for showing all tags   View for showing download trends graph of chunks   View for showing download trends graph of indexes   How does this work?</description>
     </item>
     
     <item>
@@ -50,7 +59,9 @@ Recently, I had been in a situation where the autosave feature of boostnote misb
       <pubDate>Fri, 19 Oct 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/backer-rs/</guid>
-      <description>Never Loose data/notes - An efficient git based backup tool to save your changes periodically</description>
+      <description>Never Loose data/notes - An efficient git based backup tool to save your changes periodically.
+A git based backup tool. Intelligent enough to trigger a commit, only, if there are any file changes in the folder it is pointed to. Based on cross-platform file notification library.
+Example use cases:  Can be pointed to storage locations of note applications like boostnote  Build  cargo build --release backer-rs is the executable generated in target/release/ folder.</description>
     </item>
     
     <item>
@@ -59,7 +70,13 @@ Recently, I had been in a situation where the autosave feature of boostnote misb
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/projects/casync-rs/</guid>
-      <description>Experimental: Pure rust implementation of casync &lt;a href=&#34;https://github.com/systemd/casync&#34;&gt;https://github.com/systemd/casync&lt;/a&gt;</description>
+      <description>Experimental: Pure rust implementation of casync https://github.com/systemd/casync
+Very minimal implementation of casync tool. Command Usage  inputfile will be chunked,index.caidxanddefault.castr` is created with chunks.
+ casync-rs make --file input
+ Expects index.caidx and default.castr directory to be present to construct out file from the chunks and index.
+ casync-rs extract --file out
+ Expects default.castr present with chunks corresponding to index.caidx file to construct the out file.
+ casync-rs extract -i index.</description>
     </item>
     
     <item>

@@ -1,337 +1,631 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
   <url>
-    <loc>https://krishnakumar4a4.github.io/linkedin/</loc>
+    <loc>https://krishnakumar4a4.github.io/linkedin-posts/</loc>
     <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/tweets/</loc>
     <lastmod>2023-02-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/</loc>
-    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/bash/</loc>
-    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/golang/</loc>
-    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/in-meeting-indicator/</loc>
     <lastmod>2021-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/nodemcu/</loc>
-    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/projects/</loc>
-    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/</loc>
-    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/authors/krishna-kumar-thokala/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/authors/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/diy/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/in-meeting-indicator/</loc>
     <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/meeting/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/post/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/utilities/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/utilities/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/utilities/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/wfh/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/block-storage/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/encrypted-minio-storage-with-kms/</loc>
     <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/encryption/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/hashicorp-vault/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/kes/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/kms/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/kubernetes/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/minio/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/s3/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/storage/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/storage/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/storage/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/about/</loc>
     <lastmod>2020-01-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/team/</loc>
     <lastmod>2020-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/automobiles/</loc>
-    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/autonomous/</loc>
-    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/autonomous/</loc>
-    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/autonomous-cars/</loc>
-    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/autonomous-vehicles/</loc>
-    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/autonomy/</loc>
-    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/self-driving-cars/</loc>
-    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/unexplored-subtleties-autonomous-vehicles/</loc>
     <lastmod>2020-01-04T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/remote-debug/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/tcp-proxy/</loc>
     <lastmod>2019-10-06T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/cli-poker-game/</loc>
     <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/elixir-with-tdd/</loc>
-    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/ssh-reverse-tunnel/</loc>
     <lastmod>2019-07-23T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/desync-rs/</loc>
     <lastmod>2019-04-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/rustlang/</loc>
-    <lastmod>2019-04-13T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/java/</loc>
-    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/rust-java-rust/</loc>
     <lastmod>2019-03-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/embedded-systems/</loc>
-    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/fault-injection-attacks/</loc>
-    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/fault-injection-attacks/</loc>
     <lastmod>2019-03-16T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/nullconf/</loc>
-    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/secure-boot/</loc>
-    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/security/</loc>
-    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/security/</loc>
-    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/security/</loc>
-    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/bookmarks/</loc>
     <lastmod>2019-02-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/pictures/</loc>
     <lastmod>2019-02-02T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/casync-dashboard/</loc>
     <lastmod>2018-12-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/web-assembly/</loc>
-    <lastmod>2018-12-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/announcements/</loc>
-    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/rustlang/</loc>
-    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
-    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/backer-rs-announcement/</loc>
     <lastmod>2018-10-21T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/backer-rs/</loc>
     <lastmod>2018-10-19T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/casync-rs/</loc>
     <lastmod>2018-09-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/browsers/</loc>
-    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/http-request/</loc>
-    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/https/</loc>
-    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/iot/</loc>
-    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/iot/</loc>
-    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/iot/</loc>
-    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/websocket/</loc>
-    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/websocket-fever-for-iot/</loc>
     <lastmod>2018-07-28T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/erlang/</loc>
-    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/erlang/</loc>
-    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/erlang/</loc>
-    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/speakup-announcement/</loc>
     <lastmod>2018-06-20T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/elixir/</loc>
-    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/node/</loc>
-    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/python/</loc>
-    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/speakup/</loc>
     <lastmod>2018-05-29T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/comparision-erlang-and-rust/</loc>
     <lastmod>2018-03-13T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/infoq/</loc>
-    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/infoq/</loc>
-    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/simplifying-erlang-beam/</loc>
     <lastmod>2017-05-12T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/react/</loc>
-    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/react/</loc>
-    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/react/</loc>
-    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/react-redux-erlang-analogy/</loc>
     <lastmod>2017-05-01T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/ai/</loc>
-    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/ai/</loc>
-    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/ai/</loc>
-    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/be-on-your-best-erlang-behavior/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/know-why-you-may-choose-erlang/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/machine-learning/</loc>
-    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/machine-learning/</loc>
-    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/ml/</loc>
-    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/verge-of-recommendation-engines/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/tags/cache/</loc>
-    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/series/cache/</loc>
-    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/categories/cache/</loc>
-    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/in-memory-caching-curb-tail-latency-with-pelikan/</loc>
     <lastmod>2016-12-24T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/million-event-erlang-engine/</loc>
     <lastmod>2016-12-07T09:43:12+05:30</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/projects/engines/</loc>
     <lastmod>2016-11-26T00:00:00+00:00</lastmod>
-  </url><url>
+  </url>
+  
+  <url>
     <loc>https://krishnakumar4a4.github.io/post/beauty-mystery-erlang-distribution/</loc>
     <lastmod>2016-08-14T09:43:12+05:30</lastmod>
-  </url><url>
-    <loc>https://krishnakumar4a4.github.io/notion/</loc>
   </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/</loc>
+    <lastmod>2023-02-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/authors/krishna-kumar-thokala/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/ai/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/ai/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/ai/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/announcements/</loc>
+    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/authors/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/automobiles/</loc>
+    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/autonomous/</loc>
+    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/autonomous/</loc>
+    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/autonomous-cars/</loc>
+    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/autonomous-vehicles/</loc>
+    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/autonomy/</loc>
+    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/bash/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/block-storage/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/browsers/</loc>
+    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/cache/</loc>
+    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/cache/</loc>
+    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/cache/</loc>
+    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/diy/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/elixir/</loc>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/elixir-with-tdd/</loc>
+    <lastmod>2019-08-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/embedded-systems/</loc>
+    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/encryption/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/erlang/</loc>
+    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/erlang/</loc>
+    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/erlang/</loc>
+    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/fault-injection-attacks/</loc>
+    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/golang/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/hashicorp-vault/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/http-request/</loc>
+    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/https/</loc>
+    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/infoq/</loc>
+    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/infoq/</loc>
+    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/iot/</loc>
+    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/iot/</loc>
+    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/iot/</loc>
+    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/java/</loc>
+    <lastmod>2019-03-24T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/kes/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/kms/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/kubernetes/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/machine-learning/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/machine-learning/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/meeting/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/minio/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/ml/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/node/</loc>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/nodemcu/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/project-updates/</loc>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/nullconf/</loc>
+    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/post/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/projects/</loc>
+    <lastmod>2021-04-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/python/</loc>
+    <lastmod>2018-05-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/react/</loc>
+    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/react/</loc>
+    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/react/</loc>
+    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
+    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/rustlang/</loc>
+    <lastmod>2019-04-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/rustlang/</loc>
+    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/s3/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/secure-boot/</loc>
+    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/security/</loc>
+    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/security/</loc>
+    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/security/</loc>
+    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/self-driving-cars/</loc>
+    <lastmod>2020-01-04T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/storage/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/storage/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/storage/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/utilities/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/utilities/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/series/utilities/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/web-assembly/</loc>
+    <lastmod>2018-12-08T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/websocket/</loc>
+    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/tags/wfh/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
 </urlset>

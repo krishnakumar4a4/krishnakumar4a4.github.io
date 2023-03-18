@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Krishna Kumar T</title>
@@ -6,27 +6,22 @@
     <description>Recent content in Categories on Krishna Kumar T</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 04 Apr 2021 00:00:00 +0530</lastBuildDate><atom:link href="https://krishnakumar4a4.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Apr 2017 09:43:12 +0530</lastBuildDate>
+    
+	<atom:link href="https://krishnakumar4a4.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
-      <title>utilities</title>
-      <link>https://krishnakumar4a4.github.io/categories/utilities/</link>
-      <pubDate>Sun, 04 Apr 2021 00:00:00 +0530</pubDate>
+      <title>Ai</title>
+      <link>https://krishnakumar4a4.github.io/categories/ai/</link>
+      <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/categories/utilities/</guid>
+      <guid>https://krishnakumar4a4.github.io/categories/ai/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>storage</title>
-      <link>https://krishnakumar4a4.github.io/categories/storage/</link>
-      <pubDate>Sat, 06 Feb 2021 00:00:00 +0530</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/categories/storage/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>autonomous</title>
+      <title>Autonomous</title>
       <link>https://krishnakumar4a4.github.io/categories/autonomous/</link>
       <pubDate>Sat, 04 Jan 2020 09:43:12 +0530</pubDate>
       
@@ -35,34 +30,16 @@
     </item>
     
     <item>
-      <title>security</title>
-      <link>https://krishnakumar4a4.github.io/categories/security/</link>
-      <pubDate>Sat, 16 Mar 2019 09:43:12 +0530</pubDate>
+      <title>Cache</title>
+      <link>https://krishnakumar4a4.github.io/categories/cache/</link>
+      <pubDate>Sat, 24 Dec 2016 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/categories/security/</guid>
+      <guid>https://krishnakumar4a4.github.io/categories/cache/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>rustlang</title>
-      <link>https://krishnakumar4a4.github.io/categories/rustlang/</link>
-      <pubDate>Sun, 21 Oct 2018 09:43:12 +0530</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/categories/rustlang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>iot</title>
-      <link>https://krishnakumar4a4.github.io/categories/iot/</link>
-      <pubDate>Sat, 28 Jul 2018 09:43:12 +0530</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/categories/iot/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>erlang</title>
+      <title>Erlang</title>
       <link>https://krishnakumar4a4.github.io/categories/erlang/</link>
       <pubDate>Wed, 20 Jun 2018 09:43:12 +0530</pubDate>
       
@@ -71,7 +48,7 @@
     </item>
     
     <item>
-      <title>infoq</title>
+      <title>Infoq</title>
       <link>https://krishnakumar4a4.github.io/categories/infoq/</link>
       <pubDate>Tue, 13 Mar 2018 09:43:12 +0530</pubDate>
       
@@ -80,20 +57,11 @@
     </item>
     
     <item>
-      <title>react</title>
-      <link>https://krishnakumar4a4.github.io/categories/react/</link>
-      <pubDate>Mon, 01 May 2017 09:43:12 +0530</pubDate>
+      <title>Iot</title>
+      <link>https://krishnakumar4a4.github.io/categories/iot/</link>
+      <pubDate>Sat, 28 Jul 2018 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/categories/react/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>AI</title>
-      <link>https://krishnakumar4a4.github.io/categories/ai/</link>
-      <pubDate>Sat, 01 Apr 2017 09:43:12 +0530</pubDate>
-      
-      <guid>https://krishnakumar4a4.github.io/categories/ai/</guid>
+      <guid>https://krishnakumar4a4.github.io/categories/iot/</guid>
       <description></description>
     </item>
     
@@ -107,11 +75,47 @@
     </item>
     
     <item>
-      <title>cache</title>
-      <link>https://krishnakumar4a4.github.io/categories/cache/</link>
-      <pubDate>Sat, 24 Dec 2016 09:43:12 +0530</pubDate>
+      <title>React</title>
+      <link>https://krishnakumar4a4.github.io/categories/react/</link>
+      <pubDate>Mon, 01 May 2017 09:43:12 +0530</pubDate>
       
-      <guid>https://krishnakumar4a4.github.io/categories/cache/</guid>
+      <guid>https://krishnakumar4a4.github.io/categories/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rustlang</title>
+      <link>https://krishnakumar4a4.github.io/categories/rustlang/</link>
+      <pubDate>Sun, 21 Oct 2018 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/categories/rustlang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://krishnakumar4a4.github.io/categories/security/</link>
+      <pubDate>Sat, 16 Mar 2019 09:43:12 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Storage</title>
+      <link>https://krishnakumar4a4.github.io/categories/storage/</link>
+      <pubDate>Sat, 06 Feb 2021 00:00:00 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/categories/storage/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Utilities</title>
+      <link>https://krishnakumar4a4.github.io/categories/utilities/</link>
+      <pubDate>Sun, 04 Apr 2021 00:00:00 +0530</pubDate>
+      
+      <guid>https://krishnakumar4a4.github.io/categories/utilities/</guid>
       <description></description>
     </item>
     

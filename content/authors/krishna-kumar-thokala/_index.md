@@ -1,5 +1,5 @@
----
-name: Krishna Kumar Thokala
-images: ["krishnakumart.png"]
-twitter: "KrishnaKumarT36"
----
++++
+name =  "Krishna Kumar Thokala"
+images = ["krishnakumart.png"]
+twitter = "KrishnaKumarT36"
++++

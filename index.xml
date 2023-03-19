@@ -373,7 +373,7 @@ The problem: We are not able to start more than 250 Erlang nodes on one Linux ma
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://krishnakumar4a4.github.io/project-updates/</guid>
-      <description>  iframe { width: 1px; min-width: 100%; height: 1350px; }   </description>
+      <description>  iframe { width: 1px; min-width: 100%; height: 1350px; }     iFrameResize({ log: true }, &#39;#iframe&#39;)  </description>
     </item>
     
   </channel>

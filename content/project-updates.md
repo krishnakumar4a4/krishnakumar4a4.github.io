@@ -11,9 +11,5 @@ fullwidth: true
     height: 1350px;
   }
 </style>
-<script src="/js/iframeResizer.min.js"></script>
 <iframe id="iframe" src="https://krishnakumart.super.site" ></iframe>
-<script>
-  iFrameResize({ log: true }, '#iframe')
-</script>
 {{< /rawhtml >}}

@@ -78,10 +78,6 @@ lang = "en"
   mainSections = ["post"]
   quickHomePageButton = "View Live Updates"
   quickHomePageButtonAnchorLink = "/project-updates"
-
-  # Custom CSS and JS. Relative to /static/css and /static/js respectively.
-  customCSS = []
-  customJS = ["iframeResizer.min.js", "iframeResizer.contentWindow.min.js"]
   
 
   [params.social]

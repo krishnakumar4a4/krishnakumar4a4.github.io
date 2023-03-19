@@ -6,19 +6,19 @@ aliases = []
 author = "Krishna Kumar Thokala"
 +++
 
-{{< figure src="/images/IMG_0788.jpeg" title="Krishna Kumar" >}}
+{{< figure align="left" width="50%" height="50%" src="/images/IMG_0788.jpeg">}}
 
 I am Krishna Kumar, Currently working as application developer/ Senior Consultant at Thoughtworks, Hyderabad, India.
 
-Programming languages I work on:
-- Erlang (2 years)
-- Golang (2.5 years)
-- Rustlang (hobby)
+Programming languages I work on:  
+- Erlang (2 years)  
+- Golang (2.5 years)  
+- Rustlang (hobby)  
 
-Projects:
-- Securing Enrolments for an Identity Project for Govt. of India (Golang and Java)
-- Retail assortment application (Java, React, AWS and GCP)
-- Network Test Simulator (Erlang and on-prem cloud)
+Projects:  
+- Securing Enrolments for an Identity Project for Govt. of India (Golang and Java)  
+- Retail assortment application (Java, React, AWS and GCP)  
+- Network Test Simulator (Erlang and on-prem cloud)  
 
 --------------
 ## My scrambled brain omlette (Li'l about how I think:)  

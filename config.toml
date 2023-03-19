@@ -71,11 +71,13 @@ lang = "en"
 [params]
   author = "Krishna Kumar Thokala"
   description = "I Experiment. I Build."
-  homepageImage = ""
+  homepageImage = "/images/IMG_0788.jpeg"
   share = true
   showLanguageSwitcher = false
   disqusShortname = "krishnakumart"
   mainSections = ["post"]
+  quickHomePageButton = "View Live Updates"
+  quickHomePageButtonAnchorLink = "/project-updates"
   
 
   [params.social]

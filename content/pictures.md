@@ -11,18 +11,16 @@ author = "Krishna Kumar Thokala"
 
 <details>
     <summary>Eenadu Telugu newspaper cutting</summary>
-    **(Right-hand side)**
-    {{< embed-pdf url="/images/newspaper-cuttings/eenadu newspaper srikakulam dist on 18thjan2014.pdf" hidePaginator="true" >}}
+    {{< figure src="/images/newspaper-cuttings/eenadu newspaper srikakulam dist on 18thjan2014.jpg" title="Eenadu Telugu newspaper cutting (Right-hand side)" >}}
 </details>
 
 <details>
     <summary>Andhra Jyothi Telugu newspaper cutting</summary>
-    **(Left-hand side)**
-    {{< embed-pdf url="/images/newspaper-cuttings/andhra jyothi sklm edition on 18thjan2014.pdf" renderPageNum="2" >}}
+    {{< figure src="/images/newspaper-cuttings/andhra jyothi sklm edition on 18thjan2014.jpg" title="Andhra Jyothi Telugu newspaper cutting (Left-hand side)" >}}
 </details>
 
 <details open>
     <summary>Sakshi Telugu newspaper cutting</summary>
-    {{< embed-pdf url="/images/newspaper-cuttings/sakshi sklm edition on 18jan2014.pdf" hidePaginator="true" >}}
+    {{< figure src="/images/newspaper-cuttings/sakshi sklm edition on 18jan2014.jpg" title="Sakshi Telugu newspaper cutting" >}}
 </details>
 

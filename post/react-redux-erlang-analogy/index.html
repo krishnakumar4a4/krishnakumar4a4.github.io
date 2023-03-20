@@ -91,6 +91,8 @@
                 
                     <li class="nav-item"><a class="nav-link" href="/team/">Team</a></li>
                 
+                    <li class="nav-item"><a class="nav-link" href="/pictures/">Pictures</a></li>
+                
                     <li class="nav-item"><a class="nav-link" href="/tags/">Tags</a></li>
                 
             
@@ -371,12 +373,13 @@ gen_event:stop() → terminate()</p>
     <div class="related-content row mt-5 row-cols-1 row-cols-lg-3"><div class="col mb-3">
                 <div class="card h-100">
     
-    <a href="/post/know-why-you-may-choose-erlang/" class="d-block"><div class="card-body">
-            <h4 class="card-title">Know why you may choose Erlang</h4>
+    <a href="/post/be-on-your-best-erlang-behavior/" class="d-block"><img data-src="/images/gen_fsm_erlang_hu3c6d821423668d296ab688d77730e1b4_33138_700x350_fill_q75_box_smart1.jpeg" class="card-img-top mx-auto d-block" alt="Be on your best Erlang behavior"><div class="card-body">
+            <h4 class="card-title">Be on your best Erlang behavior</h4>
             <p class="card-text text-muted text-uppercase">April 1, 2017</p>
             <div class="card-text">
-                When you have good understanding on Erlang, you will inherently start to see other applications differently.
- You will have tendency to ask questions like what is the scalability? What is the uptime? How easy is the code upgrade? How much availability can be guaranteed? Would the choice of database can match the speed of your application? How easy is to make your application distributed? Most of all, Can it crash fast and recover fast?
+                I had a great session with my team on Erlang behaviors and thought it would be worth blogging it. I have got chance to explain them about available erlang behaviors and how to choose and use them.
+1.gen_supervisor 2.gen_server 3.gen_event 4.gen_fsm
+When you want to employ a behavior in your applications, you should have a basic understanding of the below two types of functions. 1. API → Exposed to the user for external control and to send events.
             </div>
         </div>
     </a>
@@ -385,13 +388,12 @@ gen_event:stop() → terminate()</p>
             </div><div class="col mb-3">
                 <div class="card h-100">
     
-    <a href="/post/be-on-your-best-erlang-behavior/" class="d-block"><img data-src="/images/gen_fsm_erlang_hu3c6d821423668d296ab688d77730e1b4_33138_700x350_fill_q75_box_smart1.jpeg" class="card-img-top mx-auto d-block" alt="Be on your best Erlang behavior"><div class="card-body">
-            <h4 class="card-title">Be on your best Erlang behavior</h4>
+    <a href="/post/know-why-you-may-choose-erlang/" class="d-block"><div class="card-body">
+            <h4 class="card-title">Know why you may choose Erlang</h4>
             <p class="card-text text-muted text-uppercase">April 1, 2017</p>
             <div class="card-text">
-                I had a great session with my team on Erlang behaviors and thought it would be worth blogging it. I have got chance to explain them about available erlang behaviors and how to choose and use them.
-1.gen_supervisor 2.gen_server 3.gen_event 4.gen_fsm
-When you want to employ a behavior in your applications, you should have a basic understanding of the below two types of functions. 1. API → Exposed to the user for external control and to send events.
+                When you have good understanding on Erlang, you will inherently start to see other applications differently.
+ You will have tendency to ask questions like what is the scalability? What is the uptime? How easy is the code upgrade? How much availability can be guaranteed? Would the choice of database can match the speed of your application? How easy is to make your application distributed? Most of all, Can it crash fast and recover fast?
             </div>
         </div>
     </a>

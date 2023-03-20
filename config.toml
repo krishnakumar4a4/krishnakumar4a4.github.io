@@ -45,10 +45,15 @@ footnoteReturnLinkContents = "^"
     url = "/team/"
     weight = 7
   [[menu.main]]
+    identifier = "pictures"
+    name = "Pictures"
+    url = "/pictures/"
+    weight = 8
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 8
+    weight = 9
 
 [taxonomies]
 category = "categories"

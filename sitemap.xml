@@ -187,12 +187,6 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/ai/</loc>
-    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/tags/ai/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
     <priority>0</priority>
@@ -200,6 +194,12 @@
   
   <url>
     <loc>https://krishnakumar4a4.github.io/series/ai/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/ai/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -223,13 +223,13 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/autonomous/</loc>
+    <loc>https://krishnakumar4a4.github.io/series/autonomous/</loc>
     <lastmod>2020-01-04T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/series/autonomous/</loc>
+    <loc>https://krishnakumar4a4.github.io/categories/autonomous/</loc>
     <lastmod>2020-01-04T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -271,12 +271,6 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/cache/</loc>
-    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/tags/cache/</loc>
     <lastmod>2016-12-24T09:43:12+05:30</lastmod>
     <priority>0</priority>
@@ -284,6 +278,12 @@
   
   <url>
     <loc>https://krishnakumar4a4.github.io/series/cache/</loc>
+    <lastmod>2016-12-24T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/cache/</loc>
     <lastmod>2016-12-24T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -325,12 +325,6 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/erlang/</loc>
-    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/tags/erlang/</loc>
     <lastmod>2018-06-20T09:43:12+05:30</lastmod>
     <priority>0</priority>
@@ -338,6 +332,12 @@
   
   <url>
     <loc>https://krishnakumar4a4.github.io/series/erlang/</loc>
+    <lastmod>2018-06-20T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/erlang/</loc>
     <lastmod>2018-06-20T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -373,20 +373,14 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/infoq/</loc>
-    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/tags/infoq/</loc>
     <lastmod>2018-03-13T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/iot/</loc>
-    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
+    <loc>https://krishnakumar4a4.github.io/categories/infoq/</loc>
+    <lastmod>2018-03-13T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -398,6 +392,12 @@
   
   <url>
     <loc>https://krishnakumar4a4.github.io/series/iot/</loc>
+    <lastmod>2018-07-28T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/iot/</loc>
     <lastmod>2018-07-28T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -427,13 +427,13 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/machine-learning/</loc>
+    <loc>https://krishnakumar4a4.github.io/tags/machine-learning/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/tags/machine-learning/</loc>
+    <loc>https://krishnakumar4a4.github.io/categories/machine-learning/</loc>
     <lastmod>2017-04-01T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -491,12 +491,6 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/react/</loc>
-    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/tags/react/</loc>
     <lastmod>2017-05-01T09:43:12+05:30</lastmod>
     <priority>0</priority>
@@ -509,8 +503,8 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
-    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
+    <loc>https://krishnakumar4a4.github.io/categories/react/</loc>
+    <lastmod>2017-05-01T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -522,6 +516,12 @@
   
   <url>
     <loc>https://krishnakumar4a4.github.io/series/rustlang/</loc>
+    <lastmod>2018-10-21T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/rustlang/</loc>
     <lastmod>2018-10-21T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -539,12 +539,6 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/security/</loc>
-    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/tags/security/</loc>
     <lastmod>2019-03-16T09:43:12+05:30</lastmod>
     <priority>0</priority>
@@ -552,6 +546,12 @@
   
   <url>
     <loc>https://krishnakumar4a4.github.io/series/security/</loc>
+    <lastmod>2019-03-16T09:43:12+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/security/</loc>
     <lastmod>2019-03-16T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -569,12 +569,6 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/storage/</loc>
-    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://krishnakumar4a4.github.io/tags/storage/</loc>
     <lastmod>2021-02-06T00:00:00+05:30</lastmod>
     <priority>0</priority>
@@ -587,14 +581,14 @@
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/tags/</loc>
-    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
+    <loc>https://krishnakumar4a4.github.io/categories/storage/</loc>
+    <lastmod>2021-02-06T00:00:00+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://krishnakumar4a4.github.io/categories/utilities/</loc>
-    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+    <loc>https://krishnakumar4a4.github.io/tags/</loc>
+    <lastmod>2017-04-01T09:43:12+05:30</lastmod>
     <priority>0</priority>
   </url>
   
@@ -606,6 +600,12 @@
   
   <url>
     <loc>https://krishnakumar4a4.github.io/series/utilities/</loc>
+    <lastmod>2021-04-04T00:00:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://krishnakumar4a4.github.io/categories/utilities/</loc>
     <lastmod>2021-04-04T00:00:00+05:30</lastmod>
     <priority>0</priority>
   </url>
